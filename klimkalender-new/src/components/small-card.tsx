@@ -1,0 +1,39 @@
+export type Event = {
+  id: string;
+  title: string;
+  date: Date;
+  venueName: string;
+  venueImage: string;
+  featured?: boolean;
+  featuredImage?: string;
+  featuredText?: string;
+  link: string;
+  tags: string[];
+}
+
+function formatEventDate(date: Date) {
+  return date.toLocaleDateString('nl-NL', { weekday: 'short', day: 'numeric', month: 'short' });
+}
+
+function SmallCard({ event }: { event: Event }) {
+  return <article className="card">
+    <div className="logo-col">
+      <img src={event.venueImage} alt="hal logo" />
+    </div>
+    <div className="info">
+      <h3 className="title">
+        {event.tags.map(tag => (
+          <span key={tag} className={`badge-type ${tag.toUpperCase()}`}>{tag}</span>
+        ))}
+        {event.title}
+      </h3>
+      <p className="meta">
+        <span className="dot"></span>
+        {formatEventDate(event.date)} – {event.venueName}
+      </p>
+      <a className="cta" href={event.link} target="_blank" rel="noopener">Meer info →</a>
+    </div>
+  </article>
+}
+
+export default SmallCard;
