@@ -1,6 +1,5 @@
 import './App.css'
-import SmallCard from './components/small-card'
-import FeatureCard from './components/feature-card'
+import EventCard from './components/event-card';
 import { startOfISOWeek, endOfISOWeek, getISOWeek } from 'date-fns';
 
 function App() {
@@ -21,6 +20,7 @@ function App() {
       date: new Date(2025, 8, 13),
       venueName: "Boulder Rotterdam",
       venueImage: "/images/venue/boulder.webp",
+      featured: true,
       featuredImage: "/images/feature/boulder.jpeg",
       featuredText: "De meest gezellige boulderwedstrijd van het jaar keert terug in Rotterdam. Catch010 combineert sport en sfeer in een unieke setting.",
       link: "https://boulderneoliet.nl/nl/rotterdam/boulder-wedstrijd-catch010/",
@@ -108,6 +108,36 @@ function App() {
     console.log(`Event ${event.title} is in week ${week} ${year}(${startOfWeek.toLocaleDateString('nl-NL', { day: 'numeric', month: 'short' })} - ${endOfWeek.toLocaleDateString('nl-NL', { day: 'numeric', month: 'short' })})`);
   });
 
+  function formatWeekDates(date: Date) {
+    const startOfWeek = startOfISOWeek(date);
+    const endOfWeek = endOfISOWeek(date);
+    return `${startOfWeek.toLocaleDateString('nl-NL', { day: 'numeric', month: 'short' })} - ${endOfWeek.toLocaleDateString('nl-NL', { day: 'numeric', month: 'short' })}`;
+  }
+
+  // Create a nested structure
+  const groupedEvents = events.reduce((acc, event) => {
+    const year = event.date.getFullYear();
+    const week = getISOWeek(event.date);
+    const startOfWeek = startOfISOWeek(event.date);
+    const endOfWeek = endOfISOWeek(event.date);
+
+    let yearGroup = acc.find(y => y.year === year);
+    if (!yearGroup) {
+      yearGroup = { year, weeks: [] as { week: number; startOfWeek: Date; endOfWeek: Date; events: typeof events }[] };
+      acc.push(yearGroup);
+    }
+
+    let weekGroup = yearGroup.weeks.find(w => w.week === week);
+    if (!weekGroup) {
+      weekGroup = { week, startOfWeek, endOfWeek, events: [] };
+      yearGroup.weeks.push(weekGroup);
+    }
+
+    weekGroup.events.push(event);
+    return acc;
+  }, [] as { year: number; weeks: { week: number; startOfWeek: Date; endOfWeek: Date; events: typeof events }[] }[]);
+
+
 
 
   return (
@@ -163,37 +193,28 @@ function App() {
       </div>
       <main>
         <section className="container view-list" aria-label="Kalenderweergave">
-          <div className="year-title" aria-label="Jaar">2025</div>
-          <div id="calendar">
-            <section className="week-block">
-              <div className="week-header">
-                <span className="chip">WEEK 36</span>
-                <span className="week-dates">1 sep – 7 sep</span>
-              </div>
-              <div className="grid">
-                <SmallCard event={events[0]} />
-              </div>
-            </section>
-            <section className="week-block"><div className="week-header"><span className="chip">WEEK 37</span> <span className="week-dates">8 sep – 14 sep</span></div><div className="grid">
-              <FeatureCard event={events[1]} />
-              <SmallCard event={events[2]} />
-              <SmallCard event={events[3]} />
-              <SmallCard event={events[4]} />
-              <SmallCard event={events[5]} />
-              <SmallCard event={events[6]} />
-              <SmallCard event={events[7]} />
-            </div>
-            </section>
-            <section className="week-block">
-              <div className="week-header">
-                <span className="chip">WEEK 38</span> <span className="week-dates">15 sep – 21 sep</span>
-              </div>
-              <div className="grid">
-                <SmallCard event={events[8]} />
-                <SmallCard event={events[9]} />
-              </div>
-            </section>
-          </div>
+          {groupedEvents.map(yearGroup => {
+            console.log(yearGroup);
+            return <><div className="year-title" aria-label="Jaar">{yearGroup.year}</div>
+              <div id="calendar">
+                {yearGroup.weeks.map(weekGroup => {
+                  return (
+                    <section className="week-block" key={`${weekGroup.week}-${yearGroup.year}`}>
+                      <div className="week-header">
+                        <span className="chip">WEEK {weekGroup.week}</span>
+                        <span className="week-dates">{formatWeekDates(weekGroup.startOfWeek)}</span>
+                      </div>
+                      <div className="grid">
+                        {weekGroup.events.map(event => (
+                          <EventCard key={event.id} event={event} />
+                        ))}
+                      </div>
+                    </section>
+                  );
+                })}
+              </div></>
+          })}
+
         </section>
 
         <section className="container map-wrap" aria-label="Kaartweergave">
