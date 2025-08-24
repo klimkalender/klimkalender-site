@@ -1,4 +1,4 @@
-export type Event = {
+export type CalendarEvent = {
   id: string;
   title: string;
   date: Date;
@@ -15,7 +15,7 @@ function formatEventDate(date: Date) {
   return date.toLocaleDateString('nl-NL', { weekday: 'short', day: 'numeric', month: 'short' });
 }
 
-function SmallCard({ event }: { event: Event }) {
+function SmallCard({ event }: { event: CalendarEvent }) {
   return <article className="card">
     <div className="logo-col">
       <img src={event.venueImage} alt="hal logo" />

@@ -1,6 +1,7 @@
 import './App.css'
 import SmallCard from './components/small-card'
 import FeatureCard from './components/feature-card'
+import { startOfISOWeek, endOfISOWeek, getISOWeek } from 'date-fns';
 
 function App() {
 
@@ -99,6 +100,14 @@ function App() {
     }
   ];
 
+  events.map(event => {
+    const year = event.date.getFullYear();
+    const week = getISOWeek(event.date);
+    const startOfWeek = startOfISOWeek(event.date);
+    const endOfWeek = endOfISOWeek(event.date);
+    console.log(`Event ${event.title} is in week ${week} ${year}(${startOfWeek.toLocaleDateString('nl-NL', { day: 'numeric', month: 'short' })} - ${endOfWeek.toLocaleDateString('nl-NL', { day: 'numeric', month: 'short' })})`);
+  });
+
 
 
   return (
@@ -132,7 +141,7 @@ function App() {
             <div className="toolbar-row">
               <div className="search">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                  <path d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z" stroke="#5a7d8a" stroke-width="2" stroke-linecap="round" />
+                  <path d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z" stroke="#5a7d8a" strokeWidth="2" strokeLinecap="round" />
                 </svg>
                 <input type="search" placeholder="Zoek op wedstrijd, hal of plaats…" aria-label="Zoek in wedstrijden" />
               </div>
