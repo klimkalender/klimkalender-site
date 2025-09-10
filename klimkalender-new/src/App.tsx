@@ -2,7 +2,7 @@ import './App.css'
 import EventCard from './components/event-card';
 import { startOfISOWeek, endOfISOWeek, getISOWeek } from 'date-fns';
 import Fuse from "fuse.js";
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 function App() {
 
   const events = [
@@ -210,8 +210,8 @@ function App() {
                 </select>
               </div>
               <div className="view-toggle" role="tablist" aria-label="Weergave">
-                <button role="tab" aria-selected="true" aria-pressed="true">Kalender</button>
-                <button role="tab" aria-selected="false" aria-pressed="false">Kaart</button>
+                <button type="button" role="tab" aria-selected="true" aria-pressed="true">Kalender</button>
+                <button type="button" role="tab" aria-selected="false" aria-pressed="false">Kaart</button>
               </div>
             </div>
           </div>
@@ -222,7 +222,7 @@ function App() {
           {searchResults.length === 0 && <p>Geen resultaten gevonden.</p>}
           {groupedEvents.map(yearGroup => {
             console.log(yearGroup);
-            return <><div className="year-title" aria-label="Jaar">{yearGroup.year}</div>
+            return <Fragment key={yearGroup.year}><div className="year-title" aria-label="Jaar">{yearGroup.year}</div>
               <div id="calendar">
                 {yearGroup.weeks.map(weekGroup => {
                   return (
@@ -239,7 +239,7 @@ function App() {
                     </section>
                   );
                 })}
-              </div></>
+              </div></Fragment>
           })}
 
         </section>
