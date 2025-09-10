@@ -11,7 +11,7 @@ function App() {
       title: "Apex 3rd Anniversary",
       date: new Date(2025, 8, 6),
       venueName: "Apex Boulders",
-      venueImage: "/images/venue/apex.png",
+      venueImage: "/klimkalender-site/images/venue/apex.png",
       link: "https://www.apexboulders.nl/events/",
       tags: ["BOULDER"]
     },
@@ -20,9 +20,9 @@ function App() {
       title: "Catch010",
       date: new Date(2025, 8, 13),
       venueName: "Boulder Rotterdam",
-      venueImage: "/images/venue/boulder.webp",
+      venueImage: "/klimkalender-site/images/venue/boulder.webp",
       featured: true,
-      featuredImage: "/images/feature/boulder.jpeg",
+      featuredImage: "/klimkalender-site/images/feature/boulder.jpeg",
       featuredText: "De meest gezellige boulderwedstrijd van het jaar keert terug in Rotterdam. Catch010 combineert sport en sfeer in een unieke setting.",
       link: "https://boulderneoliet.nl/nl/rotterdam/boulder-wedstrijd-catch010/",
       tags: ["BOULDER"]
@@ -32,7 +32,7 @@ function App() {
       title: "LUMINOUS – Skibidi sends",
       date: new Date(2025, 8, 9),
       venueName: "Radium Boulders",
-      venueImage: "/images/venue/nkbv.png",
+      venueImage: "/klimkalender-site/images/venue/nkbv.png",
       link: "https://www.instagram.com/p/DNn_u_ls_3x/?igsh=djB2OTg3ZHllN3Rk",
       tags: ["BOULDER"]
     },
@@ -41,7 +41,7 @@ function App() {
       title: "Catch055",
       date: new Date(2025, 8, 12),
       venueName: "Boulder Apeldoorn",
-      venueImage: "/images/venue/nkbv.png",
+      venueImage: "/klimkalender-site/images/venue/nkbv.png",
       link: "https://boulderneoliet.nl/nl/apeldoorn/boulder-wedstrijd-catch055/",
       tags: ["BOULDER"]
     },
@@ -50,7 +50,7 @@ function App() {
       title: "Slab Fest",
       date: new Date(2025, 8, 13),
       venueName: "GRIP Boulderhal",
-      venueImage: "/images/venue/nkbv.png",
+      venueImage: "/klimkalender-site/images/venue/nkbv.png",
       link: "https://gripnijmegen.nl/boulderhal/2025/06/26/9810/",
       tags: ["BOULDER"]
     },
@@ -59,7 +59,7 @@ function App() {
       title: "Blockmasters 2025 – Festival Edition",
       date: new Date(2025, 8, 13),
       venueName: "Block013",
-      venueImage: "/images/venue/nkbv.png",
+      venueImage: "/klimkalender-site/images/venue/nkbv.png",
       link: "https://www.instagram.com/p/DMc5pmesVT2/",
       tags: ["BOULDER"]
     },
@@ -68,7 +68,7 @@ function App() {
       title: "LOCO #1 – Amsterdam",
       date: new Date(2025, 8, 13),
       venueName: "Monk Bouldergym Amsterdam",
-      venueImage: "/images/venue/nkbv.png",
+      venueImage: "/klimkalender-site/images/venue/nkbv.png",
       link: "https://monk.nl/loco/",
       tags: ["BOULDER"]
     },
@@ -77,7 +77,7 @@ function App() {
       title: "Beest Open – Amsterdam",
       date: new Date(2025, 8, 13),
       venueName: "Beest Boulders Amsterdam",
-      venueImage: "/images/venue/nkbv.png",
+      venueImage: "/klimkalender-site/images/venue/nkbv.png",
       link: "https://beestboulders.com/beest-open/",
       tags: ["BOULDER"]
     },
@@ -86,7 +86,7 @@ function App() {
       title: "12 YEARS STERK ANNIVERSARY",
       date: new Date(2025, 8, 20),
       venueName: "Boulderhal Sterk",
-      venueImage: "/images/venue/nkbv.png",
+      venueImage: "/klimkalender-site/images/venue/nkbv.png",
       link: "https://www.boulderhalsterk.nl/evenementen/sterk-12-jaar",
       tags: ["BOULDER"]
     },
@@ -95,7 +95,7 @@ function App() {
       title: "ZWAARTEKRACHT 2025",
       date: new Date(2025, 8, 20),
       venueName: "Boulderhal Krachtstof, Leiden",
-      venueImage: "/images/venue/nkbv.png",
+      venueImage: "/klimkalender-site/images/venue/nkbv.png",
       link: "https://www.instagram.com/p/DM-uIdSN0DE/",
       tags: ["BOULDER"]
     }
@@ -170,7 +170,7 @@ function App() {
     <>
       <header className="site" aria-label="Site header">
         <div className="left">
-          <img className="logo" src="/images/logo.png" alt="Klimkalender logo" />
+          <img className="logo" src="/klimkalender-site/images/logo.png" alt="Klimkalender logo" />
           <nav aria-label="Hoofdmenu">
             <a href="#over-ons" id="nav-about">Over ons</a>
           </nav>
@@ -181,7 +181,7 @@ function App() {
       <section className="hero-wrap" aria-label="Intro">
         <div className="hero-inner">
           <figure className="hero-photo">
-            <img src="/images/hero.jpeg" alt="Klimmer die een overhangende boulder beklimt in een klimhal" />
+            <img src="/klimkalender-site/images/hero.jpeg" alt="Klimmer die een overhangende boulder beklimt in een klimhal" />
           </figure>
           <div className="hero-text">
             <h1>De klimkalender voor boulder- en leadwedstrijden in Nederland</h1>
