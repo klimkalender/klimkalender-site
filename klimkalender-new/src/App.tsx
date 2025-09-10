@@ -1,7 +1,8 @@
 import './App.css'
 import EventCard from './components/event-card';
 import { startOfISOWeek, endOfISOWeek, getISOWeek } from 'date-fns';
-
+import Fuse from "fuse.js";
+import React, { useState } from "react";
 function App() {
 
   const events = [
@@ -99,14 +100,39 @@ function App() {
       tags: ["BOULDER"]
     }
   ];
+  const [searchResults, setSearchResults] = useState(events);
 
-  events.map(event => {
+  searchResults.map(event => {
     const year = event.date.getFullYear();
     const week = getISOWeek(event.date);
     const startOfWeek = startOfISOWeek(event.date);
     const endOfWeek = endOfISOWeek(event.date);
     console.log(`Event ${event.title} is in week ${week} ${year}(${startOfWeek.toLocaleDateString('nl-NL', { day: 'numeric', month: 'short' })} - ${endOfWeek.toLocaleDateString('nl-NL', { day: 'numeric', month: 'short' })})`);
   });
+
+  const options = {
+    includeScore: true,
+    includeMatches: true,
+    threshold: 0.2,
+    keys: ["title", "venueName", "tags"],
+  }
+
+  const fuse = new Fuse(events, options);
+
+  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const { value } = event.target;
+
+    // If the user searched for an empty string,
+    // display all data.
+    if (value.length === 0) {
+      setSearchResults(events);
+      return;
+    }
+
+    const results = fuse.search(value);
+    const items = results.map((result) => result.item);
+    setSearchResults(items);
+  };
 
   function formatWeekDates(date: Date) {
     const startOfWeek = startOfISOWeek(date);
@@ -115,7 +141,7 @@ function App() {
   }
 
   // Create a nested structure
-  const groupedEvents = events.reduce((acc, event) => {
+  const groupedEvents = searchResults.reduce((acc, event) => {
     const year = event.date.getFullYear();
     const week = getISOWeek(event.date);
     const startOfWeek = startOfISOWeek(event.date);
@@ -173,7 +199,7 @@ function App() {
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                   <path d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z" stroke="#5a7d8a" strokeWidth="2" strokeLinecap="round" />
                 </svg>
-                <input type="search" placeholder="Zoek op wedstrijd, hal of plaats…" aria-label="Zoek in wedstrijden" />
+                <input type="search" placeholder="Zoek op wedstrijd, hal of plaats…" aria-label="Zoek in wedstrijden" onChange={handleSearch} />
               </div>
               <div className="type-filter">
                 <select aria-label="Filter op wedstrijdtype">
@@ -193,6 +219,7 @@ function App() {
       </div>
       <main>
         <section className="container view-list" aria-label="Kalenderweergave">
+          {searchResults.length === 0 && <p>Geen resultaten gevonden.</p>}
           {groupedEvents.map(yearGroup => {
             console.log(yearGroup);
             return <><div className="year-title" aria-label="Jaar">{yearGroup.year}</div>
