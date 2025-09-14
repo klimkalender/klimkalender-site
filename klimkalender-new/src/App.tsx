@@ -2,7 +2,7 @@ import './App.css'
 import EventCard from './components/event-card';
 import { startOfISOWeek, endOfISOWeek, getISOWeek } from 'date-fns';
 import Fuse from "fuse.js";
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useEffect, useMemo, useState } from "react";
 
 type EventType = {
   id: string;
@@ -17,12 +17,22 @@ type EventType = {
   featuredText?: string;
 };
 
+
+const options = {
+  includeScore: true,
+  includeMatches: true,
+  threshold: 0.2,
+  keys: ["title", "venueName", "tags"],
+}
+
 function App() {
 
   const [events, setEvents] = useState<EventType[]>([]);
   const [searchResults, setSearchResults] = useState<EventType[]>([]);
+  const [searchTerm, setSearchTerm] = useState<string | null>(null);
+  const [category, setCategory] = useState<string>('all');
 
-  React.useEffect(() => {
+  useEffect(() => {
     fetch('/klimkalender-site/events.json')
       .then(res => res.json())
       .then((data: (Omit<EventType, 'date'> & { date: string })[]) => {
@@ -38,36 +48,43 @@ function App() {
       });
   }, []);
 
-  searchResults.map(event => {
-    const year = event.date.getFullYear();
-    const week = getISOWeek(event.date);
-    const startOfWeek = startOfISOWeek(event.date);
-    const endOfWeek = endOfISOWeek(event.date);
-    console.log(`Event ${event.title} is in week ${week} ${year}(${startOfWeek.toLocaleDateString('nl-NL', { day: 'numeric', month: 'short' })} - ${endOfWeek.toLocaleDateString('nl-NL', { day: 'numeric', month: 'short' })})`);
-  });
 
-  const options = {
-    includeScore: true,
-    includeMatches: true,
-    threshold: 0.2,
-    keys: ["title", "venueName", "tags"],
-  }
+  const fuse = useMemo(() => new Fuse(events, options), [events]);
 
-  const fuse = new Fuse(events, options);
+  useEffect(() => {
+    if (searchTerm && searchTerm.length > 0) {
+      const results = fuse.search(searchTerm);
+      const items = results.map((result) => result.item);
+      setSearchResults(items);
+    } else {
+      setSearchResults(events);
+    }
+  }, [searchTerm, fuse, events]);
 
-  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
+  useEffect(() => {
+    const results = searchTerm ? fuse.search(searchTerm) : events.map(event => ({ item: event, refIndex: 0, score: 0, matches: [] }));
+    const items = results.map((result) => result.item);
+    if (category && category !== 'all') {
+      const capsCategory = category.toUpperCase();
+      setSearchResults(items.filter(item => item.tags.includes(capsCategory)));
+    } else {
+      setSearchResults(items);
+    }
+  }, [category, searchTerm, fuse, events]);
+
+  const handleTextSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { value } = event.target;
 
-    // If the user searched for an empty string,
-    // display all data.
-    if (value.length === 0) {
-      setSearchResults(events);
-      return;
-    }
+    setSearchTerm(value || '');
 
-    const results = fuse.search(value);
-    const items = results.map((result) => result.item);
-    setSearchResults(items);
+  };
+
+  const handleCategorySearch = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const { value } = event.target;
+
+    if (value.length !== 0) {
+      setCategory(value);
+    }
   };
 
   function formatWeekDates(date: Date) {
@@ -137,19 +154,19 @@ function App() {
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                   <path d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z" stroke="#5a7d8a" strokeWidth="2" strokeLinecap="round" />
                 </svg>
-                <input type="search" placeholder="Zoek op wedstrijd, hal of plaats…" aria-label="Zoek in wedstrijden" onChange={handleSearch} />
+                <input type="search" placeholder="Zoek op wedstrijd, hal of plaats…" aria-label="Zoek in wedstrijden" onChange={handleTextSearch} onReset={handleTextSearch} />
               </div>
               <div className="type-filter">
-                <select aria-label="Filter op wedstrijdtype">
-                  <option>Alle</option>
-                  <option>Boulder</option>
-                  <option>Lead</option>
-                  <option>Overig</option>
+                <select aria-label="Filter op wedstrijdtype" onChange={handleCategorySearch} value={category}>
+                  <option value="all">Alle</option>
+                  <option value="boulder">Boulder</option>
+                  <option value="lead">Lead</option>
+                  <option value="overig">Overig</option>
                 </select>
               </div>
               <div className="view-toggle" role="tablist" aria-label="Weergave">
                 <button type="button" role="tab" aria-selected="true" aria-pressed="true">Kalender</button>
-                <button type="button" role="tab" aria-selected="false" aria-pressed="false">Kaart</button>
+                {/* <button type="button" role="tab" aria-selected="false" aria-pressed="false">Kaart</button> */}
               </div>
             </div>
           </div>
@@ -157,10 +174,9 @@ function App() {
       </div>
       <main>
         <section className="container view-list" aria-label="Kalenderweergave">
-          {searchResults.length === 0 && <p>Geen resultaten gevonden.</p>}
-          {searchResults.length > 0 && <p>{searchResults.length} {searchResults.length === 1 ? 'resultaat' : 'resultaten'} gevonden.</p>}
+          {searchResults.length === 0 && <p>Geen wedstrijden gevonden.</p>}
+          {searchResults.length > 0 && <p>{searchResults.length} {searchResults.length === 1 ? 'wedstrijd' : 'wedstrijden'} gevonden.</p>}
           {groupedEvents.map((yearGroup: YearGroup) => {
-            console.log(yearGroup);
             return <Fragment key={yearGroup.year}><div className="year-title" aria-label="Jaar">{yearGroup.year}</div>
               <div id="calendar">
                 {yearGroup.weeks.map((weekGroup: WeekGroup) => {
