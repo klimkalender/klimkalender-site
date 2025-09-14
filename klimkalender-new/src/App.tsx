@@ -2,6 +2,7 @@ import './App.css'
 import EventCard from './components/event-card';
 import { startOfISOWeek, endOfISOWeek, getISOWeek } from 'date-fns';
 import Fuse from "fuse.js";
+import { AnimatePresence, motion } from 'motion/react';
 import React, { Fragment, useEffect, useMemo, useState } from "react";
 
 type EventType = {
@@ -176,27 +177,28 @@ function App() {
         <section className="container view-list" aria-label="Kalenderweergave">
           {searchResults.length === 0 && <p>Geen wedstrijden gevonden.</p>}
           {searchResults.length > 0 && <p>{searchResults.length} {searchResults.length === 1 ? 'wedstrijd' : 'wedstrijden'} gevonden.</p>}
-          {groupedEvents.map((yearGroup: YearGroup) => {
-            return <Fragment key={yearGroup.year}><div className="year-title" aria-label="Jaar">{yearGroup.year}</div>
-              <div id="calendar">
-                {yearGroup.weeks.map((weekGroup: WeekGroup) => {
-                  return (
-                    <section className="week-block" key={`${weekGroup.week}-${yearGroup.year}`}>
-                      <div className="week-header">
-                        <span className="chip">WEEK {weekGroup.week}</span>
-                        <span className="week-dates">{formatWeekDates(weekGroup.startOfWeek)}</span>
-                      </div>
-                      <div className="grid">
-                        {weekGroup.events.map((event: EventType) => (
-                          <EventCard key={event.id} event={event} />
-                        ))}
-                      </div>
-                    </section>
-                  );
-                })}
-              </div></Fragment>
-          })}
 
+          <AnimatePresence>
+            {groupedEvents.map((yearGroup: YearGroup) => {
+              return <Fragment key={yearGroup.year}><div className="year-title" aria-label="Jaar">{yearGroup.year}</div>
+                <div id="calendar">
+                  {yearGroup.weeks.map((weekGroup: WeekGroup) => {
+                    return (
+                      <motion.section exit={{ opacity: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="week-block" key={`${weekGroup.week}-${yearGroup.year}`}>
+                        <div className="week-header">
+                          <span className="chip">WEEK {weekGroup.week}</span>
+                          <span className="week-dates">{formatWeekDates(weekGroup.startOfWeek)}</span>
+                        </div>
+                        <div className="grid">
+                          {weekGroup.events.map((event: EventType) => (
+                            <EventCard key={event.id} event={event} />
+                          ))}
+                        </div>
+                      </motion.section>
+                    );
+                  })}
+                </div></Fragment>
+            })}</AnimatePresence>
         </section>
 
         <section className="container map-wrap" aria-label="Kaartweergave">
