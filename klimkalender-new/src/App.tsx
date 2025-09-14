@@ -175,8 +175,10 @@ function App() {
       </div>
       <main>
         <section className="container view-list" aria-label="Kalenderweergave">
-          {searchResults.length === 0 && <p>Geen wedstrijden gevonden.</p>}
-          {searchResults.length > 0 && <p>{searchResults.length} {searchResults.length === 1 ? 'wedstrijd' : 'wedstrijden'} gevonden.</p>}
+
+          {searchResults.length === 0 && <motion.p initial={{ opacity: 0, fontWeight: "normal" }} animate={{ opacity: 1, fontWeight: "bold" }} transition={{ duration: 0.5, delay: 0.1 }}>Geen wedstrijden gevonden.</motion.p>}
+          {searchResults.length === 1 && <motion.p initial={{ opacity: 0, fontWeight: "normal" }} animate={{ opacity: 1, fontWeight: "bold" }} transition={{ duration: 0.5, delay: 0.1 }}>{searchResults.length} {searchResults.length === 1 ? 'wedstrijd' : 'wedstrijden'} gevonden.</motion.p>}
+          {searchResults.length > 1 && <motion.p initial={{ opacity: 0, fontWeight: "normal" }} animate={{ opacity: 1, fontWeight: "bold" }} transition={{ duration: 0.5, delay: 0.1 }}>{searchResults.length} {searchResults.length === 1 ? 'wedstrijd' : 'wedstrijden'} gevonden.</motion.p>}
 
           <AnimatePresence>
             {groupedEvents.map((yearGroup: YearGroup) => {
