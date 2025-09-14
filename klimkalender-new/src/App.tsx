@@ -3,104 +3,40 @@ import EventCard from './components/event-card';
 import { startOfISOWeek, endOfISOWeek, getISOWeek } from 'date-fns';
 import Fuse from "fuse.js";
 import React, { Fragment, useState } from "react";
+
+type EventType = {
+  id: string;
+  title: string;
+  date: Date;
+  venueName: string;
+  venueImage: string;
+  link: string;
+  tags: string[];
+  featured?: boolean;
+  featuredImage?: string;
+  featuredText?: string;
+};
+
 function App() {
 
-  const events = [
-    {
-      id: "apex-3rd-anniversary-2025",
-      title: "Apex 3rd Anniversary",
-      date: new Date(2025, 8, 6),
-      venueName: "Apex Boulders",
-      venueImage: "/klimkalender-site/images/venue/apex.png",
-      link: "https://www.apexboulders.nl/events/",
-      tags: ["BOULDER"]
-    },
-    {
-      id: "catch010-2025",
-      title: "Catch010",
-      date: new Date(2025, 8, 13),
-      venueName: "Boulder Rotterdam",
-      venueImage: "/klimkalender-site/images/venue/boulder.webp",
-      featured: true,
-      featuredImage: "/klimkalender-site/images/feature/boulder.jpeg",
-      featuredText: "De meest gezellige boulderwedstrijd van het jaar keert terug in Rotterdam. Catch010 combineert sport en sfeer in een unieke setting.",
-      link: "https://boulderneoliet.nl/nl/rotterdam/boulder-wedstrijd-catch010/",
-      tags: ["BOULDER"]
-    },
-    {
-      id: "luminous-skibidi-2025",
-      title: "LUMINOUS – Skibidi sends",
-      date: new Date(2025, 8, 9),
-      venueName: "Radium Boulders",
-      venueImage: "/klimkalender-site/images/venue/nkbv.png",
-      link: "https://www.instagram.com/p/DNn_u_ls_3x/?igsh=djB2OTg3ZHllN3Rk",
-      tags: ["BOULDER"]
-    },
-    {
-      id: "catch055-2025",
-      title: "Catch055",
-      date: new Date(2025, 8, 12),
-      venueName: "Boulder Apeldoorn",
-      venueImage: "/klimkalender-site/images/venue/nkbv.png",
-      link: "https://boulderneoliet.nl/nl/apeldoorn/boulder-wedstrijd-catch055/",
-      tags: ["BOULDER"]
-    },
-    {
-      id: "slab-fest-2025",
-      title: "Slab Fest",
-      date: new Date(2025, 8, 13),
-      venueName: "GRIP Boulderhal",
-      venueImage: "/klimkalender-site/images/venue/nkbv.png",
-      link: "https://gripnijmegen.nl/boulderhal/2025/06/26/9810/",
-      tags: ["BOULDER"]
-    },
-    {
-      id: "blockmasters-2025",
-      title: "Blockmasters 2025 – Festival Edition",
-      date: new Date(2025, 8, 13),
-      venueName: "Block013",
-      venueImage: "/klimkalender-site/images/venue/nkbv.png",
-      link: "https://www.instagram.com/p/DMc5pmesVT2/",
-      tags: ["BOULDER"]
-    },
-    {
-      id: "loco-1-2025",
-      title: "LOCO #1 – Amsterdam",
-      date: new Date(2025, 8, 13),
-      venueName: "Monk Bouldergym Amsterdam",
-      venueImage: "/klimkalender-site/images/venue/nkbv.png",
-      link: "https://monk.nl/loco/",
-      tags: ["BOULDER"]
-    },
-    {
-      id: "beest-open-2025",
-      title: "Beest Open – Amsterdam",
-      date: new Date(2025, 8, 13),
-      venueName: "Beest Boulders Amsterdam",
-      venueImage: "/klimkalender-site/images/venue/nkbv.png",
-      link: "https://beestboulders.com/beest-open/",
-      tags: ["BOULDER"]
-    },
-    {
-      id: "2",
-      title: "12 YEARS STERK ANNIVERSARY",
-      date: new Date(2025, 8, 20),
-      venueName: "Boulderhal Sterk",
-      venueImage: "/klimkalender-site/images/venue/nkbv.png",
-      link: "https://www.boulderhalsterk.nl/evenementen/sterk-12-jaar",
-      tags: ["BOULDER"]
-    },
-    {
-      id: "1",
-      title: "ZWAARTEKRACHT 2025",
-      date: new Date(2025, 8, 20),
-      venueName: "Boulderhal Krachtstof, Leiden",
-      venueImage: "/klimkalender-site/images/venue/nkbv.png",
-      link: "https://www.instagram.com/p/DM-uIdSN0DE/",
-      tags: ["BOULDER"]
-    }
-  ];
-  const [searchResults, setSearchResults] = useState(events);
+  const [events, setEvents] = useState<EventType[]>([]);
+  const [searchResults, setSearchResults] = useState<EventType[]>([]);
+
+  React.useEffect(() => {
+    fetch('/klimkalender-site/events.json')
+      .then(res => res.json())
+      .then((data: (Omit<EventType, 'date'> & { date: string })[]) => {
+        // Convert date strings to Date objects and preserve all properties
+        const parsed: EventType[] = data.map((event) => {
+          return {
+            ...event,
+            date: new Date(event.date)
+          } as EventType;
+        });
+        setEvents(parsed);
+        setSearchResults(parsed);
+      });
+  }, []);
 
   searchResults.map(event => {
     const year = event.date.getFullYear();
@@ -141,19 +77,21 @@ function App() {
   }
 
   // Create a nested structure
-  const groupedEvents = searchResults.reduce((acc, event) => {
+  type WeekGroup = { week: number; startOfWeek: Date; endOfWeek: Date; events: EventType[] };
+  type YearGroup = { year: number; weeks: WeekGroup[] };
+  const groupedEvents: YearGroup[] = searchResults.reduce((acc: YearGroup[], event: EventType) => {
     const year = event.date.getFullYear();
     const week = getISOWeek(event.date);
     const startOfWeek = startOfISOWeek(event.date);
     const endOfWeek = endOfISOWeek(event.date);
 
-    let yearGroup = acc.find(y => y.year === year);
+    let yearGroup = acc.find((y: YearGroup) => y.year === year);
     if (!yearGroup) {
-      yearGroup = { year, weeks: [] as { week: number; startOfWeek: Date; endOfWeek: Date; events: typeof events }[] };
+      yearGroup = { year, weeks: [] };
       acc.push(yearGroup);
     }
 
-    let weekGroup = yearGroup.weeks.find(w => w.week === week);
+    let weekGroup = yearGroup.weeks.find((w: WeekGroup) => w.week === week);
     if (!weekGroup) {
       weekGroup = { week, startOfWeek, endOfWeek, events: [] };
       yearGroup.weeks.push(weekGroup);
@@ -161,7 +99,7 @@ function App() {
 
     weekGroup.events.push(event);
     return acc;
-  }, [] as { year: number; weeks: { week: number; startOfWeek: Date; endOfWeek: Date; events: typeof events }[] }[]);
+  }, []);
 
 
 
@@ -220,11 +158,11 @@ function App() {
       <main>
         <section className="container view-list" aria-label="Kalenderweergave">
           {searchResults.length === 0 && <p>Geen resultaten gevonden.</p>}
-          {groupedEvents.map(yearGroup => {
+          {groupedEvents.map((yearGroup: YearGroup) => {
             console.log(yearGroup);
             return <Fragment key={yearGroup.year}><div className="year-title" aria-label="Jaar">{yearGroup.year}</div>
               <div id="calendar">
-                {yearGroup.weeks.map(weekGroup => {
+                {yearGroup.weeks.map((weekGroup: WeekGroup) => {
                   return (
                     <section className="week-block" key={`${weekGroup.week}-${yearGroup.year}`}>
                       <div className="week-header">
@@ -232,7 +170,7 @@ function App() {
                         <span className="week-dates">{formatWeekDates(weekGroup.startOfWeek)}</span>
                       </div>
                       <div className="grid">
-                        {weekGroup.events.map(event => (
+                        {weekGroup.events.map((event: EventType) => (
                           <EventCard key={event.id} event={event} />
                         ))}
                       </div>
