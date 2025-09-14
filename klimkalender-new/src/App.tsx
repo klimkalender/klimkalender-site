@@ -158,6 +158,7 @@ function App() {
       <main>
         <section className="container view-list" aria-label="Kalenderweergave">
           {searchResults.length === 0 && <p>Geen resultaten gevonden.</p>}
+          {searchResults.length > 0 && <p>{searchResults.length} {searchResults.length === 1 ? 'resultaat' : 'resultaten'} gevonden.</p>}
           {groupedEvents.map((yearGroup: YearGroup) => {
             console.log(yearGroup);
             return <Fragment key={yearGroup.year}><div className="year-title" aria-label="Jaar">{yearGroup.year}</div>
