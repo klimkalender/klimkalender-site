@@ -4,6 +4,7 @@ import { startOfISOWeek, endOfISOWeek, getISOWeek } from 'date-fns';
 import Fuse from "fuse.js";
 import { AnimatePresence, motion } from 'motion/react';
 import React, { Fragment, useEffect, useMemo, useState } from "react";
+import Select from 'react-select';
 
 type EventType = {
   id: string;
@@ -25,6 +26,14 @@ const options = {
   threshold: 0.2,
   keys: ["title", "venueName", "tags"],
 }
+
+const categoryOptions: readonly { value: string, label: string }[] = [
+  { value: 'all', label: 'Alle' },
+  { value: 'boulder', label: 'Boulder' },
+  { value: 'lead', label: 'Lead' },
+  { value: 'overig', label: 'Overig' },
+];
+
 
 function App() {
 
@@ -80,13 +89,6 @@ function App() {
 
   };
 
-  const handleCategorySearch = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    const { value } = event.target;
-
-    if (value.length !== 0) {
-      setCategory(value);
-    }
-  };
 
   function formatWeekDates(date: Date) {
     const startOfWeek = startOfISOWeek(date);
@@ -118,8 +120,6 @@ function App() {
     weekGroup.events.push(event);
     return acc;
   }, []);
-
-
 
 
   return (
@@ -158,17 +158,16 @@ function App() {
                 <input type="search" placeholder="Zoek op wedstrijd, hal of plaats…" aria-label="Zoek in wedstrijden" onChange={handleTextSearch} onReset={handleTextSearch} />
               </div>
               <div className="type-filter">
-                <select aria-label="Filter op wedstrijdtype" onChange={handleCategorySearch} value={category}>
-                  <option value="all">Alle</option>
-                  <option value="boulder">Boulder</option>
-                  <option value="lead">Lead</option>
-                  <option value="overig">Overig</option>
-                </select>
+                <Select
+                  options={categoryOptions}
+                  defaultValue={categoryOptions[0]}
+                  onChange={(value) => { setCategory(value ? value.value : 'all'); }}
+                />
               </div>
-              <div className="view-toggle" role="tablist" aria-label="Weergave">
+              {/* <div className="view-toggle" role="tablist" aria-label="Weergave">
                 <button type="button" role="tab" aria-selected="true" aria-pressed="true">Kalender</button>
-                {/* <button type="button" role="tab" aria-selected="false" aria-pressed="false">Kaart</button> */}
-              </div>
+               <button type="button" role="tab" aria-selected="false" aria-pressed="false">Kaart</button>
+              </div> */}
             </div>
           </div>
         </div>
