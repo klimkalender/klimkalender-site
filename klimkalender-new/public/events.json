@@ -10,7 +10,9 @@
         "tags": [
             "BOULDER"
         ],
-        "featuredText": "\nRust Dust is back!\nDe 2025\/2026 versie is terug en gaat van start op 26 september 2025 vanaf 19:30u!\nDeel 2 zal plaatsvinden op 19 december 2025.\nDe laatste editie inclusief finale wordt gehouden ..."
+        "featured": true,
+        "featuredImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/NU61JRustDust_Logo_Rood_Thumbnail20copy2028129.png",
+        "featuredText": "<p>RUST DUST 2025\/2026<\/p>"
     },
     {
         "id": "1451",
