@@ -14,13 +14,15 @@ function FeatureCard({ event }: { event: CalendarEvent }) {
   </div>
     <div className="fs-info">
       <div className="fs-header">
-        <h3 className="fs-title">{event.title}</h3>
+        {/* eslint-disable-next-line react-dom/no-dangerously-set-innerhtml */}
+        <h3 className="fs-title"><span dangerouslySetInnerHTML={{ __html: event.title || '' }} /></h3>
         <span className="fs-logo">
-          <img src={event.venueImage} alt="logo" />
+          <img src={event.venueImage || './images/venue/no-image.png'} alt="logo" />
         </span>
       </div>
       <p className="fs-sub">{formatEventDate(event.date)} · {event.venueName}</p>
-      <p className="fs-desc">{event.featuredText}</p>
+      {/* eslint-disable-next-line react-dom/no-dangerously-set-innerhtml */}
+      <span dangerouslySetInnerHTML={{ __html: event.featuredText || '' }} />
       <a className="fs-link" href={event.link} target="_blank" rel="noopener">Meer info →</a>
     </div>
   </article>

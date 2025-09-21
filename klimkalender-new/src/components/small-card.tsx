@@ -18,14 +18,15 @@ function formatEventDate(date: Date) {
 function SmallCard({ event }: { event: CalendarEvent }) {
   return <article className="card">
     <div className="logo-col">
-      <img src={event.venueImage} alt="hal logo" />
+      <img src={event.venueImage || './images/venue/no-image.png'} alt="hal logo" />
     </div>
     <div className="info">
       <h3 className="title">
         {event.tags.map(tag => (
           <span key={tag} className={`badge-type ${tag.toUpperCase()}`}>{tag}</span>
         ))}
-        {event.title}
+        {/* eslint-disable-next-line react-dom/no-dangerously-set-innerhtml */}
+        <span dangerouslySetInnerHTML={{ __html: event.title || '' }} />
       </h3>
       <p className="meta">
         <span className="dot"></span>
