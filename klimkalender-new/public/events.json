@@ -1,116 +1,82 @@
 [
-  {
-    "id": "apex-3rd-anniversary-2025",
-    "title": "Apex 3rd Anniversary!",
-    "date": "2025-09-06T00:00:00.000Z",
-    "venueName": "Apex Boulders",
-    "venueImage": "\/klimkalender-site\/images\/venue\/apex.png",
-    "link": "https:\/\/www.apexboulders.nl\/events\/",
-    "tags": [
-      "BOULDER",
-      "OVERIG"
-    ]
-  },
-  {
-    "id": "catch010-2025",
-    "title": "Catch010",
-    "date": "2025-09-13T00:00:00.000Z",
-    "venueName": "Boulder Rotterdam",
-    "venueImage": "\/klimkalender-site\/images\/venue\/boulder.webp",
-    "featured": true,
-    "featuredImage": "\/klimkalender-site\/images\/feature\/boulder.jpeg",
-    "featuredText": "De meest gezellige boulderwedstrijd van het jaar keert terug in Rotterdam. Catch010 combineert sport en sfeer in een unieke setting.",
-    "link": "https:\/\/boulderneoliet.nl\/nl\/rotterdam\/boulder-wedstrijd-catch010\/",
-    "tags": [
-      "BOULDER"
-    ]
-  },
-  {
-    "id": "luminous-skibidi-2025",
-    "title": "LUMINOUS \u2013 Skibidi sends",
-    "date": "2025-09-09T00:00:00.000Z",
-    "venueName": "Radium Boulders",
-    "venueImage": "\/klimkalender-site\/images\/venue\/nkbv.png",
-    "link": "https:\/\/www.instagram.com\/p\/DNn_u_ls_3x\/?igsh=djB2OTg3ZHllN3Rk",
-    "tags": [
-      "BOULDER"
-    ]
-  },
-  {
-    "id": "catch055-2025",
-    "title": "Catch055",
-    "date": "2025-09-12T00:00:00.000Z",
-    "venueName": "Boulder Apeldoorn",
-    "venueImage": "\/klimkalender-site\/images\/venue\/nkbv.png",
-    "link": "https:\/\/boulderneoliet.nl\/nl\/apeldoorn\/boulder-wedstrijd-catch055\/",
-    "tags": [
-      "BOULDER"
-    ]
-  },
-  {
-    "id": "slab-fest-2025",
-    "title": "Slab Fest",
-    "date": "2025-09-13T00:00:00.000Z",
-    "venueName": "GRIP Boulderhal",
-    "venueImage": "\/klimkalender-site\/images\/venue\/nkbv.png",
-    "link": "https:\/\/gripnijmegen.nl\/boulderhal\/2025\/06\/26\/9810\/",
-    "tags": [
-      "BOULDER"
-    ]
-  },
-  {
-    "id": "blockmasters-2025",
-    "title": "Blockmasters 2025 \u2013 Festival Edition",
-    "date": "2025-09-13T00:00:00.000Z",
-    "venueName": "Block013",
-    "venueImage": "\/klimkalender-site\/images\/venue\/nkbv.png",
-    "link": "https:\/\/www.instagram.com\/p\/DMc5pmesVT2\/",
-    "tags": [
-      "BOULDER"
-    ]
-  },
-  {
-    "id": "loco-1-2025",
-    "title": "LOCO #1 \u2013 Amsterdam",
-    "date": "2025-09-13T00:00:00.000Z",
-    "venueName": "Monk Bouldergym Amsterdam",
-    "venueImage": "\/klimkalender-site\/images\/venue\/nkbv.png",
-    "link": "https:\/\/monk.nl\/loco\/",
-    "tags": [
-      "BOULDER"
-    ]
-  },
-  {
-    "id": "beest-open-2025",
-    "title": "Beest Open \u2013 Amsterdam",
-    "date": "2025-09-13T00:00:00.000Z",
-    "venueName": "Beest Boulders Amsterdam",
-    "venueImage": "\/klimkalender-site\/images\/venue\/nkbv.png",
-    "link": "https:\/\/beestboulders.com\/beest-open\/",
-    "tags": [
-      "BOULDER"
-    ]
-  },
-  {
-    "id": "2",
-    "title": "12 YEARS STERK ANNIVERSARY",
-    "date": "2025-09-20T00:00:00.000Z",
-    "venueName": "Boulderhal Sterk",
-    "venueImage": "\/klimkalender-site\/images\/venue\/nkbv.png",
-    "link": "https:\/\/www.boulderhalsterk.nl\/evenementen\/sterk-12-jaar",
-    "tags": [
-      "BOULDER"
-    ]
-  },
-  {
-    "id": "1",
-    "title": "ZWAARTEKRACHT 2025",
-    "date": "2025-09-20T00:00:00.000Z",
-    "venueName": "Boulderhal Krachtstof, Leiden",
-    "venueImage": "\/klimkalender-site\/images\/venue\/nkbv.png",
-    "link": "https:\/\/www.instagram.com\/p\/DM-uIdSN0DE\/",
-    "tags": [
-      "BOULDER"
-    ]
-  }
+    {
+        "id": "5",
+        "title": "My event",
+        "date": "2024-10-25T00:00:00+00:00",
+        "venueName": "Pom Boulder Hall",
+        "venueImage": "http:\/\/127.0.0.1:8000\/wp-content\/uploads\/2024\/11\/EX9yKWASBOT-NKBV-Boulder-series-volwassenen.png",
+        "imageUrl": "http:\/\/127.0.0.1:8000\/wp-content\/uploads\/2024\/09\/logo-toc-3.png",
+        "link": "",
+        "tags": [
+            "BOULDER"
+        ],
+        "featured": true,
+        "featuredImage": "http:\/\/127.0.0.1:8000\/wp-content\/uploads\/2024\/09\/logo-toc-3.png",
+        "featuredText": "<p>This is a fine new event!<\/p>"
+    },
+    {
+        "id": "103",
+        "title": "Belgian Boulder Championship &#8211; BB25",
+        "date": "2025-02-01T00:00:00+00:00",
+        "venueName": "Arkoze &#8211; Brussels",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/cmbel.shiftf5.be\/competitions\/4586",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n  Discipline: Boulder\n  Competitie: \n    Status: Inschrijving gesloten\n  Omschrijving: \n\nADDRESS\n\nFORMATQualification: On sight rotation system, 5 mins on\/ 5mins off procedure (5 boulders)Finals: ..."
+    },
+    {
+        "id": "87",
+        "title": "NK LEAD 2025",
+        "date": "2025-05-24T00:00:00+00:00",
+        "venueName": "MN Amsterdam",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4619",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nDeze wedstrijd hoort bij de Nationale Leadcompetitie. De Nationale Leadcompetitie is bedoeld voor de beste klimmers van Nederland vanaf 17 jaar (U19). De competitie wordt georganiseerd door de NK..."
+    },
+    {
+        "id": "78",
+        "title": "Jeugd Lead 3 U15 &#038; MU17",
+        "date": "2025-06-14T00:00:00+00:00",
+        "venueName": "MN Noardwand",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4618",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nDeze wedstrijd hoort bij de Nationale Jeugd Leadcompetitie. De Nationale Jeugd Leadcompetitie is bedoeld voor de beste jeugdklimmers van Nederland. De competitie wordt georganiseerd door de NKBV...."
+    },
+    {
+        "id": "83",
+        "title": "Boulder Series Noord Oost 2",
+        "date": "2025-06-14T00:00:00+00:00",
+        "venueName": "Boulderstation Enschede",
+        "venueImage": "http:\/\/127.0.0.1:8000\/wp-content\/uploads\/2024\/09\/logo-toc-3.png",
+        "imageUrl": "http:\/\/127.0.0.1:8000\/wp-content\/uploads\/2024\/11\/EX9yKWASBOT-NKBV-Boulder-series-volwassenen.png",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4653",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nBen jij een recreatieve boulderaar, dan zijn de Boulder Series voor jou! Vanaf een leeftijd van 16 jaar mag je aan deze wedstrijdserie meedoen. Deze wedstrijden worden door de NKBV georganiseerd ..."
+    },
+    {
+        "id": "74",
+        "title": "Jeugd Boulder Series Noord Oost 4",
+        "date": "2025-09-27T00:00:00+00:00",
+        "venueName": "Mountain Network Noardwand",
+        "venueImage": null,
+        "imageUrl": "http:\/\/127.0.0.1:8000\/wp-content\/uploads\/2024\/11\/orilvWASBOT-NKBV-Boulder-series-jeugd.png",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4651",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nBen jij een recreatieve boulderaar tussen de 7 en 20 jaar oud, dan zijn de Jeugd Boulder Series voor jou! Deze wedstrijden worden door de NKBV georganiseerd in samenwerking met boulderhallen bij ..."
+    }
 ]
