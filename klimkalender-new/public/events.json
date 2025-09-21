@@ -1,11 +1,24 @@
 [
     {
-        "id": "1367",
+        "id": "3061",
+        "title": "RUST DUST 2025\/2026",
+        "date": "2025-09-26T00:00:00+00:00",
+        "venueName": "Boulderhal Roest, Zwolle",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/NU61JRustDust_Logo_Rood_Thumbnail20copy2028129.png",
+        "link": "https:\/\/www.boulderhalroest.nl\/events",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\nRust Dust is back!\nDe 2025\/2026 versie is terug en gaat van start op 26 september 2025 vanaf 19:30u!\nDeel 2 zal plaatsvinden op 19 december 2025.\nDe laatste editie inclusief finale wordt gehouden ..."
+    },
+    {
+        "id": "1451",
         "title": "Boulder Series Noord Oost 3",
         "date": "2025-09-26T00:00:00+00:00",
         "venueName": "Mountain Network Noardwand, Leeuwarden",
-        "venueImage": null,
-        "imageUrl": "https:\/\/staging.klimkalender.nl\/wp-content\/uploads\/2024\/12\/8bCzIWASBOT-NKBV-Boulder-series-volwassenen.png",
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/YvmKWkt7LKvf1w7WASBOT-NKBV-Boulder-series-volwassenen.png",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4654",
         "tags": [
             "BOULDER"
@@ -13,12 +26,38 @@
         "featuredText": "\n\nBen jij een recreatieve boulderaar, dan zijn de Boulder Series voor jou! Vanaf een leeftijd van 16 jaar mag je aan deze wedstrijdserie meedoen. Deze wedstrijden worden door de NKBV georganiseerd ..."
     },
     {
-        "id": "1363",
+        "id": "3063",
+        "title": "Volwassenen Klim Series Limburg 1",
+        "date": "2025-09-26T00:00:00+00:00",
+        "venueName": "Rocca sport &#038; adventure, Gulpen",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4799",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "2936",
+        "title": "Boulderstation Twee Jaar",
+        "date": "2025-09-27T00:00:00+00:00",
+        "venueName": "Boulderstation Enschede",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/07\/520817982_607367482412112_1491996940757978030_n.jpg",
+        "link": "",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "Boulderstation wordt op 27 september \ud83d\uddd3 alweer 2 jaar en jij bent uitgenodigd! We maken er een gezellige dag van met een toffe verjaardagscompetitie, workshops en meer! De toegang is gratis \u2014 d..."
+    },
+    {
+        "id": "1448",
         "title": "Jeugd Boulder Series Noord Oost 4",
         "date": "2025-09-27T00:00:00+00:00",
         "venueName": "Mountain Network Noardwand, Leeuwarden",
-        "venueImage": null,
-        "imageUrl": "https:\/\/staging.klimkalender.nl\/wp-content\/uploads\/2024\/12\/Z3fbCWASBOT-NKBV-Boulder-series-jeugd.png",
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/IReZfvVbNMRUeauWASBOT-NKBV-Boulder-series-jeugd.png",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4651",
         "tags": [
             "BOULDER"
@@ -26,82 +65,861 @@
         "featuredText": "\n\nBen jij een recreatieve boulderaar tussen de 7 en 20 jaar oud, dan zijn de Jeugd Boulder Series voor jou! Deze wedstrijden worden door de NKBV georganiseerd in samenwerking met boulderhallen bij ..."
     },
     {
-        "id": "1172",
-        "title": "Kunststof Pubquiz",
-        "date": "2025-10-26T00:00:00+00:00",
-        "venueName": "Kunststof",
+        "id": "3064",
+        "title": "Jeugd Klim Series Limburg 1",
+        "date": "2025-09-27T00:00:00+00:00",
+        "venueName": "Rocca sport &#038; adventure, Gulpen",
         "venueImage": null,
-        "imageUrl": "https:\/\/staging.klimkalender.nl\/wp-content\/uploads\/2024\/10\/svPClsocials2024.png",
-        "link": "https:\/\/www.boulderhalkunststof.nl\/events",
-        "tags": [],
-        "featuredText": "\nOn Saturday October 26, we are hosting another pubquiz. Are you ready to challenge yourself?\u00a0\nPick a team of 5 of your smartest or funniest friends and come join us for the Kunststof PubQuiz.\u00a0\nT..."
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4795",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
     },
     {
-        "id": "1174",
-        "title": "Kunststof Pubquiz",
-        "date": "2025-10-26T00:00:00+00:00",
-        "venueName": "Kunststof",
-        "venueImage": null,
-        "imageUrl": "https:\/\/staging.klimkalender.nl\/wp-content\/uploads\/2024\/10\/X60EVsocials2024.png",
-        "link": "https:\/\/www.boulderhalkunststof.nl\/events",
-        "tags": [],
-        "featuredText": "\nOn Saturday October 26, we are hosting another pubquiz. Are you ready to challenge yourself?\u00a0\nPick a team of 5 of your smartest or funniest friends and come join us for the Kunststof PubQuiz.\u00a0\nT..."
+        "id": "3010",
+        "title": "LOCO #1 &#8211; Eindhoven",
+        "date": "2025-09-27T10:00:00+00:00",
+        "venueName": "Monk Bouldergym Eindhoven",
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/monklogo-BLACK_nomargin_trans-1.png",
+        "imageUrl": "",
+        "link": "https:\/\/monk.nl\/loco\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "LOCO staat voor lokale competitie, en dat is precies wat het is. Laagdrempelig (startniveau: 4), gezellig, maar wel keihard gaan op 30 nieuwe boulders in verschillende stijlen.\u00a0\nZe bouwen 30 bould..."
     },
     {
-        "id": "1176",
-        "title": "Kunststof Pubquiz",
-        "date": "2025-10-26T00:00:00+00:00",
-        "venueName": "Kunststof",
+        "id": "1907",
+        "title": "Rhino Rampage 2025",
+        "date": "2025-10-04T00:00:00+00:00",
+        "venueName": "Rhino Boulder Gym, Gent",
         "venueImage": null,
-        "imageUrl": "https:\/\/staging.klimkalender.nl\/wp-content\/uploads\/2024\/10\/Y5sNHsocials2024.png",
-        "link": "https:\/\/www.boulderhalkunststof.nl\/events",
-        "tags": [],
-        "featuredText": "\nOn Saturday October 26, we are hosting another pubquiz. Are you ready to challenge yourself?\u00a0\nPick a team of 5 of your smartest or funniest friends and come join us for the Kunststof PubQuiz.\u00a0\nT..."
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/12\/Rhino-Rampage-4-oktober.jpeg",
+        "link": "https:\/\/cmbel.shiftf5.be\/competitions\/4628",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "De Rhino Rampage 2025 is d\u00e9 boulderwedstrijd van het jaar in de Rhino Boulder Gym te Gent! Met een uitgebreid programma en uitdagende boulderproblemen is dit evenement een must voor zowel jeugdige..."
     },
     {
-        "id": "1178",
-        "title": "Kunststof Pubquiz",
-        "date": "2025-10-26T00:00:00+00:00",
-        "venueName": "Kunststof",
+        "id": "3066",
+        "title": "Zuidgraad 2025",
+        "date": "2025-10-04T00:00:00+00:00",
+        "venueName": "Boulderhal Zuidhaven, Utrecht",
         "venueImage": null,
-        "imageUrl": "https:\/\/staging.klimkalender.nl\/wp-content\/uploads\/2024\/10\/QLtB9socials2024.png",
-        "link": "https:\/\/www.boulderhalkunststof.nl\/events",
-        "tags": [],
-        "featuredText": "\nOn Saturday October 26, we are hosting another pubquiz. Are you ready to challenge yourself?\u00a0\nPick a team of 5 of your smartest or funniest friends and come join us for the Kunststof PubQuiz.\u00a0\nT..."
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/ZyIpcZuidgraad20202520Vierkantje20website2028229.png",
+        "link": "https:\/\/www.boulderhalzuidhaven.nl\/events",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\nOn Saturday, October 4th, we are organizing the fourth edition of Zuidgraad, an open bouldering competition for climbers of all levels from the age of 12 in the categories F, M &amp; X.\u00a0\nThe comp..."
     },
     {
-        "id": "1182",
-        "title": "Kunststof Pubquiz",
-        "date": "2025-10-26T00:00:00+00:00",
-        "venueName": "Kunststof",
+        "id": "3067",
+        "title": "Jeugd Boulder 1 | U15 &#038; MU17",
+        "date": "2025-10-04T00:00:00+00:00",
+        "venueName": "Radium Boulders, Maastricht",
         "venueImage": null,
-        "imageUrl": "https:\/\/staging.klimkalender.nl\/wp-content\/uploads\/2024\/10\/BG7lEsocials2024.png",
-        "link": "https:\/\/www.boulderhalkunststof.nl\/events",
-        "tags": [],
-        "featuredText": "\nOn Saturday October 26, we are hosting another pubquiz. Are you ready to challenge yourself?\u00a0\nPick a team of 5 of your smartest or funniest friends and come join us for the Kunststof PubQuiz.\u00a0\nT..."
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4766",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nDeze wedstrijd hoort bij de Nationale Jeugd Bouldercompetitie. De Nationale Jeugd Bouldercompetitie is bedoeld voor de beste jeugdboulderaars van Nederland. De competitie wordt georganiseerd door..."
     },
     {
-        "id": "1188",
-        "title": "Halloween Party",
+        "id": "3012",
+        "title": "LOCO #1 &#8211; Hasselt",
+        "date": "2025-10-04T10:00:00+00:00",
+        "venueName": "Monk Bouldergym Hasselt",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/monk.nl\/loco\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "LOCO staat voor lokale competitie, en dat is precies wat het is. Laagdrempelig (startniveau: 4), gezellig, maar wel keihard gaan op 30 nieuwe boulders in verschillende stijlen.\u00a0\nZe bouwen 30 bould..."
+    },
+    {
+        "id": "3123",
+        "title": "Setters Playground",
+        "date": "2025-10-10T00:00:00+00:00",
+        "venueName": "Boulderhal Nirvana, Den Haag",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/542539583_17899977228256451_2079378752905782226_n.jpg",
+        "link": "https:\/\/www.boulderhalnirvana.nl\/nl",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\ud83c\udf89 Setters Playground \u2013 kicking off at Nirvana! \ud83c\udf89\nAfter years of Boulders &amp; Beats, it\u2019s time for something fresh. We proudly present: Setters Playground!\nThis night is all about creati..."
+    },
+    {
+        "id": "2019",
+        "title": "Antwerp Boulder Youth Cup Manche 5",
+        "date": "2025-10-11T00:00:00+00:00",
+        "venueName": "KlimKaffee Mechelen",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/01\/Antwerpbouldercup_PosterA2_metachtergrondfoto-1448x2048-1.jpg",
+        "link": "https:\/\/antwerpboulderyouthcup.be\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\nAntwerp Boulder Youth Cup is an open, multi gym competition for all youth (2007-2016). All climbers will climb 10 boulders with a maximum of 5 attempts per boulder. With a focus on having fun, lea..."
+    },
+    {
+        "id": "3128",
+        "title": "Setters Playground Kids Edition",
+        "date": "2025-10-11T00:00:00+00:00",
+        "venueName": "Boulderhal Nirvana, Den Haag",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/542539583_17899977228256451_2079378752905782226_n.jpg",
+        "link": "https:\/\/www.boulderhalnirvana.nl\/nl",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\ud83c\udf89 Setters Playground \u2013 kicking off at Nirvana! \ud83c\udf89\nAfter years of Boulders &amp; Beats, it\u2019s time for something fresh. We proudly present: Setters Playground!\nThis night is all about creati..."
+    },
+    {
+        "id": "3069",
+        "title": "Kilter comp",
+        "date": "2025-10-11T00:00:00+00:00",
+        "venueName": "Boulderhal Kunststof, Leiden",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/XDMxykilt20comp20cut.png",
+        "link": "https:\/\/www.boulderhalkunststof.nl\/events",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\nOn the 11th of October Kunststof is organizing its first Kilterboard competition! There will be 3 categories to compete in. Grip expert (5c to 6b), Grip master (6b to 7a+), Grip legend (7a+ to 8a+..."
+    },
+    {
+        "id": "3014",
+        "title": "LOCO #1 &#8211; Rotterdam",
+        "date": "2025-10-11T10:00:00+00:00",
+        "venueName": "Monk Bouldergym Rotterdam",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/monk.nl\/loco\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "LOCO staat voor lokale competitie, en dat is precies wat het is. Laagdrempelig (startniveau: 4), gezellig, maar wel keihard gaan op 30 nieuwe boulders in verschillende stijlen.\u00a0\nZe bouwen 30 bould..."
+    },
+    {
+        "id": "2964",
+        "title": "Catch040E",
+        "date": "2025-10-24T19:30:00+00:00",
+        "venueName": "Boulder Eindhoven",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/08\/catch-eindhoven-669x272-1.webp",
+        "link": "https:\/\/boulderneoliet.nl\/nl\/eindhoven\/boulder-wedstrijd-catch040\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\nWat is Catch?\n\n\nCATCH is een lokale boulder wedstrijd, georganiseerd door Boulder in heel Nederland. Iedereen kan meedoen, en dat maakt het laagdrempelig. Maak je klaar om je grenzen te verleggen ..."
+    },
+    {
+        "id": "2529",
+        "title": "The Island Championship (TIC)",
+        "date": "2025-10-25T00:00:00+00:00",
+        "venueName": "The Island boulderzaal, Antwerpen",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\nBig International Competition\n3500,- euro prize money\n40 quali boulders\n4 final boulders\nInternational WC setters\n\n"
+    },
+    {
+        "id": "3072",
+        "title": "NOMADS",
+        "date": "2025-10-25T00:00:00+00:00",
+        "venueName": "Boulderhal Kunststof, Leiden",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/HqxdYLOGO20NOMAD.png",
+        "link": "https:\/\/www.boulderhalkunststof.nl\/events",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\nNOMADS is een reizende competitie met 8 stops, in elke hal een wedstrijd. De focus ligt opde community, laagdrempelig en plezier. Elke wedstrijd zal bestaan uit 30 boulders, zonderfinale. De punte..."
+    },
+    {
+        "id": "3116",
+        "title": "Klimmen tegen Klimaatarmoede 2025 &#8211; Nieuwegein",
+        "date": "2025-10-25T00:00:00+00:00",
+        "venueName": "Mountain Network Nieuwegein",
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/Ontwerp-zonder-titel.png",
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/width_2000_9dc09545541dbf8ff8757a151062881a60719ddc.webp",
+        "link": "https:\/\/solidaridad.kentaa.nl\/project\/nieuwegein-klimmen-tegen-klimaatarmoede-2025",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "Doe jij mee in Nieuwegein? In teamverband klimmen we 12 uur lang tegen klimaatarmoede. Laat je sponsoren en steun kleine boeren die voor extreme klimaatuitdagingen staan.\nWaarom?\u00a0De manier waarop ..."
+    },
+    {
+        "id": "3070",
+        "title": "Volwassenen Klim Series Brabant Gelderland 1",
+        "date": "2025-10-25T00:00:00+00:00",
+        "venueName": "Neoliet Eindhoven Noord",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4810",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "3073",
+        "title": "NBW",
+        "date": "2025-10-25T00:00:00+00:00",
+        "venueName": "Revolt Bouldering Gym, Delft",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4765",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "3119",
+        "title": "Klimmen tegen Klimaatarmoede 2025 &#8211; Leeuwarden",
+        "date": "2025-10-25T08:00:00+00:00",
+        "venueName": "Mountain Network Noardwand, Leeuwarden",
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/Ontwerp-zonder-titel.png",
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/width_2000_85ee800272256a6dfb10723181f1aaf784f9364b.webp",
+        "link": "https:\/\/solidaridad.kentaa.nl\/project\/leeuwarden-klimmen-tegen-klimaatarmoede-2025",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "Klim jij mee in Leeuwarden? In teamverband klimmen we 12 uur lang tegen klimaatarmoede. Laat je sponsoren en steun kleine boeren die voor extreme klimaatuitdagingen staan.\nWaarom?\u00a0De manier waarop..."
+    },
+    {
+        "id": "3074",
+        "title": "Jeugd Klim Series Brabant Gelderland 1",
         "date": "2025-10-26T00:00:00+00:00",
+        "venueName": "Neoliet Eindhoven Noord",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4804",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "3076",
+        "title": "Jeugd Boulder Series Brabant Gelderland 2",
+        "date": "2025-10-26T00:00:00+00:00",
+        "venueName": "Rijnboulder Arnhem",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/vCUAQWASBOT-NKBV-Boulder-series-jeugd.png",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4780",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nBen jij een recreatieve boulderaar tussen de 7 en 20 jaar oud, dan zijn de Jeugd Boulder Series voor jou! Deze wedstrijden worden door de NKBV georganiseerd in samenwerking met boulderhallen bij ..."
+    },
+    {
+        "id": "3165",
+        "title": "db9",
+        "date": "2025-10-31T00:00:00+00:00",
+        "venueName": "Bouldercentrum Delfts Bleau",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "http:\/\/delftsbleau.nl\/db9",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "db9 is the local competition of Bouldercentrum Delfts Bleau! A competition with 20 brand new boulders graded 5 to 7b+ , with a maximum of 9 attempts to top each of them. Scoring is based on the IFS..."
+    },
+    {
+        "id": "2511",
+        "title": "Boulderstation cup &#8211; station 3",
+        "date": "2025-10-31T19:00:00+00:00",
+        "venueName": "Boulderstation Enschede",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/03\/Boulderstationcup.jpg",
+        "link": "",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\ud835\uddd5\ud835\uddfc\ud835\ude02\ud835\uddf9\ud835\uddf1\ud835\uddf2\ud835\uddff\ud835\ude00\ud835\ude01\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb \ud835\uddd6\ud835\ude02\ud835\uddfd! \ud835\udff0 \ud835\ude00\ud835\ude01\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb\ud835\ude00, \ud835\udff0 \ud835\uddf2\ud835\uddfd\ud835\uddf6\ud835\ude00\ud835\uddf0\ud835\uddf5\ud835\uddf2 \ud835\uddff\ud835\uddfc\ud835\uddfb\ud835\uddf1\ud835\uddf2\ud835\ude00!\nVoor het eerst organiseren ..."
+    },
+    {
+        "id": "3077",
+        "title": "Jeugd Boulder 1 | U19 &#038; JU17",
+        "date": "2025-11-01T00:00:00+00:00",
+        "venueName": "Monk Bouldergym Eindhoven",
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/monklogo-BLACK_nomargin_trans-1.png",
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4769",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nDeze wedstrijd hoort bij de Nationale Jeugd Bouldercompetitie. De Nationale Jeugd Bouldercompetitie is bedoeld voor de beste jeugdboulderaars van Nederland. De competitie wordt georganiseerd door..."
+    },
+    {
+        "id": "3078",
+        "title": "Volwassenen Klim Series Limburg 2",
+        "date": "2025-11-07T00:00:00+00:00",
+        "venueName": "Neoliet Heerlen",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4800",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "2981",
+        "title": "GRIP OPEN",
+        "date": "2025-11-08T00:00:00+00:00",
+        "venueName": "GRIP Boulderhal, Nijmegen",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/www.instagram.com\/p\/DF5Y-s8xpZB\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "Safe the date! More info soon."
+    },
+    {
+        "id": "1851",
+        "title": "Defensiekampioenschap Lead 2025",
+        "date": "2025-11-12T00:00:00+00:00",
+        "venueName": "Neoliet Utrecht",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "Meer informatie volgt nog"
+    },
+    {
+        "id": "1503",
+        "title": "Radium Arcadium 2025",
+        "date": "2025-11-15T00:00:00+00:00",
+        "venueName": "Radium Boulders, Maastricht",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "Radium Arcadium 2025\nmeer informatie volgt"
+    },
+    {
+        "id": "3079",
+        "title": "Jeugd Boulder 2 | U15 &#038; MU17",
+        "date": "2025-11-15T00:00:00+00:00",
+        "venueName": "Boulderstation Enschede",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4767",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nDeze wedstrijd hoort bij de Nationale Jeugd Bouldercompetitie. De Nationale Jeugd Bouldercompetitie is bedoeld voor de beste jeugdboulderaars van Nederland. De competitie wordt georganiseerd door..."
+    },
+    {
+        "id": "3080",
+        "title": "Volwassenen Klim Series Limburg 3",
+        "date": "2025-11-21T00:00:00+00:00",
+        "venueName": "Alpamayo, Beringen",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4801",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "2974",
+        "title": "Catch020",
+        "date": "2025-11-21T19:00:00+00:00",
+        "venueName": "Boulder Amsterdam",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/08\/boulder-amsterdam-669x272-1.webp",
+        "link": "https:\/\/boulderneoliet.nl\/nl\/amsterdam\/boulder-wedstrijd-catch020\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\nWat is Catch?\n\n\nCATCH is een lokale boulder wedstrijd, georganiseerd door Boulder in heel Nederland. Iedereen kan meedoen, en dat maakt het laagdrempelig. Maak je klaar om je grenzen te verleggen ..."
+    },
+    {
+        "id": "2564",
+        "title": "The Tokyo Sessions",
+        "date": "2025-11-29T00:00:00+00:00",
+        "venueName": "",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/03\/TOKYO_SESSIONS-scaled.jpg",
+        "link": "",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "Meer info volgt"
+    },
+    {
+        "id": "3082",
+        "title": "Elevate XL Grand Finale",
+        "date": "2025-11-29T00:00:00+00:00",
+        "venueName": "Apex Boulders, Groningen",
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/09\/apex_logo.png",
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/DiQtfWhatsApp20Image202025-01-0720at2011.27.50.jpeg",
+        "link": "https:\/\/www.apexboulders.nl\/events",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\nDit is de laatste Elevate wedstrijd van 2025 en wordt onze grootste wedstrijd ooit! We doen een volledige\u00a0reset van de hal, bouwen 40 boulders m\u00e9t spectaculaire finale met de beste klimmers va N..."
+    },
+    {
+        "id": "3083",
+        "title": "Jeugd Boulder 2 | U19 &#038; JU17",
+        "date": "2025-11-29T00:00:00+00:00",
+        "venueName": "Rijnboulder Arnhem",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4770",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nDeze wedstrijd hoort bij de Nationale Jeugd Bouldercompetitie. De Nationale Jeugd Bouldercompetitie is bedoeld voor de beste jeugdboulderaars van Nederland. De competitie wordt georganiseerd door..."
+    },
+    {
+        "id": "3084",
+        "title": "Volwassenen Klim Series Limburg 4",
+        "date": "2025-12-12T00:00:00+00:00",
+        "venueName": "IVY Climbing, Sittard",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4802",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "2513",
+        "title": "Boulderstation cup &#8211; station 4",
+        "date": "2025-12-12T19:00:00+00:00",
+        "venueName": "Boulderstation Enschede",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/03\/Boulderstationcup.jpg",
+        "link": "",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\ud835\uddd5\ud835\uddfc\ud835\ude02\ud835\uddf9\ud835\uddf1\ud835\uddf2\ud835\uddff\ud835\ude00\ud835\ude01\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb \ud835\uddd6\ud835\ude02\ud835\uddfd! \ud835\udff0 \ud835\ude00\ud835\ude01\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb\ud835\ude00, \ud835\udff0 \ud835\uddf2\ud835\uddfd\ud835\uddf6\ud835\ude00\ud835\uddf0\ud835\uddf5\ud835\uddf2 \ud835\uddff\ud835\uddfc\ud835\uddfb\ud835\uddf1\ud835\uddf2\ud835\ude00!\nVoor het eerst organiseren ..."
+    },
+    {
+        "id": "2905",
+        "title": "Jeugd Open 2025",
+        "date": "2025-12-13T00:00:00+00:00",
+        "venueName": "Monk Bouldergym Eindhoven",
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/monklogo-BLACK_nomargin_trans-1.png",
+        "imageUrl": "",
+        "link": "",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "Zet 13 december alvast in je agenda! Tijd voor Jeugd Open, onze wedstrijd speciaal voor jeugd. Met pannenkoekenbakkers, kerstmutsen, schmink, en met natuurlijk weer hele speciale wedstrijdonderdele..."
+    },
+    {
+        "id": "3086",
+        "title": "8 JAAR &#8211; ENERGIEHAVEN ANNIVERSARY",
+        "date": "2025-12-13T00:00:00+00:00",
+        "venueName": "Boulderhal Energiehaven, Utrecht",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/ZdYB3HAPPY208TH20ANNIVERSARY2028129.png",
+        "link": "https:\/\/www.boulderhalenergiehaven.nl\/events",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\nMore info about our NOMADS competition coming soon!\n"
+    },
+    {
+        "id": "3087",
+        "title": "UIAA Ice Climbing Continental Cup Utrecht 2025",
+        "date": "2025-12-13T00:00:00+00:00",
+        "venueName": "Sportcentrum Olympos (Kalymnos), Utrecht",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4794",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "3089",
+        "title": "Jeugd Boulder Series Brabant Gelderland 4",
+        "date": "2025-12-13T00:00:00+00:00",
+        "venueName": "GRIP Boulderhal, Nijmegen",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/Y6kCIWASBOT-NKBV-Boulder-series-jeugd.png",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4781",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nBen jij een recreatieve boulderaar tussen de 7 en 20 jaar oud, dan zijn de Jeugd Boulder Series voor jou! Deze wedstrijden worden door de NKBV georganiseerd in samenwerking met boulderhallen bij ..."
+    },
+    {
+        "id": "3091",
+        "title": "RUST DUST 2025\/2026",
+        "date": "2025-12-19T00:00:00+00:00",
         "venueName": "Boulderhal Roest, Zwolle",
         "venueImage": null,
-        "imageUrl": "https:\/\/staging.klimkalender.nl\/wp-content\/uploads\/2024\/10\/6Hwe412312231eqsd.jpg",
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/C3KsbRustDust_Logo_Rood_Thumbnail20copy2028129.png",
         "link": "https:\/\/www.boulderhalroest.nl\/events",
-        "tags": [],
-        "featuredText": "\nDe Halloween Party komt er weer aan!\u00a0\n\u00a0\nKom verkleed\n\u00a0\nReguliere entree prijs, rest van de info volgt nog\n"
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\nRust Dust is back!\nDe 2025\/2026 versie is terug en gaat van start op 26 september 2025 vanaf 19:30u!\nDeel 2 zal plaatsvinden op 19 december 2025.\nDe laatste editie inclusief finale wordt gehouden ..."
     },
     {
-        "id": "1304",
-        "title": "VOLUME x HALLOWEEN",
-        "date": "2025-11-01T00:00:00+00:00",
-        "venueName": "Boulderhal Krachtstof, Leiden",
+        "id": "3093",
+        "title": "Jeugd Boulder Series Brabant Gelderland 5",
+        "date": "2026-01-17T00:00:00+00:00",
+        "venueName": "Block013, Tilburg",
         "venueImage": null,
-        "imageUrl": "https:\/\/staging.klimkalender.nl\/wp-content\/uploads\/2024\/11\/aEp3lVolume20square.jpg",
-        "link": "https:\/\/www.boulderhalkrachtstof.nl\/events",
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/szv4mWASBOT-NKBV-Boulder-series-jeugd.png",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4782",
         "tags": [
-            "OTHER"
+            "BOULDER"
         ],
-        "featuredText": "\nTerug van weggeweest: VOLUME. Op 1 november kun je weer klimmen in het donker, met geweldige boulders, live DJ&#8217;s, rookmachines, lasers, alles. \u00c9n meer! Want dit keer is de halloween editie ..."
+        "featuredText": "\n\nBen jij een recreatieve boulderaar tussen de 7 en 20 jaar oud, dan zijn de Jeugd Boulder Series voor jou! Deze wedstrijden worden door de NKBV georganiseerd in samenwerking met boulderhallen bij ..."
+    },
+    {
+        "id": "3094",
+        "title": "Dock Masters 2026",
+        "date": "2026-01-17T00:00:00+00:00",
+        "venueName": "Boulderhal Energiehaven, Utrecht",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4773",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "3095",
+        "title": "Volwassenen Klim Series Brabant Gelderland 2",
+        "date": "2026-01-24T00:00:00+00:00",
+        "venueName": "Klimcentrum Yellow Stone, Roosendaal",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4811",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "3096",
+        "title": "Jeugd Klim Series Brabant Gelderland 2",
+        "date": "2026-01-25T00:00:00+00:00",
+        "venueName": "Klimcentrum Yellow Stone, Roosendaal",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4815",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "3017",
+        "title": "LOCO #2 &#8211; Hilversum",
+        "date": "2026-01-31T10:00:00+00:00",
+        "venueName": "Monk Hilversum",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/monk.nl\/loco\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "LOCO staat voor lokale competitie, en dat is precies wat het is. Laagdrempelig (startniveau: 4), gezellig, maar wel keihard gaan op 30 nieuwe boulders in verschillende stijlen.\u00a0\nZe bouwen 30 bould..."
+    },
+    {
+        "id": "3097",
+        "title": "Open BK\/NK Boulder 2026 | Zaterdag",
+        "date": "2026-02-07T00:00:00+00:00",
+        "venueName": "Klimzaal Blok, Antwerpen",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4768",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nDeze wedstrijd hoort bij de Nationale Bouldercompetitie. De Nationale Bouldercompetitie is bedoeld voor de beste boulderaars van Nederland vanaf 17 jaar (U19). De competitie wordt georganiseerd d..."
+    },
+    {
+        "id": "3019",
+        "title": "LOCO #2 &#8211; Hasselt",
+        "date": "2026-02-07T10:00:00+00:00",
+        "venueName": "Monk Bouldergym Hasselt",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/monk.nl\/loco\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "LOCO staat voor lokale competitie, en dat is precies wat het is. Laagdrempelig (startniveau: 4), gezellig, maar wel keihard gaan op 30 nieuwe boulders in verschillende stijlen.\u00a0\nZe bouwen 30 bould..."
+    },
+    {
+        "id": "3099",
+        "title": "Open BK\/NK Boulder 2026 | Zondag (prov)",
+        "date": "2026-02-08T00:00:00+00:00",
+        "venueName": "De Waagnatie",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4774",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\nDeze wedstrijd hoort bij de Nationale Bouldercompetitie. De Nationale Bouldercompetitie is bedoeld voor de beste boulderaars van Nederland vanaf 17 jaar (U19). De competitie wordt georganiseerd do..."
+    },
+    {
+        "id": "3101",
+        "title": "Volwassenen Klim Series Brabant Gelderland 3",
+        "date": "2026-02-21T00:00:00+00:00",
+        "venueName": "Stadsmuur Nijmegen",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4812",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "3102",
+        "title": "Jeugd Klim Series Brabant Gelderland 3",
+        "date": "2026-02-22T00:00:00+00:00",
+        "venueName": "Stadsmuur Nijmegen",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4816",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "2403",
+        "title": "Local Hero",
+        "date": "2026-02-28T00:00:00+00:00",
+        "venueName": "Klimzaal De Stordeur, Wilsele",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/cmbel.shiftf5.be\/competitions\/4656",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\nOnderstaande informatie is automatisch overgenomen uit het de wedstrijdkalender van CMBel. Let op: kijk voor de meest actuele informatie altijd op de pagina van CMBel via de link bij deze wedstrij..."
+    },
+    {
+        "id": "3104",
+        "title": "Jeugd Boulder Series Brabant Gelderland 6",
+        "date": "2026-02-28T00:00:00+00:00",
+        "venueName": "Boulderhal Bossche Boulders, 's-Hertogenbosch",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/YWCFQWASBOT-NKBV-Boulder-series-jeugd.png",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4783",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nBen jij een recreatieve boulderaar tussen de 7 en 20 jaar oud, dan zijn de Jeugd Boulder Series voor jou! Deze wedstrijden worden door de NKBV georganiseerd in samenwerking met boulderhallen bij ..."
+    },
+    {
+        "id": "3021",
+        "title": "LOCO #2 &#8211; Rotterdam",
+        "date": "2026-02-28T10:00:00+00:00",
+        "venueName": "Monk Bouldergym Rotterdam",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/monk.nl\/loco\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "LOCO staat voor lokale competitie, en dat is precies wat het is. Laagdrempelig (startniveau: 4), gezellig, maar wel keihard gaan op 30 nieuwe boulders in verschillende stijlen.\u00a0\nZe bouwen 30 bould..."
+    },
+    {
+        "id": "3105",
+        "title": "NJK Boulder 2026",
+        "date": "2026-03-07T00:00:00+00:00",
+        "venueName": "Boulderhal De Campus, Den Haag",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4771",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nDeze wedstrijd hoort bij de Nationale Bouldercompetitie. De Nationale Bouldercompetitie is bedoeld voor de beste boulderaars van Nederland vanaf 17 jaar (U19). De competitie wordt georganiseerd d..."
+    },
+    {
+        "id": "3023",
+        "title": "LOCO #2 &#8211; Eindhoven",
+        "date": "2026-03-07T10:00:00+00:00",
+        "venueName": "Monk Bouldergym Eindhoven",
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/monklogo-BLACK_nomargin_trans-1.png",
+        "imageUrl": "",
+        "link": "https:\/\/monk.nl\/loco\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "LOCO staat voor lokale competitie, en dat is precies wat het is. Laagdrempelig (startniveau: 4), gezellig, maar wel keihard gaan op 30 nieuwe boulders in verschillende stijlen.\u00a0\nZe bouwen 30 bould..."
+    },
+    {
+        "id": "3106",
+        "title": "Volwassenen Klim Series Brabant Gelderland 4",
+        "date": "2026-03-14T00:00:00+00:00",
+        "venueName": "Locatie nog niet bekend",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4813",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "3025",
+        "title": "LOCO #2 &#8211; Amsterdam",
+        "date": "2026-03-14T10:00:00+00:00",
+        "venueName": "Monk Bouldergym Amsterdam",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/monk.nl\/loco\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "LOCO staat voor lokale competitie, en dat is precies wat het is. Laagdrempelig (startniveau: 4), gezellig, maar wel keihard gaan op 30 nieuwe boulders in verschillende stijlen.\u00a0\nZe bouwen 30 bould..."
+    },
+    {
+        "id": "3107",
+        "title": "Jeugd Klim Series Brabant Gelderland 4",
+        "date": "2026-03-15T00:00:00+00:00",
+        "venueName": "Locatie nog niet bekend",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4817",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "3109",
+        "title": "Jeugd Boulder Series Brabant Gelderland 7",
+        "date": "2026-04-11T00:00:00+00:00",
+        "venueName": "Locatie nog niet bekend",
+        "venueImage": null,
+        "imageUrl": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/9vequWASBOT-NKBV-Boulder-series-jeugd.png",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4784",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "\n\nBen jij een recreatieve boulderaar tussen de 7 en 20 jaar oud, dan zijn de Jeugd Boulder Series voor jou! Deze wedstrijden worden door de NKBV georganiseerd in samenwerking met boulderhallen bij ..."
+    },
+    {
+        "id": "3028",
+        "title": "LOCO #3 &#8211; Hasselt",
+        "date": "2026-05-30T10:00:00+00:00",
+        "venueName": "Monk Bouldergym Hasselt",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/monk.nl\/loco\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "LOCO staat voor lokale competitie, en dat is precies wat het is. Laagdrempelig (startniveau: 4), gezellig, maar wel keihard gaan op 30 nieuwe boulders in verschillende stijlen.\u00a0\nZe bouwen 30 bould..."
+    },
+    {
+        "id": "3110",
+        "title": "Volwassenen Klim Series Brabant Gelderland 5",
+        "date": "2026-06-06T00:00:00+00:00",
+        "venueName": "Locatie nog niet bekend",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4814",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\n\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze we..."
+    },
+    {
+        "id": "3050",
+        "title": "Jeugd Klim Serie Brabant Gelderland 5",
+        "date": "2026-06-07T00:00:00+00:00",
+        "venueName": "Neoliet Eindhoven Noord",
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
+        "imageUrl": "",
+        "link": "https:\/\/was.nkbv.nl\/competitions\/4818",
+        "tags": [
+            "LEAD"
+        ],
+        "featuredText": "\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze wed..."
+    },
+    {
+        "id": "3030",
+        "title": "LOCO #3 &#8211; Amsterdam",
+        "date": "2026-06-13T10:00:00+00:00",
+        "venueName": "Monk Bouldergym Amsterdam",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/monk.nl\/loco\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "LOCO staat voor lokale competitie, en dat is precies wat het is. Laagdrempelig (startniveau: 4), gezellig, maar wel keihard gaan op 30 nieuwe boulders in verschillende stijlen.\u00a0\nZe bouwen 30 bould..."
+    },
+    {
+        "id": "3032",
+        "title": "LOCO #3 &#8211; Hilversum",
+        "date": "2026-06-20T10:00:00+00:00",
+        "venueName": "Monk Hilversum",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/monk.nl\/loco\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "LOCO staat voor lokale competitie, en dat is precies wat het is. Laagdrempelig (startniveau: 4), gezellig, maar wel keihard gaan op 30 nieuwe boulders in verschillende stijlen.\u00a0\nZe bouwen 30 bould..."
+    },
+    {
+        "id": "3034",
+        "title": "LOCO #3 &#8211; Eindhoven",
+        "date": "2026-07-04T10:00:00+00:00",
+        "venueName": "Monk Bouldergym Eindhoven",
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/monklogo-BLACK_nomargin_trans-1.png",
+        "imageUrl": "",
+        "link": "https:\/\/monk.nl\/loco\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "LOCO staat voor lokale competitie, en dat is precies wat het is. Laagdrempelig (startniveau: 4), gezellig, maar wel keihard gaan op 30 nieuwe boulders in verschillende stijlen.\u00a0\nZe bouwen 30 bould..."
+    },
+    {
+        "id": "3036",
+        "title": "LOCO #3 &#8211; Rotterdam",
+        "date": "2026-07-11T10:00:00+00:00",
+        "venueName": "Monk Bouldergym Rotterdam",
+        "venueImage": null,
+        "imageUrl": "",
+        "link": "https:\/\/monk.nl\/loco\/",
+        "tags": [
+            "BOULDER"
+        ],
+        "featuredText": "LOCO staat voor lokale competitie, en dat is precies wat het is. Laagdrempelig (startniveau: 4), gezellig, maar wel keihard gaan op 30 nieuwe boulders in verschillende stijlen.\u00a0\nZe bouwen 30 bould..."
     }
 ]
