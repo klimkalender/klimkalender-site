@@ -3,7 +3,7 @@ import EventCard from './components/event-card';
 import { startOfISOWeek, endOfISOWeek, getISOWeek } from 'date-fns';
 import Fuse from "fuse.js";
 import { AnimatePresence, motion } from 'motion/react';
-import React, { Fragment, useEffect, useMemo, useState } from "react";
+import React, { Fragment, useEffect, useMemo, useState, useRef } from "react";
 import Select from 'react-select';
 
 type EventType = {
@@ -41,6 +41,13 @@ function App() {
   const [searchResults, setSearchResults] = useState<EventType[]>([]);
   const [searchTerm, setSearchTerm] = useState<string | null>(null);
   const [category, setCategory] = useState<string>('all');
+  const inputRef = useRef<HTMLInputElement | null>(null);
+
+  const scrollWithUseRef = () => {
+    console.log('scrolling');
+    console.log(inputRef.current);
+    inputRef.current?.scrollIntoView({ block: "center", behavior: "smooth" });
+  };
 
   useEffect(() => {
     fetch('/klimkalender-site/events.json')
@@ -147,7 +154,7 @@ function App() {
         </div>
       </section>
 
-      <div className="toolbar-wrap">
+      <div className="toolbar-wrap" ref={inputRef}>
         <div className="toolbar">
           <div className="toolbar-card">
             <div className="toolbar-row">
@@ -155,7 +162,7 @@ function App() {
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                   <path d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z" stroke="#5a7d8a" strokeWidth="2" strokeLinecap="round" />
                 </svg>
-                <input type="search" placeholder="Zoek op wedstrijd, hal of plaats…" aria-label="Zoek in wedstrijden" onChange={handleTextSearch} onReset={handleTextSearch} />
+                <input type="search" placeholder="Zoek op wedstrijd, hal of plaats…" aria-label="Zoek in wedstrijden" onChange={handleTextSearch} onReset={handleTextSearch} onClick={scrollWithUseRef} />
               </div>
               <div className="type-filter">
                 <Select
