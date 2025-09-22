@@ -48,6 +48,7 @@ nav a:hover { background:#eef7f6; }
 .view-toggle { display:flex; gap:6px; background:#f2f7fb; border:1px solid #d9e6ef; padding:4px; border-radius:12px; }
 .view-toggle button { border:none; background:transparent; padding:8px 12px; border-radius:8px; font-weight:800; color:#2b5870; cursor:pointer; }
 .view-toggle button[aria-pressed="true"] { background:#fff; border:1px solid #cfe0ea; box-shadow:0 1px 3px rgba(0,0,0,.06); color:#0f4c9a; }
+.view-list { min-height: 600px;}
 
 .year-title { font-size: 28px; font-weight: 800; margin: 24px 0 24px; color: #0b6e67; }
 
