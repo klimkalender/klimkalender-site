@@ -532,10 +532,11 @@
         "title": "Jeugd Boulder Series Brabant Gelderland 5",
         "date": "2026-01-17T00:00:00+00:00",
         "venueName": "Block013, Tilburg",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4782",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
