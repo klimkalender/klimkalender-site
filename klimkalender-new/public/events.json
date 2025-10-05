@@ -184,10 +184,11 @@
         "title": "Jeugd Klim Series Brabant Gelderland 1",
         "date": "2025-10-26T00:00:00+00:00",
         "venueName": "Neoliet Eindhoven Noord",
-        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/10\/neoliet_eindhoven.png",
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4804",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -565,10 +566,11 @@
         "title": "Jeugd Klim Series Brabant Gelderland 2",
         "date": "2026-01-25T00:00:00+00:00",
         "venueName": "Klimcentrum Yellow Stone, Roosendaal",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4815",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
