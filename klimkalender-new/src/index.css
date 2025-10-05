@@ -183,7 +183,7 @@ nav a:hover { background:#eef7f6; }
 .grid { display:grid; grid-template-columns: 1fr; gap:14px; }
 @media (min-width: 860px) { .grid { grid-template-columns: 1fr 1fr; } }
 
-.card { display:grid; grid-template-columns: 100px 1fr; gap:12px; background:var(--card); border:1px solid #e4eef2; border-radius:14px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,.04); transition: transform .15s ease, box-shadow .15s ease; }
+.card { display:grid; grid-template-columns: 100px 1fr; gap:12px; background:var(--card); border:1px solid #e4eef2; border-radius:14px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,.04); transition: transform .15s ease, box-shadow .15s ease;  cursor: pointer; }
 .card:hover { transform: translateY(-1px); box-shadow:0 10px 22px rgba(0,0,0,.08); }
 .logo-col { background:#f5fafb; display:flex; align-items:center; justify-content:center; }
 .logo-col img { width:80%; height:80%; object-fit:contain; }

@@ -16,7 +16,7 @@ function formatEventDate(date: Date) {
 }
 
 function SmallCard({ event }: { event: CalendarEvent }) {
-  return <article className="card">
+  return <article className="card" onClick={() => window.open(event.link, '_blank')}>
     <div className="logo-col">
       <img src={event.venueImage || './images/venue/no-image.png'} alt="hal logo" />
     </div>

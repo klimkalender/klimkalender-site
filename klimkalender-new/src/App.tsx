@@ -240,7 +240,7 @@ function App() {
       <footer id="over-ons" className="container" style={{ paddingTop: "24px", paddingBottom: "24px", color: "#35545f" }}>
         <hr style={{ border: "none", borderTop: "1px solid #e1eceb", marginBottom: "12px" }} />
         <h2 style={{ margin: "6px 0 6px", fontSize: "18px" }}>&copy; Klimkalender 2025</h2>
-        <p style={{ margin: "0" }}>Klimkalender is een niet‑commercieel initiatief van en voor wedstrijdklimmers. Tip ons gerust over een ontbrekende wedstrijd!</p>
+        <p style={{ margin: "0" }}>Klimkalender is een niet‑commercieel initiatief van en voor wedstrijdklimmers. Tip ons gerust over via instagram <a href="https://www.instagram.com/klimkalender/">@klimkalender</a> over een ontbrekende wedstrijd!</p>
       </footer>
     </>
   )

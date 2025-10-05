@@ -8,7 +8,7 @@ interface InfoModalProps {
 const InfoModal: React.FC<InfoModalProps> = ({ open, onClose }) => {
   if (!open) return null;
   return (
-    <div className="info-modal-overlay" onClick={onClose}>
+    <div className="info-modal-overlay" onClick={(e) => { e.stopPropagation(); onClose(); }}>
       <div className="info-modal" onClick={e => e.stopPropagation()}>
 
         <button
