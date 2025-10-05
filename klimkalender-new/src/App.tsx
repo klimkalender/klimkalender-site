@@ -136,17 +136,21 @@ function App() {
 
   return (
     <>
+     <div className="header-wrap">
       <header className="site" aria-label="Site header">
         <div className="left">
           <img className="logo" src="/klimkalender-site/images/logo.png" alt="Klimkalender logo" />
+
+        </div>
+        <div className="right" style={{ display: "flex", gap: "12px", alignItems: "center" }}>
           <nav aria-label="Hoofdmenu">
             <a href="#over-ons" id="nav-about">Over ons</a>
           </nav>
         </div>
-        <div className="right" style={{ display: "flex", gap: "12px", alignItems: "center" }}></div>
       </header>
+      </div>
 
-      <section className="hero-wrap" aria-label="Intro">
+      {/* <section className="hero-wrap" aria-label="Intro">
         <div className="hero-inner">
           <figure className="hero-photo">
             <img src="/klimkalender-site/images/hero.jpeg" alt="Klimmer die een overhangende boulder beklimt in een klimhal" />
@@ -157,7 +161,7 @@ function App() {
             <p>Elke week worden er in Nederland wedstrijden georganiseerd. Op Klimkalender vind je ze allemaal bij elkaar: van lokale fun-comps tot officiële NKBV-wedstrijden. We zijn een initiatief van enthousiaste wedstrijdklimmers en volledig niet‑commercieel. Mis je een wedstrijd? Laat het ons weten!</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <div className="toolbar-wrap">
         <div className="toolbar">
@@ -191,7 +195,7 @@ function App() {
         </div>
       </div>
       <main >
-        <span style={{ position: "absolute", top: "370px", left: 0 }} ref={inputRef}></span>
+        <span style={{ position: "absolute", top: "0px", left: 0 }} ref={inputRef}></span>
         <section className="container view-list" aria-label="Kalenderweergave" >
 
  
@@ -224,7 +228,7 @@ function App() {
       </main>
       <footer id="over-ons" className="container" style={{ paddingTop: "24px", paddingBottom: "24px", color: "#35545f" }}>
         <hr style={{ border: "none", borderTop: "1px solid #e1eceb", marginBottom: "12px" }} />
-        <h2 style={{ margin: "6px 0 6px", fontSize: "18px" }}>Over ons</h2>
+        <p style={{ margin: "6px 0 6px", fontWeight: "bold" }}>&copy; Klimkalender 2025.</p>
         <p style={{ margin: "0" }}>Klimkalender is een niet‑commercieel initiatief van en voor wedstrijdklimmers. Tip ons gerust over een ontbrekende wedstrijd!</p>
       </footer>
     </>
