@@ -34,6 +34,12 @@ nav a:hover { background:#eef7f6; }
 .toolbar-wrap { position: relative; scroll-margin-top: -340px;}
 @media (max-width: 760px)  { .toolbar-wrap { position: relative; scroll-margin-top: -220px;}}
 
+.toolbar-wrap {
+  position: sticky; 
+  top: 78px;       
+  z-index: 1000;  
+  background-color: white;
+}
 .toolbar { max-width:1100px; margin: -12px auto 8px; padding: 0 20px; }
 .toolbar-card { background: var(--toolbar-bg); border:1px solid #dbe9ee; border-radius:16px; box-shadow: 0 10px 24px rgba(0,0,0,.06); padding: 10px; }
 .toolbar-row { display:grid; grid-template-columns: 1fr auto auto; gap:10px; align-items:center; }

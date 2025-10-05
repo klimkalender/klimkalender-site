@@ -23,8 +23,12 @@ type EventType = {
 const options = {
   includeScore: true,
   includeMatches: true,
+  isCaseSensitive: false,
+  findAllMatches: true,
+  ignoreLocation: true,
+  useExtendedSearch: true,
   threshold: 0.2,
-  keys: ["title", "venueName", "tags"],
+  keys: [{ name: 'searchField', getFn: (event: EventType) => event.title + ' ' + event.venueName + ' ' + event.tags.join(' ')}]
 }
 
 const categoryOptions: readonly { value: string, label: string }[] = [
@@ -46,7 +50,7 @@ function App() {
   const scrollWithUseRef = () => {
     console.log('scrolling');
     console.log(inputRef.current);
-    inputRef.current?.scrollIntoView({ block: "center", behavior: "smooth" });
+    inputRef.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
   };
 
   useEffect(() => {
@@ -93,6 +97,7 @@ function App() {
     const { value } = event.target;
 
     setSearchTerm(value || '');
+    scrollWithUseRef();
 
   };
 
@@ -154,7 +159,7 @@ function App() {
         </div>
       </section>
 
-      <div className="toolbar-wrap" ref={inputRef}>
+      <div className="toolbar-wrap">
         <div className="toolbar">
           <div className="toolbar-card">
             <div className="toolbar-row">
@@ -162,7 +167,7 @@ function App() {
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                   <path d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z" stroke="#5a7d8a" strokeWidth="2" strokeLinecap="round" />
                 </svg>
-                <input type="search" placeholder="Zoek op wedstrijd, hal of plaats…" aria-label="Zoek in wedstrijden" onChange={handleTextSearch} onReset={handleTextSearch} onClick={scrollWithUseRef} />
+                <input type="search" placeholder="Zoek op wedstrijd, hal of plaats…" aria-label="Zoek in wedstrijden" onChange={handleTextSearch} onReset={handleTextSearch} />
               </div>
               <div className="type-filter">
                 <Select
@@ -176,16 +181,20 @@ function App() {
                <button type="button" role="tab" aria-selected="false" aria-pressed="false">Kaart</button>
               </div> */}
             </div>
-          </div>
-        </div>
-      </div>
-      <main>
-        <section className="container view-list" aria-label="Kalenderweergave">
-
+            <div>
           {searchResults.length === 0 && <motion.p initial={{ opacity: 0, fontWeight: "normal" }} animate={{ opacity: 1, fontWeight: "bold" }} transition={{ duration: 0.5, delay: 0.1 }}>Geen wedstrijden gevonden.</motion.p>}
           {searchResults.length === 1 && <motion.p initial={{ opacity: 0, fontWeight: "normal" }} animate={{ opacity: 1, fontWeight: "bold" }} transition={{ duration: 0.5, delay: 0.1 }}>{searchResults.length} {searchResults.length === 1 ? 'wedstrijd' : 'wedstrijden'} gevonden.</motion.p>}
           {searchResults.length > 1 && <motion.p initial={{ opacity: 0, fontWeight: "normal" }} animate={{ opacity: 1, fontWeight: "bold" }} transition={{ duration: 0.5, delay: 0.1 }}>{searchResults.length} {searchResults.length === 1 ? 'wedstrijd' : 'wedstrijden'} gevonden.</motion.p>}
 
+            </div>
+          </div>
+        </div>
+      </div>
+      <main >
+        <span style={{ position: "absolute", top: "370px", left: 0 }} ref={inputRef}></span>
+        <section className="container view-list" aria-label="Kalenderweergave" >
+
+ 
           <AnimatePresence>
             {groupedEvents.map((yearGroup: YearGroup) => {
               return <Fragment key={yearGroup.year}><div className="year-title" aria-label="Jaar">{yearGroup.year}</div>
