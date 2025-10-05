@@ -1,3 +1,4 @@
+import InfoIcon from './components/InfoIcon';
 import './App.css'
 import EventCard from './components/event-card';
 import { startOfISOWeek, endOfISOWeek, getISOWeek } from 'date-fns';
@@ -140,11 +141,14 @@ function App() {
       <header className="site" aria-label="Site header">
         <div className="left">
           <img className="logo" src="/klimkalender-site/images/logo.png" alt="Klimkalender logo" />
+        </div>
+        <div className="right">
           <nav aria-label="Hoofdmenu">
-            <a href="#over-ons" id="nav-about">Over ons</a>
+            <a id="nav-about" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+              <InfoIcon />
+            </a>
           </nav>
         </div>
-        <div className="right" style={{ display: "flex", gap: "12px", alignItems: "center" }}></div>
       </header>
       </div>
 {/* 
@@ -226,7 +230,7 @@ function App() {
       </main>
       <footer id="over-ons" className="container" style={{ paddingTop: "24px", paddingBottom: "24px", color: "#35545f" }}>
         <hr style={{ border: "none", borderTop: "1px solid #e1eceb", marginBottom: "12px" }} />
-        <h2 style={{ margin: "6px 0 6px", fontSize: "18px" }}>Over ons</h2>
+        <h2 style={{ margin: "6px 0 6px", fontSize: "18px" }}>&copy; Klimkalender 2025</h2>
         <p style={{ margin: "0" }}>Klimkalender is een niet‑commercieel initiatief van en voor wedstrijdklimmers. Tip ons gerust over een ontbrekende wedstrijd!</p>
       </footer>
     </>
