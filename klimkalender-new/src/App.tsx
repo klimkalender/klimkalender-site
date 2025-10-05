@@ -136,6 +136,7 @@ function App() {
 
   return (
     <>
+    <div className='header-wrapper'>
       <header className="site" aria-label="Site header">
         <div className="left">
           <img className="logo" src="/klimkalender-site/images/logo.png" alt="Klimkalender logo" />
@@ -145,7 +146,8 @@ function App() {
         </div>
         <div className="right" style={{ display: "flex", gap: "12px", alignItems: "center" }}></div>
       </header>
-
+      </div>
+{/* 
       <section className="hero-wrap" aria-label="Intro">
         <div className="hero-inner">
           <figure className="hero-photo">
@@ -157,7 +159,7 @@ function App() {
             <p>Elke week worden er in Nederland wedstrijden georganiseerd. Op Klimkalender vind je ze allemaal bij elkaar: van lokale fun-comps tot officiële NKBV-wedstrijden. We zijn een initiatief van enthousiaste wedstrijdklimmers en volledig niet‑commercieel. Mis je een wedstrijd? Laat het ons weten!</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <div className="toolbar-wrap">
         <div className="toolbar">
@@ -191,7 +193,7 @@ function App() {
         </div>
       </div>
       <main >
-        <span style={{ position: "absolute", top: "370px", left: 0 }} ref={inputRef}></span>
+        <span style={{ position: "absolute", top: "10px", left: 0 }} ref={inputRef}></span>
         <section className="container view-list" aria-label="Kalenderweergave" >
 
  
