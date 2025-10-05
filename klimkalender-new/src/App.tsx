@@ -1,4 +1,5 @@
 import InfoIcon from './components/InfoIcon';
+import InfoModal from './components/InfoModal';
 import './App.css'
 import EventCard from './components/event-card';
 import { startOfISOWeek, endOfISOWeek, getISOWeek } from 'date-fns';
@@ -41,6 +42,7 @@ const categoryOptions: readonly { value: string, label: string }[] = [
 
 
 function App() {
+  const [showInfo, setShowInfo] = useState(false);
 
   const [events, setEvents] = useState<EventType[]>([]);
   const [searchResults, setSearchResults] = useState<EventType[]>([]);
@@ -136,20 +138,27 @@ function App() {
 
 
   return (
-    <>
-    <div className='header-wrapper'>
-      <header className="site" aria-label="Site header">
-        <div className="left">
-          <img className="logo" src="/klimkalender-site/images/logo.png" alt="Klimkalender logo" />
-        </div>
-        <div className="right">
-          <nav aria-label="Hoofdmenu">
-            <a id="nav-about" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-              <InfoIcon />
-            </a>
-          </nav>
-        </div>
-      </header>
+    <>  
+      <InfoModal open={showInfo} onClose={() => setShowInfo(false)} />
+      <div className='header-wrapper'>
+        <header className="site" aria-label="Site header">
+          <div className="left">
+            <img className="logo" src="/klimkalender-site/images/logo.png" alt="Klimkalender logo" />
+          </div>
+          <div className="right">
+            <nav aria-label="Hoofdmenu">
+              <button
+                id="nav-about"
+                type="button"
+                style={{ display: 'flex', alignItems: 'center', gap: '4px', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
+                onClick={(e) => {e.stopPropagation(); setShowInfo(true)}}
+                aria-label="Over Klimkalender"
+              >
+                <InfoIcon />
+              </button>
+            </nav>
+          </div>
+        </header>
       </div>
 {/* 
       <section className="hero-wrap" aria-label="Intro">
