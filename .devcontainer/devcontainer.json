@@ -1,8 +1,11 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.195.0/containers/javascript-node
 {
-  "name": "cloud-core",
-  "dockerComposeFile": ["../docker-compose.yml", "docker-compose.extend.yml"],
+  "name": "klimkalender-react",
+  "dockerComposeFile": [
+    "../docker-compose.yml",
+    "docker-compose.extend.yml"
+  ],
   "service": "dev",
   // "build": {
   //   "dockerfile": "Dockerfile",
@@ -29,7 +32,10 @@
         "git.postCommitCommand": "push",
         "css.validate": false,
         "scss.validate": false,
-        "stylelint.validate": ["css", "scss"],
+        "stylelint.validate": [
+          "css",
+          "scss"
+        ],
         "typescript.preferences.includePackageJsonAutoImports": "on"
       },
       // Add the IDs of extensions you want installed when the container is created.
