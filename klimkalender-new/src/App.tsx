@@ -1,4 +1,5 @@
 import './App.css'
+import HamburgerMenu from './components/HamburgerMenu';
 import EventCard from './components/event-card';
 import { startOfISOWeek, endOfISOWeek, getISOWeek } from 'date-fns';
 import Fuse from "fuse.js";
@@ -143,9 +144,7 @@ function App() {
 
         </div>
         <div className="right" style={{ display: "flex", gap: "12px", alignItems: "center" }}>
-          <nav aria-label="Hoofdmenu">
-            <a href="#over-ons" id="nav-about">Over ons</a>
-          </nav>
+            <HamburgerMenu />
         </div>
       </header>
       </div>
