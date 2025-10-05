@@ -37,7 +37,7 @@ nav a:hover { background:#eef7f6; }
 .toolbar-wrap {
   position: sticky; 
   top: 78px;       
-  z-index: 1000;  
+  z-index: 10;  
   background-color: white;
 }
 .toolbar { max-width:1100px; margin: -12px auto 8px; padding: 0 20px; }
