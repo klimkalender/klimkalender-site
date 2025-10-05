@@ -1,60 +1,5 @@
 [
     {
-        "id": "1907",
-        "title": "Rhino Rampage 2025",
-        "date": "2025-10-04T00:00:00+00:00",
-        "venueName": "Rhino Boulder Gym, Gent",
-        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/09\/rhino.png",
-        "link": "https:\/\/cmbel.shiftf5.be\/competitions\/4628",
-        "tags": [
-            "BOULDER"
-        ]
-    },
-    {
-        "id": "3066",
-        "title": "Zuidgraad 2025",
-        "date": "2025-10-04T00:00:00+00:00",
-        "venueName": "Boulderhal Zuidhaven, Utrecht",
-        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/08\/zuidhaven-1.png",
-        "link": "https:\/\/www.boulderhalzuidhaven.nl\/events",
-        "tags": [
-            "BOULDER"
-        ]
-    },
-    {
-        "id": "3067",
-        "title": "Jeugd Boulder 1 | U15 &#038; MU17",
-        "date": "2025-10-04T00:00:00+00:00",
-        "venueName": "Radium Boulders, Maastricht",
-        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
-        "link": "https:\/\/was.nkbv.nl\/competitions\/4766",
-        "tags": [
-            "BOULDER"
-        ]
-    },
-    {
-        "id": "3254",
-        "title": "Bever Boulderevent van 2025",
-        "date": "2025-10-04T00:00:00+00:00",
-        "venueName": "Beest Boulders Den Haag Centrum",
-        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/bb_den_haag_centrum.png",
-        "link": "https:\/\/app.anyroad.com\/i\/plugin\/bevernl\/tours\/het-boulderevent-van-2025?lang=nl-NL",
-        "tags": [
-            "BOULDER"
-        ]
-    },
-    {
-        "id": "3012",
-        "title": "LOCO #1 &#8211; Hasselt",
-        "date": "2025-10-04T10:00:00+00:00",
-        "venueName": "Monk Bouldergym Hasselt",
-        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/09\/monk_hasselt.png",
-        "link": "https:\/\/monk.nl\/loco\/",
-        "tags": [
-            "BOULDER"
-        ]
-    },
-    {
         "id": "3123",
         "title": "Setters Playground",
         "date": "2025-10-10T00:00:00+00:00",
@@ -128,7 +73,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4786",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -282,7 +228,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4769",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -348,7 +295,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4767",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -359,7 +307,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4822",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -733,7 +682,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4816",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -744,7 +694,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4838",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -766,7 +717,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4783",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -777,7 +729,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4826",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -799,7 +752,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4771",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -821,7 +775,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4813",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -843,7 +798,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4827",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -854,7 +810,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4789",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -887,7 +844,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4817",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -898,7 +856,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4829",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -909,7 +868,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4784",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -920,7 +880,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4830",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -931,7 +892,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4839",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -953,7 +915,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4814",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -975,7 +938,8 @@
         "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4818",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
