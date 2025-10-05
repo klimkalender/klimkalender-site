@@ -87,7 +87,8 @@ function App() {
 
   useEffect(() => {
     const results = searchTerm ? fuse.search(searchTerm) : events.map(event => ({ item: event, refIndex: 0, score: 0, matches: [] }));
-    const items = results.map((result) => result.item);
+    const items = results.map((result) => result.item).
+      sort((a, b) => a.date.getTime() - b.date.getTime());
     if (category && category !== 'all') {
       const capsCategory = category.toUpperCase();
       setSearchResults(items.filter(item => item.tags.includes(capsCategory)));
