@@ -37,7 +37,7 @@ const categoryOptions: readonly { value: string, label: string }[] = [
   { value: 'all', label: 'Alle' },
   { value: 'boulder', label: 'Boulder' },
   { value: 'lead', label: 'Lead' },
-  { value: 'overig', label: 'Overig' },
+  // { value: 'overig', label: 'Overig' },
 ];
 
 
