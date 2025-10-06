@@ -154,7 +154,10 @@
         "tags": [
             "BOULDER",
             "NKBV"
-        ]
+        ],
+        "featured": true,
+        "featuredImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2025\/09\/Feed_NationaleBoulderWedstrijd-scaled.jpg",
+        "featuredText": "\nOnderstaande informatie is automatisch overgenomen uit het Wedstrijdadministratiesysteem (WAS) van de NKBV. Let op: kijk voor de meest actuele informatie altijd op het WAS via de link bij deze wed..."
     },
     {
         "id": "3264",
