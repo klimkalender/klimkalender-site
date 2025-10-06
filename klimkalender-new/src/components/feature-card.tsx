@@ -6,7 +6,7 @@ function formatEventDate(date: Date) {
 
 function FeatureCard({ event }: { event: CalendarEvent }) {
   return <article className="featured-split"><div className="fs-media">
-    <img src={event.featuredImage} alt="Catch010" />
+    <img src={event.featuredImage} alt={event.title} onClick={() => window.open(event.link, '_blank')}/>
     {event.tags.map(tag => (
       <span key={tag} className={`badge-type ${tag.toUpperCase()}`}>{tag}</span>
     ))}
