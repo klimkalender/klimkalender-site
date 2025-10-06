@@ -167,6 +167,7 @@ nav a:hover { background:#eef7f6; }
 .search svg { flex:0 0 auto; }
 .type-filter select { padding:10px 12px; border-radius:10px; border:1px solid #cfe0e6; background:#f7fbff; font-weight:700; }
 .type-filter > div:first-child { border-radius:10px; border:1px solid #cfe0e6; width: 120px; }
+@media (max-width: 760px) { .type-filter > div:first-child { border-radius:10px; border:1px solid #cfe0e6; width: 100%; } }
 .type-filter div div {  font-weight:500; font-size: 0.875rem;}
 .view-toggle { display:flex; gap:6px; background:#f2f7fb; border:1px solid #d9e6ef; padding:4px; border-radius:12px; }
 .view-toggle button { border:none; background:transparent; padding:8px 12px; border-radius:8px; font-weight:800; color:#2b5870; cursor:pointer; }
