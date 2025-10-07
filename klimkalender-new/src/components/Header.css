@@ -1,0 +1,47 @@
+/* Header and Navigation Styles */
+.header-wrapper {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header.site {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: var(--card);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+header.site .left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+header.site img.logo {
+  height: 54px;
+}
+
+header.site .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #184a52;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  background: #eef7f6;
+}

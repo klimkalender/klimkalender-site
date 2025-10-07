@@ -1,4 +1,5 @@
 import type { CalendarEvent } from './small-card';
+import './EventCard.css';
 import FeatureCard from './feature-card';
 import SmallCard from './small-card';
 
