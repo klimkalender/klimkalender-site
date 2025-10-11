@@ -1,5 +1,5 @@
 import React from "react";
-import './InfoModal.css';
+import './info-modal.css';
 
 interface InfoModalProps {
   open: boolean;

@@ -1,8 +1,8 @@
-import InfoIcon from './components/InfoIcon';
-import InfoModal from './components/InfoModal';
-import './App.css'
-import './components/Header.css'
-import './components/EventCard.css'
+import InfoIcon from './components/info-icon';
+import InfoModal from './components/info-modal';
+import './app.css'
+import './components/header.css'
+import './components/event-card.css'
 import EventCard from './components/event-card';
 import { startOfISOWeek, endOfISOWeek, getISOWeek } from 'date-fns';
 import Fuse from "fuse.js";
