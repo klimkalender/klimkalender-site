@@ -2,6 +2,8 @@ import * as ics from 'ics'
 import { writeFileSync } from 'fs'
 import { join } from 'path'
 import { readFile } from 'fs/promises'
+import { formatTimestamp } from './utils/format-time-stamp';
+import { isDateFullDate } from './utils/is-full-date';
 
 export type CalendarEvent = {
   id: string;
@@ -33,26 +35,30 @@ const readEvents = async () => {
   });
   return events;
 }
+
 const createIcal = async (): Promise<void> => {
   const events: CalendarEvent[] = await readEvents()
 
-  const icsEvents = events.map((event):ics.EventAttributes => {
-   
-    const startDate: [number, number, number, number, number] = [
+  const icsEvents = events.map((event): ics.EventAttributes => {
+
+    const isfullDate = isDateFullDate(event);
+    const startDate: [number, number, number] | [number, number, number, number, number] = [
       event.startTimeUtc.getFullYear(),
       event.startTimeUtc.getMonth() + 1,
       event.startTimeUtc.getDate(),
-      event.startTimeUtc.getHours(),
-      event.startTimeUtc.getMinutes()
     ];
+    if (!isfullDate) {
+      startDate.push(event.startTimeUtc.getHours(), event.startTimeUtc.getMinutes());
+    }
 
-    const endDate: [number, number, number, number, number] = [
+    const endDate: [number, number, number] | [number, number, number, number, number] = [
       event.endTimeUtc.getFullYear(),
       event.endTimeUtc.getMonth() + 1,
       event.endTimeUtc.getDate(),
-      event.endTimeUtc.getHours(),
-      event.endTimeUtc.getMinutes()
     ];
+    if (!isDateFullDate) {
+      endDate.push(event.endTimeUtc.getHours(), event.endTimeUtc.getMinutes());
+    }
 
     return {
       uid: `kk_event_${event.id}`,
@@ -77,5 +83,6 @@ const createIcal = async (): Promise<void> => {
     console.log(`ICS file created at ${icsFilePath}`)
   })
 }
+
 
 createIcal()  
