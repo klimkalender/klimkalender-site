@@ -23,7 +23,15 @@ export type CalendarEvent = {
 };
 
 const cleanTitle = (title: string): string => {
-  return title.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().replace(/&#8211;/g, '-');
+  return title.replace(/<[^>]+>/g, '').
+  replace(/\s+/g, ' ').
+  replace(/&#8211;/g, '-').
+  replace(/&nbsp;/g, ' ').
+  replace(/&amp;/g, '&').
+  replace(/&quot;/g, '"').
+  replace(/&apos;/g, "'").
+  replace(/&#038;/g, '&').
+  trim();
 }
 
 const readEvents = async () => {
