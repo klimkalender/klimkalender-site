@@ -94,7 +94,7 @@ const createIcal = async (): Promise<void> => {
     }
   })
 
-  ics.createEvents(icsEvents, (error, value) => {
+  ics.createEvents(icsEvents, { calName: 'Klimkalender' }, (error, value) => {
     if (error) {
       console.error(error)
       return

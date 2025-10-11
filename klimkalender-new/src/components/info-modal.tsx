@@ -8,6 +8,10 @@ interface InfoModalProps {
 
 const InfoModal: React.FC<InfoModalProps> = ({ open, onClose }) => {
   if (!open) return null;
+
+  const webcalUrl = `webcal://${window.location.hostname}${window.location.port ? `:${window.location.port}` : ''}${window.location.pathname}events.ics`;
+  const httpIcalUrl = `${window.location.protocol}//${window.location.hostname}${window.location.port ? `:${window.location.port}` : ''}${window.location.pathname}events.ics`;
+
   return (
     <div className="info-modal-overlay" onClick={(e) => { e.stopPropagation(); onClose(); }}>
       <div className="info-modal" onClick={e => e.stopPropagation()}>
@@ -29,7 +33,7 @@ const InfoModal: React.FC<InfoModalProps> = ({ open, onClose }) => {
           />
         </div>
         <div className="info-modal-header">
-        <button type="button" className="info-modal-calendar-button" onClick={onClose}>Naar de kalender</button>
+          <button type="button" className="info-modal-calendar-button" onClick={onClose}>Naar de kalender</button>
         </div>
         <div className="info-modal-content">
           <figure className="info-modal-figure">
@@ -41,6 +45,15 @@ const InfoModal: React.FC<InfoModalProps> = ({ open, onClose }) => {
             <p>Elke week worden er in Nederland wedstrijden georganiseerd. Op Klimkalender vind je ze allemaal bij elkaar: van lokale fun-comps tot officiële NKBV-wedstrijden. We zijn een initiatief van enthousiaste wedstrijdklimmers en volledig niet‑commercieel.</p>
             <h2> Mis je een wedstrijd?</h2>
             <p>Laat het ons weten via instagram <a href="https://www.instagram.com/klimkalender/">@klimkalender</a></p>
+            <h2>Abonneer op de kalender</h2>
+            <p>Wil je alle klim- en boulderwedstrijden in Nederland in je agenda? Abonneer je dan op onze kalender via een van de onderstaande opties:</p>
+            <ul>
+              <li><a href={`https://www.google.com/calendar/render?cid=${encodeURIComponent(webcalUrl)}`}>Google Calendar</a></li>
+              <li><a href={`https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=${encodeURIComponent(webcalUrl)}&name=Klimkalender+Klimwedstrijdoverzicht`}>Outlook 365</a></li>
+              <li><a href={`https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=${encodeURIComponent(webcalUrl)}&name=Klimkalender+Klimwedstrijdoverzicht  `}>Microsoft Outlook</a></li>
+              <li><a href={webcalUrl}>iCalendar</a></li>
+              <li><a href={httpIcalUrl} target="_blank" rel="noopener noreferrer nofollow noindex">Download ical bestand</a></li>
+            </ul>
           </div>
         </div>
       </div>
