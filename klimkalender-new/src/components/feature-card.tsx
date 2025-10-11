@@ -1,12 +1,9 @@
 import type { CalendarEvent } from '../app';
-
-function formatEventDate(date: Date) {
-  return date.toLocaleDateString('nl-NL', { weekday: 'short', day: 'numeric', month: 'short' });
-}
+import { formatEventDate, isMultiDayEvent } from '../utils/date-utils';
 
 function FeatureCard({ event }: { event: CalendarEvent }) {
   return <article className="featured-split"><div className="fs-media">
-    <img src={event.featuredImage} alt={event.title} onClick={() => window.open(event.link, '_blank')}/>
+    <img src={event.featuredImage} alt={event.title} onClick={() => window.open(event.link, '_blank')} />
     {event.tags.map(tag => (
       <span key={tag} className={`badge-type ${tag.toUpperCase()}`}>{tag}</span>
     ))}
@@ -20,7 +17,10 @@ function FeatureCard({ event }: { event: CalendarEvent }) {
           <img src={event.venueImage || './images/venue/no-image.png'} alt="logo" />
         </span>
       </div>
-      <p className="fs-sub">{formatEventDate(event.date)} · {event.venueName}</p>
+      <p className="fs-sub">        
+        {formatEventDate(event.date)}
+        {isMultiDayEvent(event) ? <span> - {formatEventDate(event.endTimeUtc)} </span> : null}
+        <span className="venue-name"> · {event.venueName}</span></p>
       {/* eslint-disable-next-line react-dom/no-dangerously-set-innerhtml */}
       <span dangerouslySetInnerHTML={{ __html: event.featuredText || '' }} />
       <a className="fs-link" href={event.link} target="_blank" rel="noopener">Meer info →</a>

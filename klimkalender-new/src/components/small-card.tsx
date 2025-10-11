@@ -1,8 +1,6 @@
 import type { CalendarEvent } from '../app';
+import { formatEventDate, isMultiDayEvent } from '../utils/date-utils';
 
-function formatEventDate(date: Date) {
-  return date.toLocaleDateString('nl-NL', { weekday: 'short', day: 'numeric', month: 'short' });
-}
 
 function SmallCard({ event }: { event: CalendarEvent }) {
   return <article className="card">
@@ -19,7 +17,9 @@ function SmallCard({ event }: { event: CalendarEvent }) {
       </h3>
       <p className="meta">
         <span className="dot"></span>
-        {formatEventDate(event.date)} – {event.venueName}
+        {formatEventDate(event.date)} 
+        { isMultiDayEvent(event) ? <span> - {formatEventDate(event.endTimeUtc)} </span> : null }
+        <span className="venue-name"> · {event.venueName}</span>
       </p>
       <a className="cta" href={event.link} target="_blank" rel="noopener">Meer info →</a>
     </div>

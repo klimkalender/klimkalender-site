@@ -1,4 +1,5 @@
 import { DateTime, type DateTimeFormatOptions } from 'luxon';
+import type { CalendarEvent } from '../app';
 
 
 export const formatTimestamp = (
@@ -36,3 +37,18 @@ export const getBrowserLocale = (): string | undefined => {
   }
   return window.navigator.language;
 };
+
+
+export function formatEventDate(date: Date) {
+  return date.toLocaleDateString('nl-NL', { weekday: 'short', day: 'numeric', month: 'short' });
+}
+
+export function isMultiDayEvent(event: CalendarEvent): boolean {
+  return formatTimestamp(event.startTimeUtc.toISOString(), event.timezone, {
+    year: 'numeric',
+    month: 'short',
+    day: '2-digit'}) !== formatTimestamp(event.endTimeUtc.toISOString(), event.timezone, {
+    year: 'numeric',
+    month: 'short',
+    day: '2-digit'});
+}
