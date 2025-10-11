@@ -1,4 +1,4 @@
-import type { CalendarEvent } from './small-card';
+import type { CalendarEvent } from '../app';
 
 function formatEventDate(date: Date) {
   return date.toLocaleDateString('nl-NL', { weekday: 'short', day: 'numeric', month: 'short' });
