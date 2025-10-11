@@ -46,7 +46,7 @@ const createIcal = async (): Promise<void> => {
 
   const icsEvents = events.map((event): ics.EventAttributes => {
 
-    const localDatePartsStart = localDate(event);
+    const localDatePartsStart = localDate(event.startTimeUtc, event.timezone);
     const isfullDate = isDateFullDate(event);
     const startDate: [number, number, number] | [number, number, number, number, number] = [
       localDatePartsStart.year,
@@ -57,7 +57,7 @@ const createIcal = async (): Promise<void> => {
       startDate.push(localDatePartsStart.hour, localDatePartsStart.minute);
     }
 
-    const localDatePartsEnd = localDate(event);
+    const localDatePartsEnd = localDate(event.endTimeUtc, event.timezone);
     const endDate: [number, number, number] | [number, number, number, number, number] = [
       localDatePartsEnd.year,
       localDatePartsEnd.month,
