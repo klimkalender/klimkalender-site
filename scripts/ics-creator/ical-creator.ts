@@ -4,6 +4,7 @@ import { join } from 'path'
 import { readFile } from 'fs/promises'
 import { formatTimestamp } from './utils/format-time-stamp';
 import { isDateFullDate } from './utils/is-full-date';
+import { localDate } from './utils/local-date';
 
 export type CalendarEvent = {
   id: string;
@@ -20,6 +21,10 @@ export type CalendarEvent = {
   featuredImage?: string;
   featuredText?: string;
 };
+
+const cleanTitle = (title: string): string => {
+  return title.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().replace(/&#8211;/g, '-');
+}
 
 const readEvents = async () => {
   const eventsJsonPath = join(__dirname, '../../klimkalender-new/public/events.json')
@@ -41,23 +46,25 @@ const createIcal = async (): Promise<void> => {
 
   const icsEvents = events.map((event): ics.EventAttributes => {
 
+    const localDatePartsStart = localDate(event);
     const isfullDate = isDateFullDate(event);
     const startDate: [number, number, number] | [number, number, number, number, number] = [
-      event.startTimeUtc.getFullYear(),
-      event.startTimeUtc.getMonth() + 1,
-      event.startTimeUtc.getDate(),
+      localDatePartsStart.year,
+      localDatePartsStart.month,
+      localDatePartsStart.day,
     ];
     if (!isfullDate) {
-      startDate.push(event.startTimeUtc.getHours(), event.startTimeUtc.getMinutes());
+      startDate.push(localDatePartsStart.hour, localDatePartsStart.minute);
     }
 
+    const localDatePartsEnd = localDate(event);
     const endDate: [number, number, number] | [number, number, number, number, number] = [
-      event.endTimeUtc.getFullYear(),
-      event.endTimeUtc.getMonth() + 1,
-      event.endTimeUtc.getDate(),
+      localDatePartsEnd.year,
+      localDatePartsEnd.month,
+      localDatePartsEnd.day,
     ];
     if (!isDateFullDate) {
-      endDate.push(event.endTimeUtc.getHours(), event.endTimeUtc.getMinutes());
+      endDate.push(localDatePartsEnd.hour, localDatePartsEnd.minute);
     }
 
     return {
@@ -66,8 +73,8 @@ const createIcal = async (): Promise<void> => {
       startInputType: 'utc',
       endInputType: 'utc',
       end: endDate,
-      title: event.title,
-      location: event.venueName,
+      title: cleanTitle(event.title),
+      location: cleanTitle(event.venueName),
       url: event.link,
     }
   })
