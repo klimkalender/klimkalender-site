@@ -1,15 +1,4 @@
-export type CalendarEvent = {
-  id: string;
-  title: string;
-  date: Date;
-  venueName: string;
-  venueImage: string;
-  featured?: boolean;
-  featuredImage?: string;
-  featuredText?: string;
-  link: string;
-  tags: string[];
-}
+import type { CalendarEvent } from '../app';
 
 function formatEventDate(date: Date) {
   return date.toLocaleDateString('nl-NL', { weekday: 'short', day: 'numeric', month: 'short' });

@@ -11,10 +11,13 @@ import React, { Fragment, useEffect, useMemo, useState, useRef } from "react";
 import Select from 'react-select';
 import NoCompetitions from './components/no-competitions';
 
-type EventType = {
+export type CalendarEvent = {
   id: string;
   title: string;
   date: Date;
+  startTimeUtc: Date;
+  endTimeUtc: Date;
+  timezone: string;
   venueName: string;
   venueImage: string;
   link: string;
@@ -33,7 +36,7 @@ const options = {
   ignoreLocation: true,
   useExtendedSearch: true,
   threshold: 0.2,
-  keys: [{ name: 'searchField', getFn: (event: EventType) => event.title + ' ' + event.venueName + ' ' + event.tags.join(' ') }]
+  keys: [{ name: 'searchField', getFn: (event: CalendarEvent) => event.title + ' ' + event.venueName + ' ' + event.tags.join(' ') }]
 }
 
 const categoryOptions: readonly { value: string, label: string }[] = [
@@ -47,28 +50,28 @@ const categoryOptions: readonly { value: string, label: string }[] = [
 function App() {
   const [showInfo, setShowInfo] = useState(false);
 
-  const [events, setEvents] = useState<EventType[]>([]);
-  const [searchResults, setSearchResults] = useState<EventType[]>([]);
+  const [events, setEvents] = useState<CalendarEvent[]>([]);
+  const [searchResults, setSearchResults] = useState<CalendarEvent[]>([]);
   const [searchTerm, setSearchTerm] = useState<string | null>(null);
   const [category, setCategory] = useState<string>('all');
   const inputRef = useRef<HTMLInputElement | null>(null);
 
   const scrollWithUseRef = () => {
-    console.log('scrolling');
-    console.log(inputRef.current);
     inputRef.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
   };
 
   useEffect(() => {
     fetch('/klimkalender-site/events.json')
       .then(res => res.json())
-      .then((data: (Omit<EventType, 'date'> & { date: string })[]) => {
+      .then((data: (Omit<CalendarEvent, 'date'> & { date: string })[]) => {
         // Convert date strings to Date objects and preserve all properties
-        const parsed: EventType[] = data.map((event) => {
+        const parsed: CalendarEvent[] = data.map((event) => {
           return {
             ...event,
-            date: new Date(event.date)
-          } as EventType;
+            date: new Date(event.date),
+            startTimeUtc: new Date(event.startTimeUtc),
+            endTimeUtc: new Date(event.endTimeUtc)
+          } as CalendarEvent;
         });
         setEvents(parsed);
         setSearchResults(parsed);
@@ -116,9 +119,9 @@ function App() {
   }
 
   // Create a nested structure
-  type WeekGroup = { week: number; startOfWeek: Date; endOfWeek: Date; events: EventType[] };
+  type WeekGroup = { week: number; startOfWeek: Date; endOfWeek: Date; events: CalendarEvent[] };
   type YearGroup = { year: number; weeks: WeekGroup[] };
-  const groupedEvents: YearGroup[] = searchResults.reduce((acc: YearGroup[], event: EventType) => {
+  const groupedEvents: YearGroup[] = searchResults.reduce((acc: YearGroup[], event: CalendarEvent) => {
     const year = event.date.getFullYear();
     const week = getISOWeek(event.date);
     const startOfWeek = startOfISOWeek(event.date);
@@ -213,7 +216,7 @@ function App() {
                           <span className="week-dates">{formatWeekDates(weekGroup.startOfWeek)}</span>
                         </div>
                         <div className="grid">
-                          {weekGroup.events.map((event: EventType) => (
+                          {weekGroup.events.map((event: CalendarEvent) => (
                             <EventCard key={event.id} event={event} />
                           ))}
                         </div>

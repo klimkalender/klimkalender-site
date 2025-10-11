@@ -3,10 +3,13 @@ import { writeFileSync } from 'fs'
 import { join } from 'path'
 import { readFile } from 'fs/promises'
 
-export type EventType = {
+export type CalendarEvent = {
   id: string;
   title: string;
   date: Date;
+  startTimeUtc: Date;
+  endTimeUtc: Date;
+  timezone: string;
   venueName: string;
   venueImage: string;
   link: string;
@@ -20,37 +23,42 @@ const readEvents = async () => {
   const eventsJsonPath = join(__dirname, '../../klimkalender-new/public/events.json')
   const data = await readFile(eventsJsonPath, 'utf-8')
   const rawEvents = JSON.parse(data)
-  const events = rawEvents.map((event: Omit<EventType, 'date'> & { date: string }) => {
+  const events = rawEvents.map((event: Omit<CalendarEvent, 'date'> & { date: string }) => {
     return {
       ...event,
-      date: new Date(event.date)
-    } as EventType;
+      date: new Date(event.date),
+      startTimeUtc: new Date(event.startTimeUtc),
+      endTimeUtc: new Date(event.endTimeUtc),
+    } as CalendarEvent;
   });
   return events;
 }
 const createIcal = async (): Promise<void> => {
-  const events: EventType[] = await readEvents()
+  const events: CalendarEvent[] = await readEvents()
 
   const icsEvents = events.map((event):ics.EventAttributes => {
    
     const startDate: [number, number, number, number, number] = [
-      event.date.getFullYear(),
-      event.date.getMonth() + 1,
-      event.date.getDate(),
-      event.date.getHours(),
-      event.date.getMinutes()
+      event.startTimeUtc.getFullYear(),
+      event.startTimeUtc.getMonth() + 1,
+      event.startTimeUtc.getDate(),
+      event.startTimeUtc.getHours(),
+      event.startTimeUtc.getMinutes()
     ];
 
     const endDate: [number, number, number, number, number] = [
-      event.date.getFullYear(),
-      event.date.getMonth() + 1,
-      event.date.getDate(),
-      event.date.getHours(),
-      event.date.getMinutes() +5
+      event.endTimeUtc.getFullYear(),
+      event.endTimeUtc.getMonth() + 1,
+      event.endTimeUtc.getDate(),
+      event.endTimeUtc.getHours(),
+      event.endTimeUtc.getMinutes()
     ];
 
     return {
+      uid: `kk_event_${event.id}`,
       start: startDate,
+      startInputType: 'utc',
+      endInputType: 'utc',
       end: endDate,
       title: event.title,
       location: event.venueName,
