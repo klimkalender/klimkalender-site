@@ -9,6 +9,7 @@ import Fuse from "fuse.js";
 import { AnimatePresence, motion } from 'motion/react';
 import React, { Fragment, useEffect, useMemo, useState, useRef } from "react";
 import Select from 'react-select';
+import NoCompetitions from './components/no-competitions';
 
 type EventType = {
   id: string;
@@ -32,7 +33,7 @@ const options = {
   ignoreLocation: true,
   useExtendedSearch: true,
   threshold: 0.2,
-  keys: [{ name: 'searchField', getFn: (event: EventType) => event.title + ' ' + event.venueName + ' ' + event.tags.join(' ')}]
+  keys: [{ name: 'searchField', getFn: (event: EventType) => event.title + ' ' + event.venueName + ' ' + event.tags.join(' ') }]
 }
 
 const categoryOptions: readonly { value: string, label: string }[] = [
@@ -141,7 +142,7 @@ function App() {
 
 
   return (
-    <>  
+    <>
       <InfoModal open={showInfo} onClose={() => setShowInfo(false)} />
       <div className='header-wrapper'>
         <header className="site" aria-label="Site header">
@@ -154,7 +155,7 @@ function App() {
                 id="nav-about"
                 type="button"
                 style={{ display: 'flex', alignItems: 'center', gap: '4px', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
-                onClick={(e) => {e.stopPropagation(); setShowInfo(true)}}
+                onClick={(e) => { e.stopPropagation(); setShowInfo(true) }}
                 aria-label="Over Klimkalender"
               >
                 <InfoIcon />
@@ -180,16 +181,16 @@ function App() {
                   defaultValue={categoryOptions[0]}
                   onChange={(value) => { setCategory(value ? value.value : 'all'); }}
                 />
-              </div> 
+              </div>
               {/* <div className="view-toggle" role="tablist" aria-label="Weergave">
                 <button type="button" role="tab" aria-selected="true" aria-pressed="true">Kalender</button>
                <button type="button" role="tab" aria-selected="false" aria-pressed="false">Kaart</button>
               </div> */}
             </div>
             <div>
-          {searchResults.length === 0 && <motion.p initial={{ opacity: 0, fontWeight: "normal" }} animate={{ opacity: 1, fontWeight: "bold" }} transition={{ duration: 0.5, delay: 0.1 }}>Geen wedstrijden gevonden.</motion.p>}
-          {searchResults.length === 1 && <motion.p initial={{ opacity: 0, fontWeight: "normal" }} animate={{ opacity: 1, fontWeight: "bold" }} transition={{ duration: 0.5, delay: 0.1 }}>{searchResults.length} {searchResults.length === 1 ? 'wedstrijd' : 'wedstrijden'} gevonden.</motion.p>}
-          {searchResults.length > 1 && <motion.p initial={{ opacity: 0, fontWeight: "normal" }} animate={{ opacity: 1, fontWeight: "bold" }} transition={{ duration: 0.5, delay: 0.1 }}>{searchResults.length} {searchResults.length === 1 ? 'wedstrijd' : 'wedstrijden'} gevonden.</motion.p>}
+              {searchResults.length === 0 && <motion.p initial={{ opacity: 0, fontWeight: "normal" }} animate={{ opacity: 1, fontWeight: "bold" }} transition={{ duration: 0.5, delay: 0.1 }}>Geen wedstrijden gevonden.</motion.p>}
+              {searchResults.length === 1 && <motion.p initial={{ opacity: 0, fontWeight: "normal" }} animate={{ opacity: 1, fontWeight: "bold" }} transition={{ duration: 0.5, delay: 0.1 }}>{searchResults.length} {searchResults.length === 1 ? 'wedstrijd' : 'wedstrijden'} gevonden.</motion.p>}
+              {searchResults.length > 1 && <motion.p initial={{ opacity: 0, fontWeight: "normal" }} animate={{ opacity: 1, fontWeight: "bold" }} transition={{ duration: 0.5, delay: 0.1 }}>{searchResults.length} {searchResults.length === 1 ? 'wedstrijd' : 'wedstrijden'} gevonden.</motion.p>}
 
             </div>
           </div>
@@ -199,7 +200,7 @@ function App() {
         <span style={{ position: "absolute", top: "10px", left: 0 }} ref={inputRef}></span>
         <section className="container view-list" aria-label="Kalenderweergave" >
 
- 
+
           <AnimatePresence>
             {groupedEvents.map((yearGroup: YearGroup) => {
               return <Fragment key={yearGroup.year}><div className="year-title" aria-label="Jaar">{yearGroup.year}</div>
@@ -220,7 +221,9 @@ function App() {
                     );
                   })}
                 </div></Fragment>
-            })}</AnimatePresence>
+            })}
+            {searchResults.length === 0 && <NoCompetitions />}
+          </AnimatePresence>
         </section>
 
         <section className="container map-wrap" aria-label="Kaartweergave">
@@ -232,7 +235,7 @@ function App() {
         <h2 style={{ margin: "6px 0 6px", fontSize: "1em", fontWeight: "300" }}>&copy; Klimkalender 2025</h2>
         <p style={{ margin: "0", fontSize: "0.875em" }}>Klimkalender is een niet‑commercieel initiatief van en voor wedstrijdklimmers. Tip ons gerust over via instagram <a href="https://www.instagram.com/klimkalender/" target="_blank" rel="noreferrer noopener">@klimkalender</a> over een ontbrekende wedstrijd!</p>
       </footer>
-    </> 
+    </>
   )
 }
 

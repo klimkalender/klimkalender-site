@@ -1,0 +1,15 @@
+.no-competitions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Adjust height as needed */
+}
+
+.no-competitions .logo {
+  max-width: 200px; /* Adjust size as needed */
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: auto;
+  filter: drop-shadow(10px 10px 10px gray) opacity(40%);
+}
