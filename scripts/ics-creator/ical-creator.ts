@@ -34,6 +34,14 @@ const cleanTitle = (title: string): string => {
   trim();
 }
 
+
+
+function addDays(date, days) {
+  var result = new Date(date);
+  result.setDate(result.getDate() + days);
+  return result;
+}
+
 const readEvents = async () => {
   const eventsJsonPath = join(__dirname, '../../klimkalender-new/public/events.json')
   const data = await readFile(eventsJsonPath, 'utf-8')
@@ -64,8 +72,7 @@ const createIcal = async (): Promise<void> => {
     if (!isfullDate) {
       startDate.push(localDatePartsStart.hour, localDatePartsStart.minute);
     }
-
-    const localDatePartsEnd = localDate(event.endTimeUtc, event.timezone);
+    const localDatePartsEnd = localDate(isfullDate ? addDays(event.endTimeUtc, 1) : event.endTimeUtc, event.timezone);
     const endDate: [number, number, number] | [number, number, number, number, number] = [
       localDatePartsEnd.year,
       localDatePartsEnd.month,
