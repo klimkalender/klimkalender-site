@@ -65,6 +65,7 @@ function App() {
       .then(res => res.json())
       .then((data: (Omit<CalendarEvent, 'date'> & { date: string })[]) => {
         // Convert date strings to Date objects and preserve all properties
+        const now = new Date().getTime();
         const parsed: CalendarEvent[] = data.map((event) => {
           return {
             ...event,
@@ -72,7 +73,7 @@ function App() {
             startTimeUtc: new Date(event.startTimeUtc),
             endTimeUtc: new Date(event.endTimeUtc)
           } as CalendarEvent;
-        });
+        }).filter(event => event.date.getTime() > now); // Filter out old events
         setEvents(parsed);
         setSearchResults(parsed);
       });
