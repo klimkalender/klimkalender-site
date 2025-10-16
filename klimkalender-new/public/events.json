@@ -278,6 +278,20 @@
         ]
     },
     {
+        "id": "3424",
+        "title": "Walhalla Team Battle",
+        "date": "2025-11-08T13:00:00+00:00",
+        "startTimeUtc": "2025-11-08T12:00:00+00:00",
+        "endTimeUtc": "2025-11-08T16:00:00+00:00",
+        "timezone": "Europe\/Amsterdam",
+        "venueName": "Boulderhal Walhalla, Den Haag",
+        "venueImage": null,
+        "link": "https:\/\/www.instagram.com\/p\/DPWg2CIiIC0\/?hl=en",
+        "tags": [
+            "BOULDER"
+        ]
+    },
+    {
         "id": "3407",
         "title": "WBL 2 &#8211; The Cave",
         "date": "2025-11-14T00:00:00+00:00",
