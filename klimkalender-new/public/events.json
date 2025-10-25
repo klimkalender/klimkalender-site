@@ -38,7 +38,7 @@
     "startTimeUtc": "2025-10-24T22:00:00+00:00",
     "endTimeUtc": "2025-10-25T21:59:59.999+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Revolt Bouldering Gym",
+    "venueName": "Revolt Bouldering Gym, Delft",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4765",
     "tags": [
@@ -56,7 +56,7 @@
     "startTimeUtc": "2025-10-24T22:00:00+00:00",
     "endTimeUtc": "2025-10-25T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Kunststof",
+    "venueName": "Boulderhal Kunststof, Leiden",
     "link": "https://www.boulderhalkunststof.nl/events",
     "tags": [
       "BOULDER"
@@ -85,7 +85,7 @@
     "startTimeUtc": "2025-10-24T22:00:00+00:00",
     "endTimeUtc": "2025-10-25T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "The Island boulderzaal",
+    "venueName": "The Island boulderzaal, Antwerpen",
     "link": "https://boulderzaaltheisland.be/events/the-island-championships-2025/",
     "tags": [
       "BOULDER"
@@ -99,7 +99,7 @@
     "startTimeUtc": "2025-10-25T06:00:00+00:00",
     "endTimeUtc": "2025-10-25T15:00:00+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Mountain Network Noardwand",
+    "venueName": "Mountain Network Noardwand, Leeuwarden",
     "link": "https://solidaridad.kentaa.nl/project/leeuwarden-klimmen-tegen-klimaatarmoede-2025",
     "tags": [
       "LEAD"
@@ -220,7 +220,7 @@
     "startTimeUtc": "2025-11-07T23:00:00+00:00",
     "endTimeUtc": "2025-11-08T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "GRIP Boulderhal",
+    "venueName": "GRIP Boulderhal, Nijmegen",
     "link": "https://gripnijmegen.nl/boulderhal/2025/09/19/grip-open-8-11/",
     "tags": [
       "BOULDER"
@@ -250,7 +250,7 @@
     "startTimeUtc": "2025-11-08T12:00:00+00:00",
     "endTimeUtc": "2025-11-08T16:00:00+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Walhalla",
+    "venueName": "Boulderhal Walhalla, Den Haag",
     "link": "https://www.instagram.com/p/DPWg2CIiIC0/?hl=en",
     "tags": [
       "BOULDER"
@@ -278,7 +278,7 @@
     "startTimeUtc": "2025-11-13T23:00:00+00:00",
     "endTimeUtc": "2025-12-11T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "The Climbing Corner",
+    "venueName": "The Climbing Corner, Heerlen",
     "link": "https://www.theclimbingcorner.com/nl",
     "tags": [
       "BOULDER"
@@ -307,7 +307,7 @@
     "startTimeUtc": "2025-11-14T23:00:00+00:00",
     "endTimeUtc": "2025-11-15T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Radium Boulders",
+    "venueName": "Radium Boulders, Maastricht",
     "link": "https://www.radiumboulders.nl/events/",
     "tags": [
       "BOULDER"
@@ -321,7 +321,7 @@
     "startTimeUtc": "2025-11-20T23:00:00+00:00",
     "endTimeUtc": "2025-11-21T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Alpamayo",
+    "venueName": "Alpamayo, Beringen",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4801",
     "tags": [
@@ -382,7 +382,7 @@
     "startTimeUtc": "2025-11-21T23:00:00+00:00",
     "endTimeUtc": "2025-11-22T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Cube Bouldergym",
+    "venueName": "Cube Bouldergym, Enschede",
     "link": "https://was.nkbv.nl/competitions/4876",
     "tags": [
       "BOULDER"
@@ -396,7 +396,7 @@
     "startTimeUtc": "2025-11-21T23:00:00+00:00",
     "endTimeUtc": "2025-11-22T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Alpamayo",
+    "venueName": "Alpamayo, Beringen",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4833",
     "tags": [
@@ -412,7 +412,7 @@
     "startTimeUtc": "2025-11-22T09:00:00+00:00",
     "endTimeUtc": "2025-11-22T17:00:00+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Wildflower Climbing Gym",
+    "venueName": "Wildflower Climbing Gym, Leiden",
     "link": "https://atmaclimbing.com/events/birds-of-spray/?fbclid=PAZXh0bgNhZW0CMTEAAafueh09uVwZpb5HQB0wauND_D9Y_jnNXifsriNS677FwcN8xQPC0NwfbCNTIQ_aem_Iva4GHmVOsq3C01b8PHhAg",
     "tags": [
       "BOULDER"
@@ -426,7 +426,7 @@
     "startTimeUtc": "2025-11-28T23:00:00+00:00",
     "endTimeUtc": "2025-11-29T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Apex Boulders",
+    "venueName": "Apex Boulders, Groningen",
     "link": "https://www.apexboulders.nl/events",
     "tags": [
       "BOULDER"
@@ -455,7 +455,7 @@
     "startTimeUtc": "2025-12-05T23:00:00+00:00",
     "endTimeUtc": "2025-12-06T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Klim- &#038; Outdoorcentrum Yosemite",
+    "venueName": "Klim- &#038; Outdoorcentrum Yosemite, Zwolle",
     "link": "https://was.nkbv.nl/competitions/4859",
     "tags": [
       "LEAD"
@@ -469,7 +469,7 @@
     "startTimeUtc": "2025-12-06T23:00:00+00:00",
     "endTimeUtc": "2025-12-07T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Klim- &#038; Outdoorcentrum Yosemite",
+    "venueName": "Klim- &#038; Outdoorcentrum Yosemite, Zwolle",
     "link": "https://was.nkbv.nl/competitions/4868",
     "tags": [
       "LEAD"
@@ -483,7 +483,7 @@
     "startTimeUtc": "2025-12-11T23:00:00+00:00",
     "endTimeUtc": "2026-01-08T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "The Climbing Corner",
+    "venueName": "The Climbing Corner, Heerlen",
     "link": "https://www.theclimbingcorner.com/nl",
     "tags": [
       "BOULDER"
@@ -497,7 +497,7 @@
     "startTimeUtc": "2025-12-11T23:00:00+00:00",
     "endTimeUtc": "2025-12-12T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "IVY Climbing",
+    "venueName": "IVY Climbing, Sittard",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4802",
     "tags": [
@@ -513,7 +513,7 @@
     "startTimeUtc": "2025-12-11T23:00:00+00:00",
     "endTimeUtc": "2025-12-12T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Klim- en Boulderhal Sendmast",
+    "venueName": "Klim- en Boulderhal Sendmast, Alkmaar",
     "link": "https://www.boulderhalsendmast.nl/",
     "tags": [
       "BOULDER"
@@ -542,7 +542,7 @@
     "startTimeUtc": "2025-12-12T23:00:00+00:00",
     "endTimeUtc": "2025-12-13T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "GRIP Boulderhal",
+    "venueName": "GRIP Boulderhal, Nijmegen",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4781",
     "tags": [
@@ -558,7 +558,7 @@
     "startTimeUtc": "2025-12-12T23:00:00+00:00",
     "endTimeUtc": "2025-12-13T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Energiehaven",
+    "venueName": "Boulderhal Energiehaven, Utrecht",
     "link": "https://www.boulderhalenergiehaven.nl/events",
     "tags": [
       "BOULDER"
@@ -587,7 +587,7 @@
     "startTimeUtc": "2025-12-12T23:00:00+00:00",
     "endTimeUtc": "2025-12-13T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Sportcentrum Olympos (Kalymnos)",
+    "venueName": "Sportcentrum Olympos (Kalymnos), Utrecht",
     "link": "https://was.nkbv.nl/competitions/4794",
     "tags": [
       "LEAD"
@@ -601,7 +601,7 @@
     "startTimeUtc": "2025-12-12T23:00:00+00:00",
     "endTimeUtc": "2025-12-13T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Krachtstof",
+    "venueName": "Boulderhal Krachtstof, Leiden",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4824",
     "tags": [
@@ -617,7 +617,7 @@
     "startTimeUtc": "2025-12-12T23:00:00+00:00",
     "endTimeUtc": "2025-12-13T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "IVY Climbing",
+    "venueName": "IVY Climbing, Sittard",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4834",
     "tags": [
@@ -633,7 +633,7 @@
     "startTimeUtc": "2025-12-18T23:00:00+00:00",
     "endTimeUtc": "2025-12-19T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Roest",
+    "venueName": "Boulderhal Roest, Zwolle",
     "link": "https://www.boulderhalroest.nl/events",
     "tags": [
       "BOULDER"
@@ -647,7 +647,7 @@
     "startTimeUtc": "2026-01-08T23:00:00+00:00",
     "endTimeUtc": "2026-02-06T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "The Climbing Corner",
+    "venueName": "The Climbing Corner, Heerlen",
     "link": "https://www.theclimbingcorner.com/nl",
     "tags": [
       "BOULDER"
@@ -676,7 +676,7 @@
     "startTimeUtc": "2026-01-09T23:00:00+00:00",
     "endTimeUtc": "2026-01-10T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Nirvana",
+    "venueName": "Boulderhal Nirvana, Den Haag",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4823",
     "tags": [
@@ -692,7 +692,7 @@
     "startTimeUtc": "2026-01-10T09:00:00+00:00",
     "endTimeUtc": "2026-01-10T17:00:00+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Wildflower Climbing Gym",
+    "venueName": "Wildflower Climbing Gym, Leiden",
     "link": "https://atmaclimbing.com/events/birds-of-spray/?fbclid=PAZXh0bgNhZW0CMTEAAafueh09uVwZpb5HQB0wauND_D9Y_jnNXifsriNS677FwcN8xQPC0NwfbCNTIQ_aem_Iva4GHmVOsq3C01b8PHhAg",
     "tags": [
       "BOULDER"
@@ -706,7 +706,7 @@
     "startTimeUtc": "2026-01-15T23:00:00+00:00",
     "endTimeUtc": "2026-01-16T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Sport- en klimcentrum RockSteady",
+    "venueName": "Sport- en klimcentrum RockSteady, Bussum",
     "link": "https://was.nkbv.nl/competitions/4855",
     "tags": [
       "LEAD"
@@ -720,7 +720,7 @@
     "startTimeUtc": "2026-01-15T23:00:00+00:00",
     "endTimeUtc": "2026-01-16T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Block013",
+    "venueName": "Block013, Tilburg",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4837",
     "tags": [
@@ -736,7 +736,7 @@
     "startTimeUtc": "2026-01-16T23:00:00+00:00",
     "endTimeUtc": "2026-01-17T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Energiehaven",
+    "venueName": "Boulderhal Energiehaven, Utrecht",
     "link": "https://was.nkbv.nl/competitions/4773",
     "tags": [
       "BOULDER"
@@ -750,7 +750,7 @@
     "startTimeUtc": "2026-01-16T23:00:00+00:00",
     "endTimeUtc": "2026-01-17T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "ACLO",
+    "venueName": "ACLO, Groningen",
     "link": "https://was.nkbv.nl/competitions/4860",
     "tags": [
       "LEAD"
@@ -764,7 +764,7 @@
     "startTimeUtc": "2026-01-16T23:00:00+00:00",
     "endTimeUtc": "2026-01-17T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Block013",
+    "venueName": "Block013, Tilburg",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4782",
     "tags": [
@@ -780,7 +780,7 @@
     "startTimeUtc": "2026-01-17T23:00:00+00:00",
     "endTimeUtc": "2026-01-18T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "ACLO",
+    "venueName": "ACLO, Groningen",
     "link": "https://was.nkbv.nl/competitions/4870",
     "tags": [
       "LEAD"
@@ -794,7 +794,7 @@
     "startTimeUtc": "2026-01-17T23:00:00+00:00",
     "endTimeUtc": "2026-01-18T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Sport- en klimcentrum RockSteady",
+    "venueName": "Sport- en klimcentrum RockSteady, Bussum",
     "link": "https://was.nkbv.nl/competitions/4844",
     "tags": [
       "LEAD"
@@ -823,7 +823,7 @@
     "startTimeUtc": "2026-01-23T23:00:00+00:00",
     "endTimeUtc": "2026-01-24T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Klimcentrum Yellow Stone",
+    "venueName": "Klimcentrum Yellow Stone, Roosendaal",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4811",
     "tags": [
@@ -839,7 +839,7 @@
     "startTimeUtc": "2026-01-24T23:00:00+00:00",
     "endTimeUtc": "2026-01-25T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Klimcentrum Yellow Stone",
+    "venueName": "Klimcentrum Yellow Stone, Roosendaal",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4815",
     "tags": [
@@ -855,7 +855,7 @@
     "startTimeUtc": "2026-01-30T23:00:00+00:00",
     "endTimeUtc": "2026-01-31T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Roest",
+    "venueName": "Boulderhal Roest, Zwolle",
     "link": "https://was.nkbv.nl/competitions/4877",
     "tags": [
       "BOULDER"
@@ -884,7 +884,7 @@
     "startTimeUtc": "2026-02-06T23:00:00+00:00",
     "endTimeUtc": "2026-02-07T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Klimzaal Blok",
+    "venueName": "Klimzaal Blok, Antwerpen",
     "link": "https://was.nkbv.nl/competitions/4768",
     "tags": [
       "BOULDER"
@@ -898,7 +898,7 @@
     "startTimeUtc": "2026-02-06T23:00:00+00:00",
     "endTimeUtc": "2026-02-07T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Arqué Klimcentrum",
+    "venueName": "Arqué Klimcentrum, Enschede",
     "link": "https://was.nkbv.nl/competitions/4861",
     "tags": [
       "LEAD"
@@ -973,7 +973,7 @@
     "startTimeUtc": "2026-02-13T23:00:00+00:00",
     "endTimeUtc": "2026-02-14T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Gropo Bouldergym",
+    "venueName": "Gropo Bouldergym, Groningen",
     "link": "https://was.nkbv.nl/competitions/4878",
     "tags": [
       "BOULDER"
@@ -987,7 +987,7 @@
     "startTimeUtc": "2026-02-20T23:00:00+00:00",
     "endTimeUtc": "2026-02-21T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Klim- &#038; Outdoorcentrum Yosemite",
+    "venueName": "Klim- &#038; Outdoorcentrum Yosemite, Zwolle",
     "link": "https://was.nkbv.nl/competitions/4862",
     "tags": [
       "LEAD"
@@ -1017,7 +1017,7 @@
     "startTimeUtc": "2026-02-21T23:00:00+00:00",
     "endTimeUtc": "2026-02-22T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Klim- &#038; Outdoorcentrum Yosemite",
+    "venueName": "Klim- &#038; Outdoorcentrum Yosemite, Zwolle",
     "link": "https://was.nkbv.nl/competitions/4871",
     "tags": [
       "LEAD"
@@ -1047,7 +1047,7 @@
     "startTimeUtc": "2026-02-25T23:00:00+00:00",
     "endTimeUtc": "2026-02-26T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Bossche Boulders",
+    "venueName": "Boulderhal Bossche Boulders, 's-Hertogenbosch",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4838",
     "tags": [
@@ -1063,7 +1063,7 @@
     "startTimeUtc": "2026-02-27T23:00:00+00:00",
     "endTimeUtc": "2026-02-28T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Revolt Bouldering Gym",
+    "venueName": "Revolt Bouldering Gym, Delft",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4826",
     "tags": [
@@ -1079,7 +1079,7 @@
     "startTimeUtc": "2026-02-27T23:00:00+00:00",
     "endTimeUtc": "2026-02-28T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Bossche Boulders",
+    "venueName": "Boulderhal Bossche Boulders, 's-Hertogenbosch",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4783",
     "tags": [
@@ -1095,7 +1095,7 @@
     "startTimeUtc": "2026-02-27T23:00:00+00:00",
     "endTimeUtc": "2026-02-28T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Klimzaal De Stordeur",
+    "venueName": "Klimzaal De Stordeur, Wilsele",
     "link": "https://cmbel.shiftf5.be/competitions/4656",
     "tags": [
       "LEAD"
@@ -1124,7 +1124,7 @@
     "startTimeUtc": "2026-03-06T23:00:00+00:00",
     "endTimeUtc": "2026-03-07T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal De Campus",
+    "venueName": "Boulderhal De Campus, Den Haag",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4771",
     "tags": [
@@ -1198,7 +1198,7 @@
     "startTimeUtc": "2026-03-13T23:00:00+00:00",
     "endTimeUtc": "2026-03-14T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Klim- en Boulderhal Sendmast",
+    "venueName": "Klim- en Boulderhal Sendmast, Alkmaar",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4789",
     "tags": [
@@ -1245,7 +1245,7 @@
     "startTimeUtc": "2026-03-13T23:00:00+00:00",
     "endTimeUtc": "2026-03-14T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Walhalla",
+    "venueName": "Boulderhal Walhalla, Den Haag",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4827",
     "tags": [
@@ -1276,7 +1276,7 @@
     "startTimeUtc": "2026-03-14T09:00:00+00:00",
     "endTimeUtc": "2026-03-14T17:00:00+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Wildflower Climbing Gym",
+    "venueName": "Wildflower Climbing Gym, Leiden",
     "link": "https://atmaclimbing.com/events/birds-of-spray/?fbclid=PAZXh0bgNhZW0CMTEAAafueh09uVwZpb5HQB0wauND_D9Y_jnNXifsriNS677FwcN8xQPC0NwfbCNTIQ_aem_Iva4GHmVOsq3C01b8PHhAg",
     "tags": [
       "BOULDER"
@@ -1336,7 +1336,7 @@
     "startTimeUtc": "2026-04-03T22:00:00+00:00",
     "endTimeUtc": "2026-04-04T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "BAZ Bouldergym",
+    "venueName": "BAZ Bouldergym, Zaandam",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4822",
     "tags": [
@@ -1367,7 +1367,7 @@
     "startTimeUtc": "2026-04-10T22:00:00+00:00",
     "endTimeUtc": "2026-04-11T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Mountain Network Noardwand",
+    "venueName": "Mountain Network Noardwand, Leeuwarden",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4867",
     "tags": [
@@ -1399,7 +1399,7 @@
     "startTimeUtc": "2026-04-17T22:00:00+00:00",
     "endTimeUtc": "2026-04-18T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal De Campus",
+    "venueName": "Boulderhal De Campus, Den Haag",
     "venueImage": "/images/uploads/nkbv-variant.jpg",
     "link": "https://was.nkbv.nl/competitions/4830",
     "tags": [
@@ -1415,7 +1415,7 @@
     "startTimeUtc": "2026-05-01T22:00:00+00:00",
     "endTimeUtc": "2026-05-02T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Klim- &#038; Outdoorcentrum Yosemite",
+    "venueName": "Klim- &#038; Outdoorcentrum Yosemite, Zwolle",
     "link": "https://was.nkbv.nl/competitions/4864",
     "tags": [
       "LEAD"
@@ -1429,7 +1429,7 @@
     "startTimeUtc": "2026-05-02T22:00:00+00:00",
     "endTimeUtc": "2026-05-03T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Klim- &#038; Outdoorcentrum Yosemite",
+    "venueName": "Klim- &#038; Outdoorcentrum Yosemite, Zwolle",
     "link": "https://was.nkbv.nl/competitions/4874",
     "tags": [
       "LEAD"
@@ -1473,7 +1473,7 @@
     "startTimeUtc": "2026-05-28T22:00:00+00:00",
     "endTimeUtc": "2026-05-29T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Mountain Network Noardwand",
+    "venueName": "Mountain Network Noardwand, Leeuwarden",
     "link": "https://was.nkbv.nl/competitions/4882",
     "tags": [
       "BOULDER"
@@ -1487,7 +1487,7 @@
     "startTimeUtc": "2026-05-28T22:00:00+00:00",
     "endTimeUtc": "2026-05-29T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Sportcentrum Olympos (Kalymnos)",
+    "venueName": "Sportcentrum Olympos (Kalymnos), Utrecht",
     "link": "https://was.nkbv.nl/competitions/4857",
     "tags": [
       "LEAD"
@@ -1517,7 +1517,7 @@
     "startTimeUtc": "2026-05-29T22:00:00+00:00",
     "endTimeUtc": "2026-05-30T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Mountain Network Noardwand",
+    "venueName": "Mountain Network Noardwand, Leeuwarden",
     "link": "https://was.nkbv.nl/competitions/4880",
     "tags": [
       "BOULDER"
@@ -1577,7 +1577,7 @@
     "startTimeUtc": "2026-06-06T08:00:00+00:00",
     "endTimeUtc": "2026-06-06T16:00:00+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Wildflower Climbing Gym",
+    "venueName": "Wildflower Climbing Gym, Leiden",
     "link": "https://atmaclimbing.com/events/birds-of-spray/?fbclid=PAZXh0bgNhZW0CMTEAAafueh09uVwZpb5HQB0wauND_D9Y_jnNXifsriNS677FwcN8xQPC0NwfbCNTIQ_aem_Iva4GHmVOsq3C01b8PHhAg",
     "tags": [
       "BOULDER"
@@ -1622,7 +1622,7 @@
     "startTimeUtc": "2026-06-19T22:00:00+00:00",
     "endTimeUtc": "2026-06-20T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Mountain Network Noardwand",
+    "venueName": "Mountain Network Noardwand, Leeuwarden",
     "link": "https://was.nkbv.nl/competitions/4865",
     "tags": [
       "LEAD"
@@ -1651,7 +1651,7 @@
     "startTimeUtc": "2026-06-20T22:00:00+00:00",
     "endTimeUtc": "2026-06-21T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Mountain Network Noardwand",
+    "venueName": "Mountain Network Noardwand, Leeuwarden",
     "link": "https://was.nkbv.nl/competitions/4875",
     "tags": [
       "LEAD"
