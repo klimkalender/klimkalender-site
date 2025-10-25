@@ -60,12 +60,13 @@ function App() {
     inputRef.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
   };
 
+  const basePath = window.location.pathname;
+  const basePathTrimmed = basePath.endsWith('/') ? basePath.slice(0, -1) : basePath;
+
   useEffect(() => {
-    fetch('/klimkalender-site/events.json')
+    fetch(`${basePathTrimmed}/events.json`)
       .then(res => res.json())
       .then((data: (Omit<CalendarEvent, 'date'> & { date: string })[]) => {
-        const basePath = window.location.pathname;
-        const basePathTrimmed = basePath.endsWith('/') ? basePath.slice(0, -1) : basePath;
         function fixLocalImagePath(path: string) {
           if (path.startsWith('/') && basePathTrimmed !== '') {
             return `${basePathTrimmed}${path}`
@@ -83,7 +84,7 @@ function App() {
             startTimeUtc: new Date(event.startTimeUtc),
             endTimeUtc: new Date(event.endTimeUtc)
           } as CalendarEvent;
-        }).filter(event => event.date.getTime() > now); // Filter out old events
+        }).filter(event => event.date.getTime() > now - 7 * 24 * 60 * 60 * 1000); // Filter out old events
         setEvents(parsed);
         setSearchResults(parsed);
       });
