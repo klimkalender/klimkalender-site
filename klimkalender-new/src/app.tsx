@@ -64,12 +64,22 @@ function App() {
     fetch('/klimkalender-site/events.json')
       .then(res => res.json())
       .then((data: (Omit<CalendarEvent, 'date'> & { date: string })[]) => {
+        const basePath = window.location.pathname;
+        const basePathTrimmed = basePath.endsWith('/') ? basePath.slice(0, -1) : basePath;
+        function fixLocalImagePath(path: string) {
+          if (path.startsWith('/') && basePathTrimmed !== '') {
+            return `${basePathTrimmed}${path}`
+          }
+          return path;
+        }
         // Convert date strings to Date objects and preserve all properties
         const now = new Date().getTime();
         const parsed: CalendarEvent[] = data.map((event) => {
           return {
             ...event,
             date: new Date(event.date),
+            featuredImage: fixLocalImagePath(event.featuredImage || ''),
+            venueImage: fixLocalImagePath(event.venueImage || ''),
             startTimeUtc: new Date(event.startTimeUtc),
             endTimeUtc: new Date(event.endTimeUtc)
           } as CalendarEvent;
