@@ -57,6 +57,7 @@
     "endTimeUtc": "2025-10-25T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
     "venueName": "Boulderhal Kunststof, Leiden",
+    "venueImage": "/images/uploads/qj39.kunststof.png",
     "link": "https://www.boulderhalkunststof.nl/events",
     "tags": [
       "BOULDER"
@@ -86,6 +87,7 @@
     "endTimeUtc": "2025-10-25T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
     "venueName": "The Island boulderzaal, Antwerpen",
+    "venueImage": "/images/uploads/iban.the_island.png",
     "link": "https://boulderzaaltheisland.be/events/the-island-championships-2025/",
     "tags": [
       "BOULDER"
@@ -100,6 +102,7 @@
     "endTimeUtc": "2025-10-25T15:00:00+00:00",
     "timezone": "Europe/Amsterdam",
     "venueName": "Mountain Network Noardwand, Leeuwarden",
+    "venueImage": "/images/uploads/gpbv.noardwand.jpeg",
     "link": "https://solidaridad.kentaa.nl/project/leeuwarden-klimmen-tegen-klimaatarmoede-2025",
     "tags": [
       "LEAD"
@@ -221,6 +224,7 @@
     "endTimeUtc": "2025-11-08T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
     "venueName": "GRIP Boulderhal, Nijmegen",
+    "venueImage": "/images/uploads/8l9h.grip.png",
     "link": "https://gripnijmegen.nl/boulderhal/2025/09/19/grip-open-8-11/",
     "tags": [
       "BOULDER"
@@ -251,6 +255,7 @@
     "endTimeUtc": "2025-11-08T16:00:00+00:00",
     "timezone": "Europe/Amsterdam",
     "venueName": "Boulderhal Walhalla, Den Haag",
+    "venueImage": "/images/uploads/06hw.walhalla.jpeg",
     "link": "https://www.instagram.com/p/DPWg2CIiIC0/?hl=en",
     "tags": [
       "BOULDER"
@@ -1474,6 +1479,7 @@
     "endTimeUtc": "2026-05-29T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
     "venueName": "Mountain Network Noardwand, Leeuwarden",
+    "venueImage": "/images/uploads/gpbv.noardwand.jpeg",
     "link": "https://was.nkbv.nl/competitions/4882",
     "tags": [
       "BOULDER"
@@ -1518,6 +1524,7 @@
     "endTimeUtc": "2026-05-30T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
     "venueName": "Mountain Network Noardwand, Leeuwarden",
+    "venueImage": "/images/uploads/gpbv.noardwand.jpeg",
     "link": "https://was.nkbv.nl/competitions/4880",
     "tags": [
       "BOULDER"
@@ -1623,6 +1630,7 @@
     "endTimeUtc": "2026-06-20T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
     "venueName": "Mountain Network Noardwand, Leeuwarden",
+    "venueImage": "/images/uploads/gpbv.noardwand.jpeg",
     "link": "https://was.nkbv.nl/competitions/4865",
     "tags": [
       "LEAD"
@@ -1652,6 +1660,7 @@
     "endTimeUtc": "2026-06-21T21:59:59+00:00",
     "timezone": "Europe/Amsterdam",
     "venueName": "Mountain Network Noardwand, Leeuwarden",
+    "venueImage": "/images/uploads/gpbv.noardwand.jpeg",
     "link": "https://was.nkbv.nl/competitions/4875",
     "tags": [
       "LEAD"
