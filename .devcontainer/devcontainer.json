@@ -43,6 +43,7 @@
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "GitHub.copilot",
+        "GitHub.copilot-chat",
         "stylelint.vscode-stylelint",
         "streetsidesoftware.code-spell-checker"
       ]
