@@ -54,11 +54,12 @@
         "endTimeUtc": "2025-11-22T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Cube Bouldergym, Enschede",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Hoge Bothofstraat 49, 7511 ZA, Enschede, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4876",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -85,7 +86,7 @@
         "endTimeUtc": "2025-11-22T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Boulderhal Bossche Boulders, 's-Hertogenbosch",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/09\/Logo_bosscheboulders_oranje.png",
         "venueAddress": "Jagersheuvelstraat 32, 5222 BJ, 's-Hertogenbosch, Netherlands",
         "link": "https:\/\/www.bosscheboulders.nl\/flow\/",
         "tags": [
@@ -131,7 +132,7 @@
         "endTimeUtc": "2025-11-28T21:30:00+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Boulderhal De Campus, Den Haag",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/decampus.png",
         "venueAddress": "Kerketuinenweg 55, 2544 CV, Den Haag, Netherlands",
         "link": "https:\/\/www.instagram.com\/p\/DQeNPaMjMse\/?hl=en",
         "tags": [
@@ -191,7 +192,7 @@
         "endTimeUtc": "2025-11-29T12:30:00+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Boulderhal De Campus, Den Haag",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/decampus.png",
         "venueAddress": "Kerketuinenweg 55, 2544 CV, Den Haag, Netherlands",
         "link": "https:\/\/www.instagram.com\/p\/DQeNPaMjMse\/?hl=en",
         "tags": [
@@ -206,11 +207,12 @@
         "endTimeUtc": "2025-12-06T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Klim- &#038; Outdoorcentrum Yosemite, Zwolle",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Van der Heydenstraat 8, 8014ZZ, Zwolle, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4859",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -221,11 +223,12 @@
         "endTimeUtc": "2025-12-07T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Klim- &#038; Outdoorcentrum Yosemite, Zwolle",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Van der Heydenstraat 8, 8014ZZ, Zwolle, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4868",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -251,7 +254,7 @@
         "endTimeUtc": "2025-12-12T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Klim- en Boulderhal Sendmast, Alkmaar",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/09\/sendmast.png",
         "venueAddress": "Koelmalaan 354, 1812 PS, Alkmaar, Netherlands",
         "link": "https:\/\/www.boulderhalsendmast.nl\/",
         "tags": [
@@ -497,11 +500,12 @@
         "endTimeUtc": "2026-01-16T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Sport- en klimcentrum RockSteady, Bussum",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Zanderijweg 12, 1403 XV, Bussum, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4855",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -544,11 +548,12 @@
         "endTimeUtc": "2026-01-17T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "ACLO, Groningen",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Blauwborgje 16, 9747 AC, Groningen, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4860",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -574,11 +579,12 @@
         "endTimeUtc": "2026-01-18T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "ACLO, Groningen",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Blauwborgje 16, 9747 AC, Groningen, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4870",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -589,11 +595,12 @@
         "endTimeUtc": "2026-01-18T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Sport- en klimcentrum RockSteady, Bussum",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Zanderijweg 12, 1403 XV, Bussum, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4844",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -713,11 +720,12 @@
         "endTimeUtc": "2026-02-07T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Arqu\u00e9 Klimcentrum, Enschede",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "J.J. van Deinselaan 20, 7541 BR, Enschede, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4861",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -728,11 +736,12 @@
         "endTimeUtc": "2026-02-07T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Klimzaal Blok, Antwerpen",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "IJskelderstraat 12\/1, 2660, Antwerpen, Belgium",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4768",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -758,11 +767,12 @@
         "endTimeUtc": "2026-02-08T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "De Waagnatie",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4774",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -773,11 +783,12 @@
         "endTimeUtc": "2026-02-14T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Gropo Bouldergym, Groningen",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Ulgersmaweg 8, 9731BS, Groningen, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4878",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -804,11 +815,12 @@
         "endTimeUtc": "2026-02-21T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Klim- &#038; Outdoorcentrum Yosemite, Zwolle",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Van der Heydenstraat 8, 8014ZZ, Zwolle, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4862",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -835,11 +847,12 @@
         "endTimeUtc": "2026-02-22T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Klim- &#038; Outdoorcentrum Yosemite, Zwolle",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Van der Heydenstraat 8, 8014ZZ, Zwolle, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4871",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -866,7 +879,7 @@
         "endTimeUtc": "2026-02-28T22:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Klimzaal De Stordeur, Wilsele",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/11\/stordeur.png",
         "venueAddress": "Aarschotsesteenweg 112, 3012, Wilsele, Belgium",
         "link": "https:\/\/cmbel.shiftf5.be\/competitions\/4656",
         "tags": [
@@ -1238,11 +1251,12 @@
         "endTimeUtc": "2026-05-02T21:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Klim- &#038; Outdoorcentrum Yosemite, Zwolle",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Van der Heydenstraat 8, 8014ZZ, Zwolle, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4864",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -1253,11 +1267,12 @@
         "endTimeUtc": "2026-05-03T21:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Klim- &#038; Outdoorcentrum Yosemite, Zwolle",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Van der Heydenstraat 8, 8014ZZ, Zwolle, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4874",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -1268,11 +1283,12 @@
         "endTimeUtc": "2026-05-08T21:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Mountain Network Nieuwegein",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Blokhoeve 12, 3438 LC, Nieuwegein, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4858",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -1298,11 +1314,12 @@
         "endTimeUtc": "2026-05-29T21:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Mountain Network Noardwand, Leeuwarden",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Fiswerderweg 3, 8917 EW, Leeuwarden, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4882",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -1359,11 +1376,12 @@
         "endTimeUtc": "2026-05-30T21:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Mountain Network Noardwand, Leeuwarden",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Fiswerderweg 3, 8917 EW, Leeuwarden, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4880",
         "tags": [
-            "BOULDER"
+            "BOULDER",
+            "NKBV"
         ]
     },
     {
@@ -1451,11 +1469,12 @@
         "endTimeUtc": "2026-06-20T21:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Mountain Network Noardwand, Leeuwarden",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Fiswerderweg 3, 8917 EW, Leeuwarden, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4865",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
@@ -1481,11 +1500,12 @@
         "endTimeUtc": "2026-06-21T21:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Mountain Network Noardwand, Leeuwarden",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Fiswerderweg 3, 8917 EW, Leeuwarden, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4875",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
