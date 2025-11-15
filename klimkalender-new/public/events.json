@@ -1299,11 +1299,12 @@
         "endTimeUtc": "2026-05-10T21:59:59+00:00",
         "timezone": "Europe\/Amsterdam",
         "venueName": "Mountain Network Nieuwegein",
-        "venueImage": null,
+        "venueImage": "https:\/\/www.klimkalender.nl\/wp-content\/uploads\/2024\/07\/variant.jpg",
         "venueAddress": "Blokhoeve 12, 3438 LC, Nieuwegein, Netherlands",
         "link": "https:\/\/was.nkbv.nl\/competitions\/4846",
         "tags": [
-            "LEAD"
+            "LEAD",
+            "NKBV"
         ]
     },
     {
