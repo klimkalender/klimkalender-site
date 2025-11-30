@@ -1,233 +1,5 @@
 [
   {
-    "id": "1503",
-    "title": "Radium Arcadium 2025",
-    "date": "2025-11-14T23:00:00+00:00",
-    "startTimeUtc": "2025-11-14T23:00:00+00:00",
-    "endTimeUtc": "2025-11-15T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Radium Boulders, Maastricht",
-    "venueImage": "/images/uploads/71c9-radium_logo.png",
-    "link": "https://www.radiumboulders.nl/events/",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3079",
-    "title": "Jeugd Boulder 2 | U15 & MU17",
-    "date": "2025-11-14T23:00:00+00:00",
-    "startTimeUtc": "2025-11-14T23:00:00+00:00",
-    "endTimeUtc": "2025-11-15T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderstation Enschede",
-    "venueImage": "/images/uploads/g3if-boulder_stattion.jpeg",
-    "link": "https://was.nkbv.nl/competitions/4767",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3269",
-    "title": "Volwassenen Boulder Series Brabant – Gelderland 2",
-    "date": "2025-11-20T23:00:00+00:00",
-    "startTimeUtc": "2025-11-20T23:00:00+00:00",
-    "endTimeUtc": "2025-11-21T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Boulder Veldhoven",
-    "venueImage": "/images/uploads/1ra3-boulder_eind.jpg",
-    "link": "https://was.nkbv.nl/competitions/4836",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3080",
-    "title": "Volwassenen Klim Series Limburg 3",
-    "date": "2025-11-20T23:00:00+00:00",
-    "startTimeUtc": "2025-11-20T23:00:00+00:00",
-    "endTimeUtc": "2025-11-21T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Alpamayo, Beringen",
-    "venueImage": "/images/uploads/nkbv-variant.jpg",
-    "link": "https://was.nkbv.nl/competitions/4801",
-    "tags": [
-      "LEAD",
-      "NKBV"
-    ],
-    "featured": false
-  },
-  {
-    "id": "2974",
-    "title": "Catch020",
-    "date": "2025-11-21T18:00:00+00:00",
-    "startTimeUtc": "2025-11-21T18:00:00+00:00",
-    "endTimeUtc": "2025-11-21T21:30:00+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Boulder Amsterdam",
-    "venueImage": "/images/uploads/x1su-boulder_eind.jpg",
-    "link": "https://boulderneoliet.nl/nl/amsterdam/boulder-wedstrijd-catch020/",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3637",
-    "title": "FLOW",
-    "date": "2025-11-21T23:00:00+00:00",
-    "startTimeUtc": "2025-11-21T23:00:00+00:00",
-    "endTimeUtc": "2025-11-22T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Bossche Boulders, 's-Hertogenbosch",
-    "venueImage": "/images/uploads/c1jr-Logo_bosscheboulders_oranje.png",
-    "link": "https://www.bosscheboulders.nl/flow/",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3272",
-    "title": "Jeugd Klim Series Limburg 3",
-    "date": "2025-11-21T23:00:00+00:00",
-    "startTimeUtc": "2025-11-21T23:00:00+00:00",
-    "endTimeUtc": "2025-11-22T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Alpamayo, Beringen",
-    "venueImage": "/images/uploads/nkbv-variant.jpg",
-    "link": "https://was.nkbv.nl/competitions/4833",
-    "tags": [
-      "LEAD",
-      "NKBV"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3271",
-    "title": "Jeugd Boulder Series Brabant Gelderland 3",
-    "date": "2025-11-21T23:00:00+00:00",
-    "startTimeUtc": "2025-11-21T23:00:00+00:00",
-    "endTimeUtc": "2025-11-22T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Boulder Veldhoven",
-    "venueImage": "/images/uploads/1ra3-boulder_eind.jpg",
-    "link": "https://was.nkbv.nl/competitions/4819",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3507",
-    "title": "Jeugd Boulder Series Noord-Oost 1",
-    "date": "2025-11-21T23:00:00+00:00",
-    "startTimeUtc": "2025-11-21T23:00:00+00:00",
-    "endTimeUtc": "2025-11-22T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Cube Bouldergym, Enschede",
-    "venueImage": "/images/uploads/nkbv-variant.jpg",
-    "link": "https://was.nkbv.nl/competitions/4876",
-    "tags": [
-      "BOULDER",
-      "NKBV"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3239",
-    "title": "Birds of Spray II",
-    "date": "2025-11-22T09:00:00+00:00",
-    "startTimeUtc": "2025-11-22T09:00:00+00:00",
-    "endTimeUtc": "2025-11-22T17:00:00+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Wildflower Climbing Gym, Leiden",
-    "venueImage": "/images/uploads/zhe9-wildflower.png",
-    "link": "https://atmaclimbing.com/events/birds-of-spray/?fbclid=PAZXh0bgNhZW0CMTEAAafueh09uVwZpb5HQB0wauND_D9Y_jnNXifsriNS677FwcN8xQPC0NwfbCNTIQ_aem_Iva4GHmVOsq3C01b8PHhAg",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3614",
-    "title": "Setters playground – ROAD TRIP",
-    "date": "2025-11-28T18:00:00+00:00",
-    "startTimeUtc": "2025-11-28T18:00:00+00:00",
-    "endTimeUtc": "2025-11-28T21:30:00+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal De Campus, Den Haag",
-    "venueImage": "/images/uploads/046c-decampus.png",
-    "link": "https://www.instagram.com/p/DQeNPaMjMse/?hl=en",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
-    "id": "2564",
-    "title": "The Tokyo Sessions",
-    "date": "2025-11-28T23:00:00+00:00",
-    "startTimeUtc": "2025-11-28T23:00:00+00:00",
-    "endTimeUtc": "2025-11-29T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Monk Bouldergym Amsterdam",
-    "venueImage": "/images/uploads/xeq1-monk_amsterdam.png",
-    "link": "https://monk.nl/amsterdam/tokyo-sessions/",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3083",
-    "title": "Jeugd Boulder 2 | U19 & JU17",
-    "date": "2025-11-28T23:00:00+00:00",
-    "startTimeUtc": "2025-11-28T23:00:00+00:00",
-    "endTimeUtc": "2025-11-29T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Rijnboulder Arnhem",
-    "venueImage": "/images/uploads/n2lb-Ontwerp-zonder-titel.png",
-    "link": "https://was.nkbv.nl/competitions/4770",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3082",
-    "title": "Elevate XL Grand Finale",
-    "date": "2025-11-28T23:00:00+00:00",
-    "startTimeUtc": "2025-11-28T23:00:00+00:00",
-    "endTimeUtc": "2025-11-29T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Apex Boulders, Groningen",
-    "venueImage": "/images/uploads/klnt-apex_logo.png",
-    "link": "https://www.apexboulders.nl/events",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3618",
-    "title": "Setters playground – ROAD TRIP – kids edition",
-    "date": "2025-11-30T10:00:00+00:00",
-    "startTimeUtc": "2025-11-30T10:00:00+00:00",
-    "endTimeUtc": "2025-11-30T12:30:00+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal De Campus, Den Haag",
-    "venueImage": "/images/uploads/046c-decampus.png",
-    "link": "https://www.instagram.com/p/DQeNPaMjMse/?hl=en",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
     "id": "3505",
     "title": "Jeugd Klim Series Noord-Oost 1",
     "date": "2025-12-05T23:00:00+00:00",
@@ -256,21 +28,6 @@
     "tags": [
       "LEAD",
       "NKBV"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3416",
-    "title": "SEND IT! REPLICA EDITION",
-    "date": "2025-12-11T23:00:00+00:00",
-    "startTimeUtc": "2025-12-11T23:00:00+00:00",
-    "endTimeUtc": "2025-12-12T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Klim- en Boulderhal Sendmast, Alkmaar",
-    "venueImage": "/images/uploads/097d-sendmast.png",
-    "link": "https://www.boulderhalsendmast.nl/",
-    "tags": [
-      "BOULDER"
     ],
     "featured": false
   },
@@ -306,6 +63,21 @@
     "featured": false
   },
   {
+    "id": "3416",
+    "title": "SEND IT! REPLICA EDITION",
+    "date": "2025-12-11T23:00:00+00:00",
+    "startTimeUtc": "2025-12-11T23:00:00+00:00",
+    "endTimeUtc": "2025-12-12T22:59:59+00:00",
+    "timezone": "Europe/Amsterdam",
+    "venueName": "Klim- en Boulderhal Sendmast, Alkmaar",
+    "venueImage": "/images/uploads/097d-sendmast.png",
+    "link": "https://www.boulderhalsendmast.nl/",
+    "tags": [
+      "BOULDER"
+    ],
+    "featured": false
+  },
+  {
     "id": "3503",
     "title": "Volwassenen Klim Series Midden Nederland 2",
     "date": "2025-12-11T23:00:00+00:00",
@@ -321,15 +93,15 @@
     "featured": false
   },
   {
-    "id": "2905",
-    "title": "Jeugd Open 2025",
+    "id": "3671",
+    "title": "Nationaal Studentenkampioenschap Boulder (NSKB)",
     "date": "2025-12-12T23:00:00+00:00",
     "startTimeUtc": "2025-12-12T23:00:00+00:00",
     "endTimeUtc": "2025-12-13T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Monk Bouldergym Eindhoven",
-    "venueImage": "/images/uploads/1umh-monk_eindhoven.png",
-    "link": "https://monk.nl/eindhoven/jeugd-open-2025/",
+    "venueName": "Boulder Amsterdam",
+    "venueImage": "/images/uploads/x1su-boulder_eind.jpg",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScjeN4k5rLFbsEuZ-kFNVjOA44zZ-hNpNgTAO4Tgu53ExUhFA/viewform?pli=1",
     "tags": [
       "BOULDER"
     ],
@@ -366,6 +138,50 @@
     "featured": false
   },
   {
+    "id": "nkbv-was:other:4884",
+    "title": "Jeugd Open 2025",
+    "date": "2025-12-12T23:00:00+00:00",
+    "startTimeUtc": "2025-12-12T23:00:00+00:00",
+    "endTimeUtc": "2025-12-13T22:59:59.999+00:00",
+    "timezone": "Europe/Amsterdam",
+    "venueName": "Monk Bouldergym Eindhoven",
+    "venueImage": "/images/uploads/1umh-monk_eindhoven.png",
+    "link": "https://was.nkbv.nl/competitions/4884",
+    "tags": [
+      "BOULDER"
+    ],
+    "featured": false
+  },
+  {
+    "id": "nkbv-was:series:4834",
+    "title": "Jeugd Klim Series Limburg 4",
+    "date": "2025-12-12T23:00:00+00:00",
+    "startTimeUtc": "2025-12-12T23:00:00+00:00",
+    "endTimeUtc": "2025-12-13T22:59:59.999+00:00",
+    "timezone": "Europe/Amsterdam",
+    "venueName": "IVY Climbing, Sittard",
+    "link": "https://was.nkbv.nl/competitions/4834",
+    "tags": [
+      "LEAD"
+    ],
+    "featured": false
+  },
+  {
+    "id": "2905",
+    "title": "Jeugd Open 2025",
+    "date": "2025-12-12T23:00:00+00:00",
+    "startTimeUtc": "2025-12-12T23:00:00+00:00",
+    "endTimeUtc": "2025-12-13T22:59:59+00:00",
+    "timezone": "Europe/Amsterdam",
+    "venueName": "Monk Bouldergym Eindhoven",
+    "venueImage": "/images/uploads/1umh-monk_eindhoven.png",
+    "link": "https://monk.nl/eindhoven/jeugd-open-2025/",
+    "tags": [
+      "BOULDER"
+    ],
+    "featured": false
+  },
+  {
     "id": "3089",
     "title": "Jeugd Boulder Series Brabant Gelderland 4",
     "date": "2025-12-12T23:00:00+00:00",
@@ -396,22 +212,6 @@
     "featured": false
   },
   {
-    "id": "3275",
-    "title": "Jeugd Klim Series Limburg 4",
-    "date": "2025-12-12T23:00:00+00:00",
-    "startTimeUtc": "2025-12-12T23:00:00+00:00",
-    "endTimeUtc": "2025-12-13T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "IVY Climbing, Sittard",
-    "venueImage": "/images/uploads/nkbv-variant.jpg",
-    "link": "https://was.nkbv.nl/competitions/4834",
-    "tags": [
-      "LEAD",
-      "NKBV"
-    ],
-    "featured": false
-  },
-  {
     "id": "3274",
     "title": "Jeugd Boulder Series Zuid-Holland 1",
     "date": "2025-12-12T23:00:00+00:00",
@@ -428,17 +228,18 @@
     "featured": false
   },
   {
-    "id": "3671",
-    "title": "Nationaal Studentenkampioenschap Boulder (NSKB)",
+    "id": "3275",
+    "title": "Jeugd Klim Series Limburg 4",
     "date": "2025-12-12T23:00:00+00:00",
     "startTimeUtc": "2025-12-12T23:00:00+00:00",
     "endTimeUtc": "2025-12-13T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulder Amsterdam",
-    "venueImage": "/images/uploads/x1su-boulder_eind.jpg",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLScjeN4k5rLFbsEuZ-kFNVjOA44zZ-hNpNgTAO4Tgu53ExUhFA/viewform?pli=1",
+    "venueName": "IVY Climbing, Sittard",
+    "venueImage": "/images/uploads/nkbv-variant.jpg",
+    "link": "https://was.nkbv.nl/competitions/4834",
     "tags": [
-      "BOULDER"
+      "LEAD",
+      "NKBV"
     ],
     "featured": false
   },
@@ -551,17 +352,18 @@
     "featured": false
   },
   {
-    "id": "3094",
-    "title": "Dock Masters 2026",
+    "id": "3499",
+    "title": "Jeugd Klim Series Noord-Oost 2",
     "date": "2026-01-16T23:00:00+00:00",
     "startTimeUtc": "2026-01-16T23:00:00+00:00",
     "endTimeUtc": "2026-01-17T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Energiehaven, Utrecht",
-    "venueImage": "/images/uploads/ap5o-boulderhal_energiehaven_logo.jpeg",
-    "link": "https://was.nkbv.nl/competitions/4773",
+    "venueName": "ACLO, Groningen",
+    "venueImage": "/images/uploads/nkbv-variant.jpg",
+    "link": "https://was.nkbv.nl/competitions/4860",
     "tags": [
-      "BOULDER"
+      "LEAD",
+      "NKBV"
     ],
     "featured": false
   },
@@ -582,18 +384,17 @@
     "featured": false
   },
   {
-    "id": "3499",
-    "title": "Jeugd Klim Series Noord-Oost 2",
+    "id": "3094",
+    "title": "Dock Masters 2026",
     "date": "2026-01-16T23:00:00+00:00",
     "startTimeUtc": "2026-01-16T23:00:00+00:00",
     "endTimeUtc": "2026-01-17T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "ACLO, Groningen",
-    "venueImage": "/images/uploads/nkbv-variant.jpg",
-    "link": "https://was.nkbv.nl/competitions/4860",
+    "venueName": "Boulderhal Energiehaven, Utrecht",
+    "venueImage": "/images/uploads/ap5o-boulderhal_energiehaven_logo.jpeg",
+    "link": "https://was.nkbv.nl/competitions/4773",
     "tags": [
-      "LEAD",
-      "NKBV"
+      "BOULDER"
     ],
     "featured": false
   },
@@ -630,21 +431,6 @@
     "featured": false
   },
   {
-    "id": "3493",
-    "title": "Jeugd Boulder Series Zuid-Holland 3",
-    "date": "2026-01-23T23:00:00+00:00",
-    "startTimeUtc": "2026-01-23T23:00:00+00:00",
-    "endTimeUtc": "2026-01-24T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Bouldercentrum Delfts Bleau",
-    "venueImage": "/images/uploads/ksug-delfts_bleau.jpeg",
-    "link": "https://was.nkbv.nl/competitions/4828",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
     "id": "3095",
     "title": "Volwassenen Klim Series Brabant Gelderland 2",
     "date": "2026-01-23T23:00:00+00:00",
@@ -657,6 +443,21 @@
     "tags": [
       "LEAD",
       "NKBV"
+    ],
+    "featured": false
+  },
+  {
+    "id": "3493",
+    "title": "Jeugd Boulder Series Zuid-Holland 3",
+    "date": "2026-01-23T23:00:00+00:00",
+    "startTimeUtc": "2026-01-23T23:00:00+00:00",
+    "endTimeUtc": "2026-01-24T22:59:59+00:00",
+    "timezone": "Europe/Amsterdam",
+    "venueName": "Bouldercentrum Delfts Bleau",
+    "venueImage": "/images/uploads/ksug-delfts_bleau.jpeg",
+    "link": "https://was.nkbv.nl/competitions/4828",
+    "tags": [
+      "BOULDER"
     ],
     "featured": false
   },
@@ -707,38 +508,6 @@
     "featured": false
   },
   {
-    "id": "3489",
-    "title": "Jeugd Klim Series Noord-Oost 3",
-    "date": "2026-02-06T23:00:00+00:00",
-    "startTimeUtc": "2026-02-06T23:00:00+00:00",
-    "endTimeUtc": "2026-02-07T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Arqué Klimcentrum, Enschede",
-    "venueImage": "/images/uploads/nkbv-variant.jpg",
-    "link": "https://was.nkbv.nl/competitions/4861",
-    "tags": [
-      "LEAD",
-      "NKBV"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3285",
-    "title": "Jeugd Boulder Series Noord-Holland 3",
-    "date": "2026-02-06T23:00:00+00:00",
-    "startTimeUtc": "2026-02-06T23:00:00+00:00",
-    "endTimeUtc": "2026-02-07T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal De Fabriek &#8211; Haarlem",
-    "venueImage": "/images/uploads/nkbv-variant.jpg",
-    "link": "https://was.nkbv.nl/competitions/4788",
-    "tags": [
-      "BOULDER",
-      "NKBV"
-    ],
-    "featured": false
-  },
-  {
     "id": "3283",
     "title": "Jeugd Boulder Series Zuid-Holland 4",
     "date": "2026-02-06T23:00:00+00:00",
@@ -766,6 +535,38 @@
     "link": "https://was.nkbv.nl/competitions/4768",
     "tags": [
       "BOULDER",
+      "NKBV"
+    ],
+    "featured": false
+  },
+  {
+    "id": "3285",
+    "title": "Jeugd Boulder Series Noord-Holland 3",
+    "date": "2026-02-06T23:00:00+00:00",
+    "startTimeUtc": "2026-02-06T23:00:00+00:00",
+    "endTimeUtc": "2026-02-07T22:59:59+00:00",
+    "timezone": "Europe/Amsterdam",
+    "venueName": "Boulderhal De Fabriek &#8211; Haarlem",
+    "venueImage": "/images/uploads/nkbv-variant.jpg",
+    "link": "https://was.nkbv.nl/competitions/4788",
+    "tags": [
+      "BOULDER",
+      "NKBV"
+    ],
+    "featured": false
+  },
+  {
+    "id": "3489",
+    "title": "Jeugd Klim Series Noord-Oost 3",
+    "date": "2026-02-06T23:00:00+00:00",
+    "startTimeUtc": "2026-02-06T23:00:00+00:00",
+    "endTimeUtc": "2026-02-07T22:59:59+00:00",
+    "timezone": "Europe/Amsterdam",
+    "venueName": "Arqué Klimcentrum, Enschede",
+    "venueImage": "/images/uploads/nkbv-variant.jpg",
+    "link": "https://was.nkbv.nl/competitions/4861",
+    "tags": [
+      "LEAD",
       "NKBV"
     ],
     "featured": false
@@ -912,6 +713,21 @@
     "featured": false
   },
   {
+    "id": "2403",
+    "title": "Local Hero",
+    "date": "2026-02-27T23:00:00+00:00",
+    "startTimeUtc": "2026-02-27T23:00:00+00:00",
+    "endTimeUtc": "2026-02-28T22:59:59+00:00",
+    "timezone": "Europe/Amsterdam",
+    "venueName": "Klimzaal De Stordeur, Wilsele",
+    "venueImage": "/images/uploads/ppwo-stordeur.png",
+    "link": "https://cmbel.shiftf5.be/competitions/4656",
+    "tags": [
+      "LEAD"
+    ],
+    "featured": false
+  },
+  {
     "id": "3289",
     "title": "Jeugd Boulder Series Zuid-Holland 5",
     "date": "2026-02-27T23:00:00+00:00",
@@ -924,21 +740,6 @@
     "tags": [
       "BOULDER",
       "NKBV"
-    ],
-    "featured": false
-  },
-  {
-    "id": "2403",
-    "title": "Local Hero",
-    "date": "2026-02-27T23:00:00+00:00",
-    "startTimeUtc": "2026-02-27T23:00:00+00:00",
-    "endTimeUtc": "2026-02-28T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Klimzaal De Stordeur, Wilsele",
-    "venueImage": "/images/uploads/ppwo-stordeur.png",
-    "link": "https://cmbel.shiftf5.be/competitions/4656",
-    "tags": [
-      "LEAD"
     ],
     "featured": false
   },
@@ -1033,15 +834,15 @@
     "featured": false
   },
   {
-    "id": "3480",
-    "title": "Jeugd Boulder Series Noord-Oost 4",
+    "id": "3293",
+    "title": "Jeugd Boulder Series Noord-Holland 4",
     "date": "2026-03-13T23:00:00+00:00",
     "startTimeUtc": "2026-03-13T23:00:00+00:00",
     "endTimeUtc": "2026-03-14T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderstation Enschede",
-    "venueImage": "/images/uploads/g3if-boulder_stattion.jpeg",
-    "link": "https://was.nkbv.nl/competitions/4879",
+    "venueName": "Klim- en Boulderhal Sendmast, Alkmaar",
+    "venueImage": "/images/uploads/097d-sendmast.png",
+    "link": "https://was.nkbv.nl/competitions/4789",
     "tags": [
       "BOULDER"
     ],
@@ -1064,21 +865,6 @@
     "featured": false
   },
   {
-    "id": "3291",
-    "title": "Jeugd Boulder Series Zuid-Holland 6",
-    "date": "2026-03-13T23:00:00+00:00",
-    "startTimeUtc": "2026-03-13T23:00:00+00:00",
-    "endTimeUtc": "2026-03-14T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Boulderhal Walhalla, Den Haag",
-    "venueImage": "/images/uploads/06hw.walhalla.jpeg",
-    "link": "https://was.nkbv.nl/competitions/4827",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
     "id": "3481",
     "title": "Jeugd Klim Series Midden Nederland 4",
     "date": "2026-03-13T23:00:00+00:00",
@@ -1094,15 +880,30 @@
     "featured": false
   },
   {
-    "id": "3293",
-    "title": "Jeugd Boulder Series Noord-Holland 4",
+    "id": "3480",
+    "title": "Jeugd Boulder Series Noord-Oost 4",
     "date": "2026-03-13T23:00:00+00:00",
     "startTimeUtc": "2026-03-13T23:00:00+00:00",
     "endTimeUtc": "2026-03-14T22:59:59+00:00",
     "timezone": "Europe/Amsterdam",
-    "venueName": "Klim- en Boulderhal Sendmast, Alkmaar",
-    "venueImage": "/images/uploads/097d-sendmast.png",
-    "link": "https://was.nkbv.nl/competitions/4789",
+    "venueName": "Boulderstation Enschede",
+    "venueImage": "/images/uploads/g3if-boulder_stattion.jpeg",
+    "link": "https://was.nkbv.nl/competitions/4879",
+    "tags": [
+      "BOULDER"
+    ],
+    "featured": false
+  },
+  {
+    "id": "3291",
+    "title": "Jeugd Boulder Series Zuid-Holland 6",
+    "date": "2026-03-13T23:00:00+00:00",
+    "startTimeUtc": "2026-03-13T23:00:00+00:00",
+    "endTimeUtc": "2026-03-14T22:59:59+00:00",
+    "timezone": "Europe/Amsterdam",
+    "venueName": "Boulderhal Walhalla, Den Haag",
+    "venueImage": "/images/uploads/06hw.walhalla.jpeg",
+    "link": "https://was.nkbv.nl/competitions/4827",
     "tags": [
       "BOULDER"
     ],
@@ -1155,21 +956,6 @@
     "featured": false
   },
   {
-    "id": "3648",
-    "title": "NOMADS",
-    "date": "2026-03-27T23:00:00+00:00",
-    "startTimeUtc": "2026-03-27T23:00:00+00:00",
-    "endTimeUtc": "2026-03-28T22:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Radium Boulders, Maastricht",
-    "venueImage": "/images/uploads/71c9-radium_logo.png",
-    "link": "https://www.radiumboulders.nl/events",
-    "tags": [
-      "BOULDER"
-    ],
-    "featured": false
-  },
-  {
     "id": "3295",
     "title": "Jeugd Boulder Series Zuid-Holland 7",
     "date": "2026-03-27T23:00:00+00:00",
@@ -1179,6 +965,21 @@
     "venueName": "Monk Bouldergym Rotterdam",
     "venueImage": "/images/uploads/xqxm-monk_rotterdam.png",
     "link": "https://was.nkbv.nl/competitions/4829",
+    "tags": [
+      "BOULDER"
+    ],
+    "featured": false
+  },
+  {
+    "id": "3648",
+    "title": "NOMADS",
+    "date": "2026-03-27T23:00:00+00:00",
+    "startTimeUtc": "2026-03-27T23:00:00+00:00",
+    "endTimeUtc": "2026-03-28T22:59:59+00:00",
+    "timezone": "Europe/Amsterdam",
+    "venueName": "Radium Boulders, Maastricht",
+    "venueImage": "/images/uploads/71c9-radium_logo.png",
+    "link": "https://www.radiumboulders.nl/events",
     "tags": [
       "BOULDER"
     ],
@@ -1216,6 +1017,21 @@
     "featured": false
   },
   {
+    "id": "3475",
+    "title": "Open NK Speed 2026 / Speed Cup",
+    "date": "2026-04-10T22:00:00+00:00",
+    "startTimeUtc": "2026-04-10T22:00:00+00:00",
+    "endTimeUtc": "2026-04-11T21:59:59+00:00",
+    "timezone": "Europe/Amsterdam",
+    "venueName": "Mountain Network Noardwand, Leeuwarden",
+    "venueImage": "/images/uploads/gpbv.noardwand.jpeg",
+    "link": "https://was.nkbv.nl/competitions/4867",
+    "tags": [
+      "OTHER"
+    ],
+    "featured": false
+  },
+  {
     "id": "3109",
     "title": "Jeugd Boulder Series Brabant Gelderland 7",
     "date": "2026-04-10T22:00:00+00:00",
@@ -1228,21 +1044,6 @@
     "tags": [
       "BOULDER",
       "NKBV"
-    ],
-    "featured": false
-  },
-  {
-    "id": "3475",
-    "title": "Open NK Speed 2026 / Speed Cup",
-    "date": "2026-04-10T22:00:00+00:00",
-    "startTimeUtc": "2026-04-10T22:00:00+00:00",
-    "endTimeUtc": "2026-04-11T21:59:59+00:00",
-    "timezone": "Europe/Amsterdam",
-    "venueName": "Mountain Network Noardwand, Leeuwarden",
-    "venueImage": "/images/uploads/gpbv.noardwand.jpeg",
-    "link": "https://was.nkbv.nl/competitions/4867",
-    "tags": [
-      "OTHER"
     ],
     "featured": false
   },
